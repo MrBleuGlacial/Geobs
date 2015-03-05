@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfc:FC_FeatureCatalogue xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="e8b06873-d74c-48a7-9722-5ddc07951d70" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd">
+  <gfc:name>
+    <gco:CharacterString>Pyrénées-Atlantiques : Dictionnaire de donnees pour Captage d'alimentation en eau potable</gco:CharacterString>
+  </gfc:name>
+  <gfc:scope>
+    <gco:CharacterString />
+  </gfc:scope>
+  <gfc:fieldOfApplication>
+    <gco:CharacterString>Dictionnaire de donnees pour Captage d'alimentation en eau potable</gco:CharacterString>
+  </gfc:fieldOfApplication>
+  <gfc:versionNumber>
+    <gco:CharacterString>v1</gco:CharacterString>
+  </gfc:versionNumber>
+  <gfc:versionDate>
+    <gco:DateTime xmlns:gmx="http://www.isotc211.org/2005/gmx">2012-10-23T12:48:52</gco:DateTime>
+  </gfc:versionDate>
+  <gfc:producer>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>PELLIZZARO</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>DAEE Service Eau-Littoral</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>CHARGE DE MISSION</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact />
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gfc:producer>
+  <gfc:featureType>
+    <gfc:FC_FeatureType id="">
+      <gfc:typeName>
+        <gco:LocalName>Nom de la propriete</gco:LocalName>
+      </gfc:typeName>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#" />
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>bss_ind</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>L’indice BSS (Banque du Sous-Sol)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown">10</gml:identifier>
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>bss_des</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Désignation BSS</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>n_captage</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Nom du captage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>insee</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Code insee de la commune</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>lb_com</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Nom de la commune où se situe le captage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>rf_nature</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Nature du captage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>source</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>01</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>puits</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>02</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>rivière</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>03</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>lac</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>04</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>canal</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>05</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>forage</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>06</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ruisseau</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>07</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>piézomètre</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>08</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>rf_res</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Ressources (origine de l'eau)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>eaux superficielles</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>ES</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>nappe alluviale</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>NA</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>nappe profonde</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>NP</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>source</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>SO</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>id_exploit</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Type d'exploitant</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>fg_exploit</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Captage est-il exploité ? (booléen)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>BOOLEAN</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>lb_usage</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Usage du captage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>coord_z</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Altitude en m (précision décamétrique)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>FLOAT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>n_expert</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Nom de l'hydrogéologue agrée</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>dt_dup</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Date de déclaration des utilités publiques (aaaammjj)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>id_geol</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Type d'aquifère</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>dt_hypot</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Date d'inscription aux Hypothèques (aaaammjj)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>q_autor</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Débit autorisé (m3/h)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>FLOAT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>q_max</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Débit maximum (m3/h)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>FLOAT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>q_min</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Débit minimum (m3/h)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>FLOAT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>dt_saisie</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Date de la numérisation (aaaammjj)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>id_interv</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Producteur de la donnée numérique</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>rf_precis</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Précision de la localisation du captage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>précision inconnue</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>0</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>précision cm</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>11</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>précision m</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>12</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>précision dam</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>13</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>précision km</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>14</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>TEXT</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>fg_ppe</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Existence ou non d'un PPE (booléen)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>absence de PPE</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>0</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>existence d'un PPE</gco:CharacterString>
+              </gfc:label>
+              <gfc:code>
+                <gco:CharacterString>1</gco:CharacterString>
+              </gfc:code>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:valueType>
+            <gco:typeName>
+              <gco:aName>
+                <gco:CharacterString>texte</gco:CharacterString>
+              </gco:aName>
+            </gco:typeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>fg_verif</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Vérification de la saisie par le producteur (booléen)</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity>
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="false" xsi:nil="false">1</gco:UnlimitedInteger>
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType />
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:typeName>
+              <gco:aName>
+                <gco:CharacterString>texte</gco:CharacterString>
+              </gco:aName>
+            </gco:typeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>
+

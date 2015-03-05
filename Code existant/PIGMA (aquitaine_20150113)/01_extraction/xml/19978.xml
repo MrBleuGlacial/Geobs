@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1295608535922" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Direction Générale des Finances Publiques</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>DGFIP</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>RUE JULES FERRY</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:city>
+            <gco:CharacterString>BORDEAUX</gco:CharacterString>
+          </gmd:city>
+          <gmd:postalCode>
+            <gco:CharacterString>33000</gco:CharacterString>
+          </gmd:postalCode>
+          <gmd:country>
+            <gco:CharacterString>France</gco:CharacterString>
+          </gmd:country>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString>CDIF.BORDEAUX-3@DGFIP.FINANCES.GOUV.FR</gco:CharacterString>
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/IMPOTS_LAST1.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role />
+</gmd:CI_ResponsibleParty>
+

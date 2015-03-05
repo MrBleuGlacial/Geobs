@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString>f1de2ecd-e813-4cc1-8d1f-d1e3c7ca24d1</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:hierarchyLevel xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>Jeu de données</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty id="1261061825289" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+      <gmd:individualName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0557854042</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0557854026</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Gironde</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>33075</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>pigma@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:DateTime>2013-07-12T11:49:11</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>RGF93 / Lambert-93 (EPSG:2154)</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>7.4</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <fra:FRA_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Aquitaine : Mobilités professionnelles en 2009</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>http//www.pigma.org/pop2009_mobilites_professionnelles_2012</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Les bases sur les flux de "déplacements domicile-travail" fournissent, pour l'ensemble des communes d'Aquitaine, les effectifs correspondant aux croisements du lieu de résidence avec le lieu de travail en 2009. 
+
+Les données sont issues de l'exploitation complémentaire afin d'assurer leur cohérence avec les fichiers détail
+bilocalisés, eux-mêmes issus de l'exploitation complémentaire du recensement (cf. rubrique Source). Elles sont présentées dans les limites géographiques en vigueur au 1er janvier 2011.
+
+La base de données au format Excel comporte deux onglets :
+1 - un onglet "TOTAL" où chaque ligne correspond à une commune ou ARM de résidence avec en colonnes :
+- son code géographique,
+- le libellé correspondant,
+- la population stable (Actifs âgés de 15 ans ou plus travaillant dans leur commune ou ARM de résidence), 
+- la population mobile (Actifs âgés de 15 ans ou plus travaillant hors de leur commune ou ARM de résidence),
+- l'ensemble de la population (en référence au champ statistique retenu, c'est-à-dire Actifs occupés âgés de 15 ans ou plus) ;
+2 - un onglet "FLUX &gt;= 100" où chaque ligne fournit le flux de personnes se déplaçant entre une commune ou ARM de
+résidence et une commune ou ARM du lieu de travail, avec un seuil fixé à 100. Chaque commune ou ARM est représenté par son code géographique et le libellé correspondant. La consultation de ce tableau permet d'avoir rapidement une idée sur l'importance des flux de déplacements domicile-travail entre deux communes ou ARM. Pour analyser les flux entre deux zones constituées de regroupement de communes et/ou d'ARM, il est recommandé d'utiliser la base de données au format Texte car il prend en compte tous les flux, sans considération de seuil.
+
+Pourquoi le seuil est fixé à 100 ?
+Un tableau au format Excel (Excel 2000 et versions antérieures) ne doit pas comporter plus de 65 000 lignes. Afin de
+respecter cette contrainte technique, seuls les flux importants (au minimum 100) figurent dans le deuxième onglet.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty id="1303913587734" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>INSEE</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut National de la Statistique et des Etudes Economiques (INSEE)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/INSEE.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role />
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>0557854042</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>0557854026</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Bordeaux</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Gironde</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>33075</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Emploi</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Démographie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Transport</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>mobilités</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>socio-économiques</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>professionnelles</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>INSEE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Aquitaine</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <fra:FRA_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Aucune condition ne s'applique</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Aucune raison de restriction</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>logo à faire apparaître en cas de reproduction</gco:CharacterString>
+          </gmd:otherConstraints>
+        </fra:FRA_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Tous les organismes PIGMA sont autorisés</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>Accès public non restreint</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>25000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-2.115</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.429</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.782</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.718</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </fra:FRA_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Xls</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>97-2004</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=13494&amp;fname=DOC_BT_FM_DTR_2009.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmx:MimeFileType type="application/pdf">DOC_BT_FM_DTR_2009.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Documentation PDF</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.recensement-2009.insee.fr/basesFluxMobilite.action</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Site internet de l'INSEE - Données sur la mobilité en Aquitaine</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=13494&amp;fname=BTX_FM_DTR_2009_R72.xls&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmx:MimeFileType type="application/excel">BTX_FM_DTR_2009_R72.xls</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Données au format excel</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="nonGeographicDataset" />
+          </gmd:level>
+          <gmd:extent>
+            <gmd:EX_Extent />
+          </gmd:extent>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Conseils d'utilisation :
+A - Les statistiques au lieu de travail peuvent parfois différer sensiblement entre l'exploitation complémentaire et
+l'exploitation principale.
+Outre le sondage qui est différent, le lieu de travail est déterminé avec plus de précision à l'exploitation complémentaire car on dispose d'informations supplémentaires et notamment de la localisation de l'établissement où
+est exercée l'activité.
+Du fait de l'étalement de la collecte, les flux entrants dans un territoire et les flux sortants peuvent ne pas être
+comptabilisés la même année. Ainsi, par exemple, pour une commune ou un ARM de moins de 10 000 habitants
+recensée en 2010, les flux sortants sont relatifs à l'année d'enquête, soit 2010, alors que les flux entrants datent de
+l'année d'enquête des communes ou ARM d'origine des "navetteurs". Cela ne remet pas en cause la fiabilité de la mesure des déplacements domicile - travail. Toutefois, compte tenu notamment du sondage, les flux faibles (moins de
+200) devront être considérés comme des ordres de grandeur. À noter le changement de rattachement des militaires
+(voir "Le champ de la population") n'a, le cas échéant, sur les déplacements domicile-travail, qu'un impact local, dans
+les zones sur lesquelles sont localisés des établissements militaires importants.
+B - Les effectifs supérieurs à 500 peuvent normalement être utilisés en toute confiance. Les effectifs inférieurs à 200
+doivent être maniés avec précaution car, en raison de l'imprécision liée au sondage, ils peuvent ne pas être
+significatifs.
+Pour plus d'information méthodologique, consulter les fiches "Conseils pour l'utilisation des résultats du recensement"
+du menu "Documentation et géographie", rubrique "Comprendre les concepts". Ces fiches présentent les caractéristiques nouvelles du recensement de la population et traitent de leurs conséquences sur l'utilisation des données. Elles précisent, en particulier, les changements affectant les principales variables statistiques et leur
+comparabilité avec les recensements précédents.
+Source
+Le recensement de la population permet de connaître la population de la France, dans sa diversité et son évolution. Il
+fournit des statistiques sur les habitants et les logements, leur nombre ainsi que leurs caractéristiques : répartition par
+sexe et âge, professions exercées, conditions de logement, modes de transport, déplacements domicile-travail ou
+domicile-études, etc.
+Aujourd'hui la société évolue rapidement et pour mieux comprendre ses mouvements, le recensement a changé de
+rythme : grâce à cette nouvelle méthode, des informations régulières et récentes sont produites chaque année. Ce
+recensement rénové succède aux recensements généraux de la population dont 1999 aura été la dernière édition.
+Le recensement repose désormais sur une collecte d'information annuelle, concernant successivement tous les
+territoires communaux au cours d'une période de cinq ans. Les communes de moins de 10 000 habitants réalisent une
+enquête de recensement portant sur toute la population, à raison d'une commune sur cinq chaque année. Les
+communes de 10 000 habitants ou plus, réalisent tous les ans une enquête par sondage auprès d'un échantillon
+d'adresses représentant 8 % de leurs logements. En cumulant cinq enquêtes, l'ensemble des habitants des
+communes de moins de 10 000 habitants et 40 % environ de la population des communes de 10 000 habitants ou plus
+sont pris en compte. Les informations ainsi collectées sont ramenées à une même date pour toutes les communes afin
+d'assurer l'égalité de traitement entre elles. Cette date de référence est fixée au 1er janvier de l'année médiane des
+cinq années d'enquête pour obtenir une meilleure robustesse des données.
+Les cinq premières enquêtes de recensement ont été réalisées de 2004 à 2008. Ainsi, à partir de fin 2008, il a été
+possible d'élaborer puis de diffuser les résultats complets du recensement millésimé 2006, date du milieu de la
+période. Depuis lors et chaque année, les résultats de recensement sont produits à partir des cinq enquêtes annuelles
+les plus récentes : abandon des informations issues de l'enquête la plus ancienne et prise en compte de l'enquête
+nouvelle.
+Le nouveau recensement de la population fait l'objet, comme les anciens recensements généraux, d'une exploitation
+statistique réalisée en deux temps : une exploitation principale et une exploitation complémentaire. L'exploitation
+principale porte sur l'ensemble des bulletins collectés mais pas sur l'ensemble des variables. L'exploitation
+complémentaire fournit, en plus, des résultats sur les professions et catégories socioprofessionnelles, les secteurs
+d'activité économique et la structure familiale des ménages. Pour les communes de moins de 10 000 habitants, elle porte sur un quart des ménages. Pour les communes de 10 000 habitants ou plus, l'exploitation complémentaire porte
+sur l'ensemble des bulletins collectés auprès des ménages, soit environ 40 %.
+Pour toutes les communes, l'exploitation complémentaire porte également sur un individu des communautés sur
+quatre.
+Jusqu'en 1999, la première étape d'exploitation du recensement consistait en un comptage des bulletins appelé
+"dénombrement". Cette étape est désormais intégrée à l'exploitation statistique.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+

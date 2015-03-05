@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>951e6453-5a9c-4e67-9eaa-aa0b253407bb</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>Rue édouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2009-08-31T12:30:01</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.sandre.eaufrance.fr</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>SANDRE / Modèle de données</orName>
+        <orDesc>Information, modèle de données, dictionnaire de données</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>TWBODY</orName>
+        <orDesc>Carte des masses d'eau de transition</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/TWBODYmif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/TWBODYshp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Masse d'eau de transition</resTitle>
+      <resRefDate>
+        <refDate>2009-07-09</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>1</resEd>
+      <citId>TW</citId>
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Une masse d'eau de transition est une partie distincte et significative des eaux de surface situées à proximité des embouchures de rivières ou de fleuves, qui sont partiellement salines en raison de leur proximité des eaux côtières mais qui restent fondamentalement influencées par des courants d'eau douce.</idAbs>
+    <idPurp>Les masses d'eau de transition ont été élaborée par les travaux de l'IFREMER et les Agences de l'eau pour les besoins de la directive cadre sur les eaux. Les spécifications ont été élaborés par le groupe Référentiels du SIE.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Agence de l'eau Adour-Garonne</rpIndName>
+      <rpOrgName>Agence de l'eau Adour-Garonne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)561363738</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>90 rue de Férétra</delPoint>
+          <city>TOULOUSE</city>
+          <adminArea />
+          <postCode>31078</postCode>
+          <country>fr</country>
+          <eMailAdd>contact@eau-adour-garonne.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agence de l'eau Artois-Picardie</rpIndName>
+      <rpOrgName>Agence de l'eau Artois-Picardie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)327999000</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>200 rue Marcelline - BP 818</delPoint>
+          <city>DOUAI</city>
+          <adminArea />
+          <postCode>59508</postCode>
+          <country>fr</country>
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agence de l'eau Loire-Bretagne</rpIndName>
+      <rpOrgName>Agence de l'eau Loire-Bretagne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)238517373</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>avenue de Buffon - BP 6369</delPoint>
+          <city>ORLEANS</city>
+          <adminArea />
+          <postCode>45063</postCode>
+          <country>fr</country>
+          <eMailAdd>webmestre@eau-loire-bretagne.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agence de l'eau Rhin-Meuse</rpIndName>
+      <rpOrgName>Agence de l'eau Rhin-Meuse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)387344700</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>le Longeau - BP 30019</delPoint>
+          <city>MOULINS LES METZ</city>
+          <adminArea />
+          <postCode>57161</postCode>
+          <country>fr</country>
+          <eMailAdd>cdi@eau-rhin-meuse.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agence de l'eau Rhône-Méditerrannée et Corse</rpIndName>
+      <rpOrgName>Agence de l'eau Rhône-Méditerrannée et Corse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)472712600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>2-4 allée de Lodz</delPoint>
+          <city>LYON</city>
+          <adminArea />
+          <postCode>69363</postCode>
+          <country>fr</country>
+          <eMailAdd>webmestre@eaurmc.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agence de l'eau Seine-Normandie</rpIndName>
+      <rpOrgName>Agence de l'eau Seine-Normandie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)141201600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>51 rue Salvador Allende</delPoint>
+          <city>NANTERRE</city>
+          <adminArea />
+          <postCode>92027</postCode>
+          <country>fr</country>
+          <eMailAdd>webmestre@aesn.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="copyright" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+        <othConsts>none</othConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>DIRECTIVE CADRE EAU</keyword>
+      <keyword>DCE</keyword>
+      <keyword>MASSE D'EAU</keyword>
+      <keyword>EAU DE TRANSITION</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>REFERENTIEL</keyword>
+      <keyword>MASSE D'EAU</keyword>
+      <keyword>LITTORAL</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyword>Zones de gestion, de restriction ou de réglementation et unités de déclaration</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <graphOver>
+      <bgFileName>mass_eau_transition_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>mass_eau_transition.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="oceans" />
+    </tpCat>
+    <geoBox>
+      <westBL>-180</westBL>
+      <eastBL>180</eastBL>
+      <southBL>-90</southBL>
+      <northBL>90</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo />
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Les masses d'eau de transition ont pour interface terre/mer le traît de côte du SHOM au 1:25000</statement>
+      <prcStep>
+        <stepDesc>Version 1.1 /  Intégration des modification de l'AESN</stepDesc>
+        <stepDateTm>2005-02-18</stepDateTm>
+        <stepProc>
+          <rpOrgName>Ministère de l'écologie et du développement durable</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Version 1.2 / Intégration des modifications de l'agence RMC</stepDesc>
+        <stepDateTm>2005-04-19</stepDateTm>
+        <stepProc>
+          <rpOrgName>Ministère de l'écologie et du développement durable</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Version 1.3 / Intégration des DOM (Guadeloupe, Martinique, Réunion)</stepDesc>
+        <stepDateTm>2005-04-29</stepDateTm>
+        <stepProc>
+          <rpIndName>François-Xavier Prunayre</rpIndName>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Intégation données rapportage 2009</stepDesc>
+        <stepDateTm>2009-07-09</stepDateTm>
+        <stepProc>
+          <rpIndName>Sylvain Grellet</rpIndName>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>4326</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

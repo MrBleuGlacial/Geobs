@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>0f6f89f4-4973-4670-8e5b-815e17d8bf02</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>fre</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeListValue="service" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>PIGMA service</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0557854042</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0557854026</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Gironde</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>33075</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2014-11-04T17:16:34</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo xmlns:date="http://exslt.org/dates-and-times">
+    <srv:SV_ServiceIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Conseil Général du Lot-et-Garonne (WMS)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-12-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>http://pigma.org/cg47_2012</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Données sur les déchetteries, les réserves naturelles nationales,les sites d'intérêt écologique  et sur la couverture WIMAX.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>Fabrice Lalanne-Jouandet</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>CG 47</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>05-53-69-40-00</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Hotel du Département</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Agen</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Lot-et-Garonne</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>47922</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>lot-et-garonne@cg47.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/CG_47.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>Conseil Général de Lot-et-Garonne</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>CG 47</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>05-53-69-40-00</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Hotel du Département</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Agen</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Lot-et-Garonne</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>47922</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>lot-et-garonne@cg47.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/CG_47.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>WMS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>service</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>flux</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>inspire</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>déchetteries</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>couverture</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wimax</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>infoMapAccessService</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>INSPIRE Service taxonomy</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Services d'utilité publique</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>LOT-ET-GARONNE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Départements de France</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Services d'utilité publique et services publics</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0 INSPIRE themes</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.external.theme.inspire-theme</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <srv:serviceType>
+        <gco:LocalName>view</gco:LocalName>
+      </srv:serviceType>
+      <srv:serviceTypeVersion>
+        <gco:CharacterString>1.1.1</gco:CharacterString>
+      </srv:serviceTypeVersion>
+      <srv:accessProperties>
+        <gmd:MD_StandardOrderProcess>
+          <gmd:fees>
+            <gco:CharacterString>NONE</gco:CharacterString>
+          </gmd:fees>
+        </gmd:MD_StandardOrderProcess>
+      </srv:accessProperties>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>LOT-ET-GARONNE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-.144</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.057</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.002</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.757</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>46abc589-9405-4ae0-92cf-e02de3aadfd9</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47:cg47_couverture_wimax</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>8af43d34-6227-40ba-8247-17a7bd160561</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47:cg47_dechetteries</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>a2118807-a6d7-4d5f-8ddd-48005ae6637c</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47:cg47_loc_steu_2012</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>97bac11b-551f-421b-b5ce-61fd8b2d7995</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47:cg47_rnn_47</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>428dfafb-85bb-478d-accb-cd1a6c68dc99</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47_rejets_steu_2012</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>85538a56-d550-45c1-9823-50c65e863ed6</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName>cg47_sites_interet_ecologique_3_l93</gco:ScopedName>
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight" />
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetMap</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>DescribeLayer</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn uuidref="46abc589-9405-4ae0-92cf-e02de3aadfd9" />
+      <srv:operatesOn uuidref="8af43d34-6227-40ba-8247-17a7bd160561" />
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>WMS</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.1.1</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_rnn_47</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Réserves naturelles nationales du département de Lot-et-Garonne</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_loc_steu_2012</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Station d'épuration des eaux usées du département de Lot-et-Garonne</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_rejets_steu_2012</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Points de rejet des tations d'épuration du département de Lot-et-Garonne</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_couverture_wimax</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Couverture de l'accès internet WiMAX</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_dechetteries</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>CG 47 - Déchetteries</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/cg47/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>cg47:cg47_sites_interet_ecologique_3_l93</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Sites intérêt écologique du département de Lot-et-Garonne</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="service" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:dataset>
+                <gco:CharacterString>Conseil Général du Lot-et-Garonne</gco:CharacterString>
+              </gmd:dataset>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>INSPIRE Implementing rules</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2008-08-11</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Non évalué</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>false</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Relevé terrain</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+

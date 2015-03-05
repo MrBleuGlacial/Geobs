@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>1a930a40-d3ce-11dc-9742-0017085aba5f</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-01-04T11:02:05</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>CIBA</orName>
+        <orDesc>Carte des circonscriptions de bassin</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/CIBA2010mif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/CIBA2010shp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/CIBA2008mif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Ancienne couche (au 1er Janvier 2008). Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/CIBA2008shp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Ancienne couche (au 1er Janvier 2008). Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://aida.ineris.fr/textes/arretes/text3740.htm</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Arrêté du 16 mai 2005 portant délimitation des bassins ou groupements de bassins en vue de l'élaboration et de la mise à jour des SDAGES</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023001780&amp;dateTexte=</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Arrêté du 27 octobre 2010</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Circonscription administrative de bassin</resTitle>
+      <resRefDate>
+        <refDate>2011-01-01</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>Janvier 2011</resEd>
+      <citId />
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>* Description : Les circonscriptions administratives de bassin sont définies dans l'arrêté du 27 Octobre 2010 entré en application au 1er janvier 2011. Cet arrêté modifie l'arrêté du 16 mai 2005.
+
+Chaque circonscription est constituée par une liste de communes situées dans les bassins délimités par l'arrêté du 16 Mai 2005 portant délimitation des SDAGE (à la différence de l'arrêté du 14 septembre 1966 qui fixait une liste de canton).</idAbs>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>INSEE</rpIndName>
+      <rpOrgName>INSEE</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)141176611</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>18 boulevard Adolphe Pinard</delPoint>
+          <city>PARIS cedex 14</city>
+          <adminArea />
+          <postCode>75675</postCode>
+          <country>fr</country>
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Office International de l'Eau</rpIndName>
+      <rpOrgName>Office International de l'Eau</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)555114790</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>15 rue Edouard Chamberland</delPoint>
+          <city>LIMOGES</city>
+          <adminArea />
+          <postCode>87000</postCode>
+          <country>fr</country>
+          <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>BASSIN VERSANT</keyword>
+      <keyword>AGENCE DE L'EAU</keyword>
+      <keyword>EAU DE SURFACE (theme).</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>CIBA2008_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>CIBA2008.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-151.49777</westBL>
+      <eastBL>70.56749</eastBL>
+      <southBL>-49.72501</southBL>
+      <northBL>82.64</northBL>
+    </geoBox>
+    <dataExt />
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Origine non renseignée</statement>
+    </dataLineage>
+  </dqInfo>
+</Metadata>
+

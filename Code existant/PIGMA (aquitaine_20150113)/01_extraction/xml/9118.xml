@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>fd3e5ea6-2f00-4a61-af5b-73025b7ee0df</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-08-24T11:24:36</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Sandre</rpOrgName>
+        <role>
+          <RoleCd value="processor" />
+        </role>
+      </distorCont>
+      <distorFormat>
+        <formatName>ArcInfo e00</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorFormat>
+        <formatName>Mapinfo MIF/MID</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorFormat>
+        <formatName>ESRI SHP</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorOrdPrc>
+        <resFees />
+      </distorOrdPrc>
+    </distributor>
+    <distTranOps>
+      <unitsODist>France Entière, Régions, Circonscriptions de bassin</unitsODist>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/zonage/Hydrographie2011/</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName>Téléchargement des données découpages France entière/Régions/Bassins</orName>
+        <orDesc>Téléchargement des données découpages France entière/Régions/Bassins</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>BDCarthage / Noeuds hydrographiques</resTitle>
+      <resRefDate>
+        <refDate>2011-08-24</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>2011</resEd>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Définition Sandre : "Un noeud hydrographique correspond à une modification de l'écoulement de l'eau. Il est toujours localisé à l'extrémité d'un tronçon hydrographique élémentaire. La classe des noeuds hydrographiques gérée par l'IGN comprend : - les confluences, diffluences, sources, embouchures et pertes de cours d'eau ; - les barrages de retenue ; - les barrages au fil de l'eau ; - les écluses (pour le passage ou le radoub) ; - les sources et les cascades d'intérêt touristique. Un noeud hydrographique est localisé par un sommet géométrique. Certains noeuds correspondent à un exutoire d'une zone hydrographique." Définition descriptif de contenu BD Carthage : "Un noeud hydrographique correspond à une modification de l?écoulement de l'eau. C'est une extrémité d'un tronçon hydrographique."</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>MEEDDTL</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>IGN</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agences de l'eau (AP, RM, SN, LB, AG, RM&amp;C)</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <useLimit>Utilisation non commerciale</useLimit>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="license" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="annually" />
+      </maintFreq>
+      <dateNext>2012</dateNext>
+    </resMaint>
+    <descKeys>
+      <keyword>COURS D'EAU</keyword>
+      <keyword>NOEUD HYDROGRAPHIQUE</keyword>
+      <keyword>BASSIN HYDROGRAPHIQUE</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>REFERENTIELS</keyword>
+      <keyword>BDCARTHAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Il est caractérisé par une nature, un toponyme, un identifiant et une cote.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Mise à jour par l'IGN suite aux demandes des Agences de l'Eau</statement>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate>2008-04-22</refDate>
+            <refDateType>
+              <DateTypCd value="revision" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

@@ -1,0 +1,5 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+declare namespace fra="http://www.cnig.gouv.fr/2005/fra";
+for $herit at $pos in //gmd:MD_Keywords/gmd:keyword
+return concat($pos,'  - ',$herit)

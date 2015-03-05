@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>e7847040-7400-11db-b709-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName />
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114795</voiceNum>
+        <faxNum>+33(0)555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>Rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd />
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2010-12-07T10:18:48</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.sandre.eaufrance.fr</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>SANDRE / Modèle de données</orName>
+        <orDesc>Information, modèle de données, dictionnaire de données</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/SPCmif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/SPCshp.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>SPC</orName>
+        <orDesc>Carte des services de prévision des crues</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.vigicrues.ecologie.gouv.fr/</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Carte Vigilance "Crues"</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Services de prévision des crues</resTitle>
+      <resRefDate>
+        <refDate>2010-12-07</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>1</resEd>
+      <citId />
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>L'organisation territoriale de l'annonce des crues comporte 2 volets :
+- le SCHAPI ou service central d'hydrométéorologie et d'appui à la prévision des inondations,
+- et 22 services de prévision des crues (SPC) qui remplacent depuis 2002 les 52 services d'annonce des crues (SAC) préexistants.</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>SCHAPI</rpIndName>
+      <rpOrgName>Service Central d'Hydrométéorologie et d'Appui à la Prévision des Inondations</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>42, avenue Gaspard Coriolis</delPoint>
+          <city>TOULOUSE CEDEX 1</city>
+          <adminArea />
+          <postCode>31057</postCode>
+          <country>fr</country>
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="resourceProvider" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="copyright" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+        <othConsts>none</othConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>PREVISION DES CRUES</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>SPC_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>SPC.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Le cadre légal de la prévision des crues est défini dans la loi relative aux risques naturels et technologiques adoptée le 30 juillet 2003.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Collecte</statement>
+      <prcStep>
+        <stepDesc>Collecte de la données, agrégation des polygones selon le code, attribution des codes Sandre et création de la version 1</stepDesc>
+        <stepDateTm>2006-11-01T18:10:00</stepDateTm>
+        <stepProc>
+          <rpIndName />
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

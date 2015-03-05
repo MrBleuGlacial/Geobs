@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>d3ada963-30d6-4aa2-b0e2-079e7d4ccf1e</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdParentID>23</mdParentID>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-10-12T11:41:57</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Sandre</rpOrgName>
+        <role>
+          <RoleCd value="processor" />
+        </role>
+      </distorCont>
+      <distorFormat>
+        <formatName>ArcInfo e00</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorFormat>
+        <formatName>Mapinfo MIF/MID</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorFormat>
+        <formatName>ESRI SHP</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorOrdPrc>
+        <resFees />
+      </distorOrdPrc>
+    </distributor>
+    <distTranOps>
+      <unitsODist>France Entière, Régions, Circonscriptions de bassin</unitsODist>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>ZHYD</orName>
+        <orDesc>Service WMS / Zones hydrographiques</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>ZHYD</orName>
+        <orDesc>Service WFS / Zones hydrographiques</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/zonage/Hydrographie2011/</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName>Téléchargement des données découpages France entière/Régions/Bassins</orName>
+        <orDesc>Téléchargement des données découpages France entière/Régions/Bassins</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>BDCarthage / Zones hydrographiques</resTitle>
+      <resRefDate>
+        <refDate>2011-08-24</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>2011</resEd>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Définition Sandre : "La circulaire n°91-50 du 12 février 1991 relative à la codification hydrographique et au repérage spatial des milieux aquatiques superficiels en France métropolitaine, définit la zone hydrographique comme suit : "L'ensemble du territoire français est divisé en zones élémentaires appelées zones hydrographiques. Leurs limites s'appuient sur celles des bassins versants topographiques (en tout ou partie)". Une zone est une partition d'un sous-secteur qui peut en comporter jusqu'à 10. Elle est entièrement comprise dans une limite hydrographique de bassin et sert, avec d'autres éléments, à la délimitation de zones de programmation ou réglementaires diverses comme les Schémas d'Aménagement et de Gestion des Eaux, les zones sensibles, les masses d'eau citées dans la Directive Cadre Européenne du 23 octobre 2000. Une zone hydrographique couvre, en partie ou en totalité, le territoire d'une ou plusieurs communes. Inversement, le territoire d'une commune est soit inclus en totalité au sein d'une zone hydrographique soit scindé entre plusieurs zones. Différents cas de figure de la zone hydrographique peuvent exister : a - Le cours d'eau principal de la zone hydrographique prend sa source à l'intérieur de la zone : c'est une zone amont dont le contour correspond à celui du bassin versant topographique du cours d'eau principal au point de sortie de la zone. b - La zone hydrographique est traversée par le cours d'eau principal et le pk du point aval n'est pas 1000 : il s'agit d'un bassin versant intermédiaire, c - La zone hydrographique est traversée par le cours d'eau principal dont le point aval correspond au pk 1000 : il s'agit de la zone aval du bassin versant, d - La zone hydrographique est en bordure du littoral. Trois cas de figure: * ou bien il s'agit d'un cours d'eau principal qui a sa source dans la zone : il s'agit alors du cas a), * ou bien cette zone aval constitue le dernier bassin intermédiaire avant l'embouchure du fleuve principal : il s'agit alors du cas c), * ou bien la zone comprend un linéaire du littoral comportant l'embouchure du fleuve côtier et des zones drainées par des "rus" se jetant directement en mer, e - La zone ne comporte pas d'écoulement superficiel mais néanmoins est réceptrice de cours d'eau endoréiques situés en amont. La liste des zones hydrographiques fait apparaître deux cas particuliers : - Pour éviter la création de régions hydrographiques frontalières, cinq zones hydrographiques situées sur la limite frontalière avec l'Italie ou l'Espagne ( codes Y670 et Y680 correspondant à deux extrémités amont du bassin du Pô, S910, S911 et S912) ont été rattachées aux régions hydrographiques côtières (codes S et Y) des circonscriptions de bassin dont elles dépendent, - Bien que la logique hydrographique voudrait que la zone U204 (sous-bassin de la Jougnena appartenant au bassin du Rhin) soit rattachée à la circonscription de bassin Rhin-Meuse, elle est néanmoins rattachée à la circonscription de bassin Rhône-Méditerranée-Corse (région hydrographique "Saône") compte tenu de la petite taille de cette zone et de son éloignement du bassin Rhin-Meuse, - Bien que la logique hydrographique voudrait que les zones du secteur D0 (bassin de la Sambre en France) soient affectées à la région B (bassin de la Meuse) elles sont rattachées administrativement à la circonscription de bassin Artois Picardie compte tenu de l'éloignement des bassins de la Meuse et de la Sambre en France et de la confluence de ces deux cours d'eau qui s'opère à l'étranger.La liste des zones hydrographiques est établie au sein de chaque circonscription de bassin, sous la responsabilité de l'Agence de l'Eau du bassin." Définition descriptif de contenu BD Carthage : "la zone hydrographique correspond au découpage en bassins versants élémentaires."</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>MEEDDTL</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>IGN</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Agences de l'eau (AP, RM, SN, LB, AG, RM&amp;C)</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <useLimit>Utilisation non commerciale</useLimit>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="license" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="annually" />
+      </maintFreq>
+      <dateNext>2012</dateNext>
+    </resMaint>
+    <descKeys>
+      <keyword>COURS D'EAU</keyword>
+      <keyword>ZONE HYDROGRAPHIQUE</keyword>
+      <keyword>BASSIN HYDROGRAPHIQUE</keyword>
+      <keyword>BASSIN VERSANT</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>REFERENTIELS</keyword>
+      <keyword>BDCARTHAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <graphOver>
+      <bgFileName>ZHYD_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>ZHYD.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo />
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Mise à jour par l'IGN suite aux demandes des Agences de l'Eau</statement>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate>2008-04-22</refDate>
+            <refDateType>
+              <DateTypCd value="revision" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

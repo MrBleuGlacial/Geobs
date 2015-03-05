@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfc:FC_FeatureCatalogue xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" uuid="ddd80466-5177-4932-8f5d-7b70582ef76b" xsi:schemaLocation="http://www.isotc211.org/2005/gfc ../schemas/iso19139Fra/gfc/gfc.xsd" id="">
+  <gmx:name xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+  </gmx:name>
+  <gmx:scope xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+  </gmx:scope>
+  <gmx:fieldOfApplication xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+  </gmx:fieldOfApplication>
+  <gmx:versionNumber xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+  </gmx:versionNumber>
+  <gmx:versionDate xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="unknown" />
+  <gmx:language xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gmd:LanguageCode xmlns:gmd="http://www.isotc211.org/2005/gmd" codeListValue="fra" codeList="LanguageCode" />
+  </gmx:language>
+  <gmx:characterSet xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gmd:MD_CharacterSetCode xmlns:gmd="http://www.isotc211.org/2005/gmd" codeListValue="utf8" codeList="MD_CharacterSetCode" />
+  </gmx:characterSet>
+  <gfc:producer>
+    <gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="CI_RoleCode" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gfc:producer>
+  <gfc:functionalLanguage>
+    <gmd:LanguageCode xmlns:gmd="http://www.isotc211.org/2005/gmd" codeListValue="fra" codeList="LanguageCode" />
+  </gfc:functionalLanguage>
+  <gfc:featureType>
+    <gfc:FC_FeatureType id="">
+      <gfc:typeName>
+        <gco:LocalName xmlns:gco="http://www.isotc211.org/2005/gco" />
+      </gfc:typeName>
+      <gfc:definition>
+        <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+      </gfc:definition>
+      <gfc:code>
+        <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+      </gfc:code>
+      <gfc:isAbstract>
+        <gco:Boolean xmlns:gco="http://www.isotc211.org/2005/gco">false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:aliases>
+        <gco:LocalName xmlns:gco="http://www.isotc211.org/2005/gco" />
+      </gfc:aliases>
+      <gfc:featureCatalogue xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#" />
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute id=".">
+          <gfc:memberName>
+            <gco:LocalName xmlns:gco="http://www.isotc211.org/2005/gco" />
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+          </gfc:definition>
+          <gfc:cardinality>
+            <gco:Multiplicity xmlns:gco="http://www.isotc211.org/2005/gco">
+              <gco:range>
+                <gco:MultiplicityRange>
+                  <gco:lower>
+                    <gco:Integer>0</gco:Integer>
+                  </gco:lower>
+                  <gco:upper>
+                    <gco:UnlimitedInteger isInfinite="true" />
+                  </gco:upper>
+                </gco:MultiplicityRange>
+              </gco:range>
+            </gco:Multiplicity>
+          </gfc:cardinality>
+          <gfc:featureType xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#" />
+          <gfc:code>
+            <gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco" />
+          </gfc:code>
+          <gfc:valueMeasurementUnit>
+            <gml:UnitDefinition xmlns:gml="http://www.opengis.net/gml" gml:id="unknown">
+              <gml:identifier codeSpace="unknown" />
+            </gml:UnitDefinition>
+          </gfc:valueMeasurementUnit>
+          <gfc:valueType>
+            <gco:TypeName xmlns:gco="http://www.isotc211.org/2005/gco">
+              <gco:aName>
+                <gco:CharacterString />
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>
+

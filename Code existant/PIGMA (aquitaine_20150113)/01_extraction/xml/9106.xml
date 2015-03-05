@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>00-266</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Ministère de l'Ecologie et du Developpement Durable - Direction de l'Eau - J. ROBERT</rpIndName>
+    <rpOrgName>Ministère de l'Ecologie et du Developpement Durable - Direction de l'Eau - J. ROBERT</rpOrgName>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2006-07-13T15:40:51</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/disceau/0000000038</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orFunct>
+          <OnFunctCd value="information" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/ouvrage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>REPOM</orName>
+        <orDesc>Carte du Réseau National de surveillance des ports maritimes</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/REPOMmif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/REPOMshp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/REPOMkml.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format KML</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Stations du réseau National de surveillance des ports maritimes</resTitle>
+      <resAltTitle>REPOM</resAltTitle>
+      <resRefDate>
+        <refDate>1997</refDate>
+        <refDateType>
+          <DateTypCd value="creation" />
+        </refDateType>
+      </resRefDate>
+      <citId>0000000038</citId>
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="documentDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Réseau National de surveillance des ports maritimes</idAbs>
+    <idPurp>Connaissance, patrimonial, et suivi de la qualité des milieux portuaires. Evalution de l'impact des activités portuaires sur le milieu.Outil d'aide à la décision pour les opérations de dragage. Outil pour les CT pour le pavillon bleu.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Ministère de l'Ecologie et du Developpement Durable - Direction de l'Eau - J. ROBERT</rpIndName>
+      <rpOrgName>Ministère de l'Ecologie et du Developpement Durable - Direction de l'Eau - J. ROBERT</rpOrgName>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Ministère de l'Ecologie et du Développement Durable</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Ministère de l'Ecologie et du Développement Durable</city>
+          <postCode>75</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Ministère de l'Ecologie et du Développement Durable</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Ministère de l'Ecologie et du Développement Durable</city>
+          <postCode>75</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="originator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux de l'Ille et Vilaine</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux de l'Ille et Vilaine</city>
+          <postCode>35</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux de l'Ille et Vilaine</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux de l'Ille et Vilaine</city>
+          <postCode>35</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Corse-du-Sud</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Corse-du-Sud</city>
+          <postCode>20</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Corse-du-Sud</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Corse-du-Sud</city>
+          <postCode>20</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Nord</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Nord</city>
+          <postCode>59</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Nord</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Nord</city>
+          <postCode>59</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Seine Maritimes</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Seine Maritimes</city>
+          <postCode>76</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Seine Maritimes</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Seine Maritimes</city>
+          <postCode>76</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Calvados</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Calvados</city>
+          <postCode>14</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Calvados</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Calvados</city>
+          <postCode>14</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Morbihan</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Morbihan</city>
+          <postCode>56</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales du Morbihan</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales du Morbihan</city>
+          <postCode>56</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Loire-Atlantique et Maine-et-Loire</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Loire-Atlantique et Maine-et-Loire</city>
+          <postCode>44</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Loire-Atlantique et Maine-et-Loire</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Loire-Atlantique et Maine-et-Loire</city>
+          <postCode>44</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Gironde (Estuaire)</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Gironde (Estuaire)</city>
+          <postCode>33</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales de Gironde (Estuaire)</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales de Gironde (Estuaire)</city>
+          <postCode>33</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales des Bouches-du-Rhône</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales des Bouches-du-Rhône</city>
+          <postCode>13</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Cellule de Qualité des Eaux Littorales des Bouches-du-Rhône</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Cellule de Qualité des Eaux Littorales des Bouches-du-Rhône</city>
+          <postCode>13</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="copyright" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="weekly" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>EAU COTIERE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>EAUX LITTORALES</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>ALPES-MARITIMES</keyword>
+      <keyword>AUDE</keyword>
+      <keyword>BOUCHES-DU-RHONE</keyword>
+      <keyword>CHARENTE-MARITIME</keyword>
+      <keyword>COTES-D'ARMOR</keyword>
+      <keyword>FINISTERE</keyword>
+      <keyword>CORSE-DU-SUD</keyword>
+      <keyword>HAUTE-CORSE</keyword>
+      <keyword>GARD</keyword>
+      <keyword>GIRONDE</keyword>
+      <keyword>HERAULT</keyword>
+      <keyword>ILLE-ET-VILAINE</keyword>
+      <keyword>LANDES</keyword>
+      <keyword>LOIRE-ATLANTIQUE</keyword>
+      <keyword>MANCHE</keyword>
+      <keyword>MORBIHAN</keyword>
+      <keyword>NORD</keyword>
+      <keyword>PAS-DE-CALAIS</keyword>
+      <keyword>PYRENEES-ATLANTIQUES</keyword>
+      <keyword>PYRENEES-ORIENTALES</keyword>
+      <keyword>SEINE-MARITIME</keyword>
+      <keyword>SOMME</keyword>
+      <keyword>VAR</keyword>
+      <keyword>VENDEE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>REPOM_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>REPOM.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Circulaire du Ministère chargé de l'environnement mettant en place le REPOM.</stepDesc>
+        <stepDateTm>1997-03-07</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+</Metadata>
+

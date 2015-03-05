@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString>afb60952-2c47-4c62-ab90-22d92722e518</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:characterSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>Jeu de données</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0557854042</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0557854026</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>33075</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>pigma@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:DateTime>2013-07-25T15:04:22</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="" />
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>RGF93 / Lambert-93 (EPSG:2154)</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>7.4</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <fra:FRA_DataIdentification xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Aquitaine : DADS - Déclarations Annuelles des Données Sociales en 2008</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2008-11-01T00:05:00</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="validity" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>1993-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>FRA-SIREN000000000-FRANCE-dads2008_postes08-2007</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>La Déclaration Annuelle des Données Sociales (DADS) est une formalité déclarative que doit accomplir toute entreprise employant des salariés, en application de l'article R243-14 du code de la Sécurité sociale (Décret du 24 mars 1972) et des articles 87.240 et 241 de la loi 51-711 du 7 juin 1951 du code Général des Impôts.
+
+Les données présentées ici fournissent quelques caractéristiques de la population salariée au lieu de résidence. 
+
+Pour l'Insee, les DADS permettent de produire des statistiques sur les salaires et l'emploi. Les thèmes abordés sont :
+- les salaires versés ;
+- la description des salariés.
+L'ensemble des employeurs et de leurs salariés rentrent dans le champ d'exploitation des DADS, à l'exception des agents des organismes de l'État, titulaires ou non (catégorie juridique commençant par 71, 7383, 7384, c'est-à-dire Siret commençant par 1 sauf 18 et certains), des services domestiques (division 97-98 de la NAF rév. 2) et des activités extraterritoriales (division 99 de la NAF rév. 2).
+
+En revanche, sont compris les collectivités territoriales et la fonction publique hospitalière, introduites de manière exhaustive depuis 1992.
+
+Sont inclus également les établissements publics à caractère industriel et commercial.
+
+Dans ce document, sont déclarés annuellement pour chaque établissement : son identification, la masse des rémunérations brutes qu'il a versées, les effectifs employés au 31 décembre et une liste nominative de ses salariés indiquant pour chacun d'entre eux : son identification, son adresse, la période et la nature de l'emploi, la qualification, le nombre d'heures salariées ainsi que le montant perçu des différentes rémunérations.
+
+Ces informations sont destinées à différentes administrations sociales et fiscales (Urssaf, Cram, CPAM, Ircantec, Unedic, CNRACL, DGI, Ministère du Travail, des Relations Sociales et de la Solidarité), et à l'Insee pour l'étude des salaires et de l'emploi.
+
+Ces données permettent l'analyse des emplois et des salaires selon la nature de l'emploi (durée, condition d'emploi, rémunération...), les dates de début et de fin de période de paie, le nombre d'heures salariées, la condition d'emploi (temps complet, temps partiel), le montant des rémunérations versées, les caractéristiques du salarié (sexe, âge, qualification...) et de l'établissement employeur (secteur d'activité, lieu d'implantation, taille...).
+
+Pour le format dBase: le fichier "postes" est composé de 28 variables et le fichier "postes" est composé de 27 variables.
+Pour le format Beyond : le fichier "postes" est composé de 35 variables et le fichier "postes" est composé de 33 variables.
+
+* Le fichier « postes » 2008 :
+- Ce fichier contient 2 889 296 enregistrements et comporte 27 variables décrivant le poste de travail, les caractéristiques individuelles du salarié, et quelques informations sur l'employeur provenant du Répertoire des entreprises et des établissements.
+- Chaque enregistrement correspond à un poste, c'est-à-dire la consolidation des périodes de travail d'un salarié au sein d'un même établissement. Si le même salarié travaille au cours de la même année dans deux établissements distincts, il fera alors l'objet de deux enregistrements distincts dans le fichier, soit un poste de travail par établissement.
+- Les postes décrits dans ce fichier sont ceux occupés par un échantillon de salariés : ceux nés au mois d'octobre, complété si nécessaire par d'autres salariés tirés au sort de façon à atteindre le taux de 1/12e. 
+
+* Le fichier « salariés » 2008 :
+- Ce fichier contient 1 963 039 enregistrements et comporte 28 variables décrivant les caractéristiques du salarié, de son poste principal ainsi que des données récapitulatives tous postes confondus : rémunérations, heures salariées, total des indemnités de chômage.
+- Chaque enregistrement est constitué par la consolidation des périodes de travail d'un salarié quels que soient ses employeurs.
+- L'échantillon est composé des salariés nés au mois d'octobre, complété si nécessaire par d'autres salariés tirés au sort de façon à atteindre le taux de 1/12e.
+
+Au final, les données issues des DADS fournissent des informations sur les volumes et les caractéristiques structurelles des populations salariées mais avec une précision insuffisante pour une lecture des évolutions à court terme.
+
+La base de données contient les données de toutes les communes, tous les Iris et toutes les ZUS de la région Aquitaine.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>INSEE - Institut National de la Statistique et des Etudes Economiques</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+            <gco:CharacterString>Direction des statistiques démographiques et sociales (DSDS)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>pigma@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="https://ids.pigma.org/geonetwork/images/harvesting/INSEE2.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="owner" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>insee_donnees_excel_exemple_s.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Démographie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Répartition de la population — démographie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.inspire</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Démographie / population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.environnement</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>composition de la population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>densité de population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>répartition géographique de la population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.gemet</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Région Aquitaine et ses départements</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-09-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.external.place.PIGMA-aquitaine</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>bases de données</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>INSEE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>postes</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>salariés</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DADS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Déclaration Annuelle des Données Sociales</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <fra:FRA_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Aucune condition ne s'applique</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Aucune raison de restriction</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Logo à faire apparaître en cas de reproduction</gco:CharacterString>
+          </gmd:otherConstraints>
+        </fra:FRA_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Tous les organismes PIGMA sont autorisés</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>Accès public non restreint</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>0</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent xmlns:xs="http://www.w3.org/2001/XMLSchema">
+          <gmd:description>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-2.115</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.429</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.782</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.718</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </fra:FRA_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>dBase (dbf)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>*</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>Le nombre de variables est plus élevé dans les fichiers Beyond que dans les fichiers dBase parce que les variables numériques sont aussi présentées dans le format caractère.  Les fichiers sont des échantillons au 1/12e de la population. Dans les fichiers Beyond, les données sont pondérées par la variable POND.</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Beyond 20/20 (ivx + ivd)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>*</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>Chaque répertoire zippé dbase contient, en complément des tables de données, deux tables supplémentaires (.dbf) de listes des variables : varlist.dbf et varmod.dbf.  Ces listes contiennent une description des variables des fichiers de données et sont ainsi directement utilisables sous forme électronique pour récupérer les intitulés des variables (table varlist) et de leurs modalités (table varmod) lors de la confection des tableaux.  Les fichiers sont des échantillons au 1/12e de la population. Dans les fichiers en dBase, l'utilisateur devra utiliser la variable POND.</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.insee.fr/fr/themes/detail.asp?ref_id=fd-dads2008&amp;page=fichiers_detail/dads2008/doc/documentation.htm</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Site de l'INSEE sur les DADS - postes et salariés - Documentation</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.insee.fr/fr/ppp/bases-de-donnees/fichiers_detail/dads2008/doc/contenu_dads2008_salaries08.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Liste et description des variables - Fichier détail "salariés"</gco:CharacterString>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.insee.fr/fr/ppp/bases-de-donnees/fichiers_detail/dads2008/doc/contenu_dads2008_postes08.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Liste et description des variables - Fichier détail "postes"</gco:CharacterString>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9185&amp;fname=DADS_C_72.xls&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmx:MimeFileType type="application/excel">DADS_C_72.xls</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Données à la commune</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9185&amp;fname=DADS_I_72.xls&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmx:MimeFileType type="application/excel">DADS_I_72.xls</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Données à l'IRIS</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9185&amp;fname=DADS_Z_72.xls&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gmx:MimeFileType type="application/excel">DADS_Z_72.xls</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Données à la ZUS</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Directive INSPIRE - Règlement relatif à l’interopérabilité des séries de données et des services géographiques Règlement (UE) no 1089/2010 de la Commission du 23 novembre 2010 portant modalités d’application de la directive 2007/2/CE du Parlement européen et du Conseil en ce qui concerne l’interopérabilité des séries et des services de données géographiques.</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:alternateTitle>
+                    <gco:CharacterString>Spécification de données INSPIRE sur les Unités statistiques</gco:CharacterString>
+                  </gmd:alternateTitle>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2007-03-14</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Non-évalué</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>0</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Le fichier détail DADS 2008 - postes et salariés - est réalisé à partir d'un échantillon au 1/12e des données individuelles anonymisées issues de l'exploitation statistique des Déclarations Annuelles des Données Sociales (DADS).
+
+Les données des DADS sont exploitées chaque année par l'Insee.
+
+Les données de l'année N sont diffusées de manière provisoire en janvier N+2 pour les évolutions de salaire et au deuxième semestre pour les données détaillées.
+
+Depuis 1993, les DADS font l'objet d'une exploitation rénovée dont la principale particularité est l'exploitation exhaustive des salariés.
+
+En 2002, des améliorations méthodologiques ont été mises en place.
+
+Chaque DADS reçue subit alors un certain nombre de traitements parmi lesquels :
+
+- une vérification accrue du secteur d'activité de l'établissement et de la localisation des salariés de la DADS ;
+- la codification de la catégorie socioprofessionnelle (CS) et de la commune de résidence : il s'agit d'une codification automatique de libellés de profession déclarés "en clair" par le système informatique de codification des réponses aux enquêtes (application Sicore), développé par l'Insee. Les échecs de codage automatique (un salarié sur 12 en moyenne) sont ensuite en partie repris manuellement ;
+- la cohérence de la DADS sert à vérifier la cohérence interne de la DADS (cohérence des heures, de la durée, des rémunérations, de la condition d'emploi).
+
+Depuis 1947, chaque employeur doit remplir un document administratif décrivant les périodes d'emploi et les salaires de ses salariés.
+
+Cette formalité obligatoire doit être accomplie par toute entreprise employant des salariés, en application de l'article R243-14 du code de la Sécurité sociale (Décret du 24 mars 1972) et des articles 87.240 et 241 de la loi 51-711 du 7 juin 1951 du code général des Impôts.
+
+L'Insee en est destinataire officiel depuis 1950 et en assure l'exploitation statistique. Au départ, l'Insee exploitait des documents fiscaux prêtés par la direction générale des Impôts.
+
+En 1970, ces documents deviennent la "déclaration annuelle des salaires" (DAS). L'Insee reçoit alors en propre un exemplaire de la déclaration.
+
+En 1984, la DAS, regroupée avec l'attestation d'activité salariée (AAS), devient la « déclaration des données sociales » (DADS). Jusqu'en 1991, l'Insee exploite les informations concernant les salariés (1  salarié sur 25 à plein temps nés au mois d'octobre des années paires).
+
+En 1992 un dispositif de transmission de données sur support magnétique se met progressivement en place ("transfert de données sociales" ou TDS).
+
+En 1998, la commission nationale de l'Informatique et des Libertés (Cnil) accorde à l'Insee l'autorisation d'exploiter les DADS de façon exhaustive et d'en diffuser les résultats.
+
+A partir de 2005, la norme TDS est remplacée par un nouveau format informatique "déclaration annuelle de données sociales unifiée" permettant aux entreprises et collectivités équipées d'un logiciel de paie intégrant cette norme de produire une seule déclaration dématérialisée.
+
+Le champ de l'exploitation des DADS par l'Insee est restreint aux seuls salariés du privé et d'une partie du public : les agents des fonctions publiques hospitalières et territoriales sont présents mais les agents de l'Etat n'y figurent pas ; ne figurent pas non plus les salariés des services domestiques et des activités extra-territoriales.
+
+Les salariés de moins de 25 ans n'exerçant une activité que dans la seule période 1er juillet-31 aout (" job d'été ") ont été retirés des dénombrements.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:source>
+            <gmd:LI_Source>
+              <gmd:description>
+                <gco:CharacterString>Source : INSEE</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_Source>
+          </gmd:source>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="annually" />
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:maintenanceNote>
+        <gco:CharacterString>Les données de Clap sont mises à jour annuellement et sont disponibles à l'automne de chaque année sous forme de tableaux standards dans l'espace "Statistiques locales" (ESL) sur le site http://www.statistiques-locales.insee.fr.</gco:CharacterString>
+      </gmd:maintenanceNote>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmd:MD_Metadata>
+

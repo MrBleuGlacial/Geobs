@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString>37c00b65-b007-40ba-a103-78ef87ca057f</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>ccc6fa04-e460-446b-b938-76a85df9fda0</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>Jeu de données</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts">
+        <gco:CharacterString>Erwann Gouézec</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts">
+        <gco:CharacterString>EPIDOR - EPTB Dordogne</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts">
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0553597213</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0553282960</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Tournepique</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>CASTELNAUD LA CHAPELLE</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Dordogne</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>24250</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>e.gouezec@eptb-dordogne.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/EPIDOR.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:DateTime>2013-07-12T11:56:45</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" />
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>RGF93 / Lambert-93 (EPSG:2154)</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>7.4</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <fra:FRA_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Bassin versant de la Dordogne : Zones à Dominante Humide, inventaire au 1/25000e de 2011 (secteur Limousin)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2007-01-01T12:16:00</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-02-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>FRA-SIRET25246009200023-BASSIN_DORDOGNE-ZDH_EPIDOR_25000E-20110601</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>La base de données Zones à Dominante Humide du Bassin de la Dordogne présente un inventaire des zones humides ou potentiellement humides du bassin versant de la Dordogne.
+
+L'inventaire a été réalisé en plusieurs temps:
+-Une première partie comprenant la majeure partie du bassin  a été inventoriée pour une cartographie au 1/50000e. Elle est disponible dans un autre jeu de données intitulé: "Bassin versant de la Dordogne: Zones à Dominante Humide, inventaire au 1/50000e"
+-La partie Limousin a été traitée avec plus de précision pour s'homogénéiser avec les autres données régionales. C'est celle qui est présentée ici. 
+-L'inventaire sur le département du Cantal est lui en cours de réalisation par le CG 15.
+L'ensemble donnera une couverture complète du bassin versant.
+La donnée est le résultat d'un travail d'inventaire à grande échelle (1:25 000), à partir de méthodes d’analyse numérique et de télédétection.
+La donnée est produite par EPIDOR, EPTB Dordogne, en collaboration avec le bureau d’études belge I-MAGE Consult, et le laboratoire COSTEL (Climat et Occupation du Sol par TELédétection) du CNRS. Il s'agit d'une approche descriptive de ces zones, qui reprend une méthode déjà mise en œuvre pour l’Agence de l’Eau Seine-Normandie. L’intérêt de cette méthode, c’est qu’au-delà des zones humides à fort intérêt patrimonial, elle permet de repérer l’ensemble des autres zones parfois qualifiées de banales, mais qui peuvent présenter un fort potentiel vis-à-vis d’autres fonctions, notamment de la ressource en eau.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Meilleure prise en compte de la spécificité des zones humides dans la rédaction des documents d'urbanisme. Ces données permettent notamment la réalisation de portés à connaissance transmis aux communes et intercommunalités.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>EPIDOR - EPTB Dordogne</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>epidor@eptb-dordogne.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8h30-12h30 et 14h-18h</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/EPIDOR.gif">Standard téléphonique</gmx:FileName>
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss">
+            <gco:CharacterString>Erwann Gouézec</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss">
+            <gco:CharacterString>EPIDOR - EPTB Dordogne</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo xmlns="http://www.geosource.fr/2006/rpc" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss">
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>0553597213</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>0553282960</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Tournepique</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>CASTELNAUD LA CHAPELLE</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Dordogne</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>24250</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>e.gouezec@eptb-dordogne.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/EPIDOR.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Guérin Jean-François</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>EPIDOR - EPTB Dordogne</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Chargé de mission informatique, système d'information, publications, infographie</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Tournepique</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Castelnaud-la-Chapelle</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>24250</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>jf.guerin@eptb-dordogne.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8h30-12h30 et 14h-18h</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/EPIDOR.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="user" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Moinot Frédéric</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>EPIDOR - EPTB Dordogne</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Chargé de mission milieux naturels</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Tournepique</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Castelnaud-la-Chapelle</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>24250</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>f.moinot@eptb-dordogne.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8h30-12h30 et 14h-18h</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/EPIDOR.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Patrimoine naturel</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>zone humide</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>occupation du sol</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.gemet</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Hydrographie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.inspire</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>LIMOUSIN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.place.RegionFR</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>HAUTE-VIENNE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CORREZE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CREUSE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.place.DepartementFR</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>zones humides</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>occupation du sol</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>inspire</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <fra:FRA_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Aucune condition ne s'applique</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:accessConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Aucune raison de restriction</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>EPIDOR - EPTB Dordogne 2011- Logo EPIDOR</gco:CharacterString>
+          </gmd:otherConstraints>
+        </fra:FRA_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Tous les organismes PIGMA sont autorisés</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>Accès public non restreint</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <fra:FRA_SecurityConstraints gco:isoType="gmd:MD_SecurityConstraints">
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </fra:FRA_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>25000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>Bassin versant de la Dordogne, 5 régions: Aquitaine, Midi-Pyrénées, Limousin, Auvergne, Poitou-Charente; 11 départements: Gironde, Dordogne, Lot, Corrèze, Haute-vienne, Cantal, Puy-de-Dôme, Creuse, Lot-et-Garonne, Charente, Charente-Maritime</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-1.20997640625</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>2.96482828125</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.7609156875</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.89226334375</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </fra:FRA_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:date="http://exslt.org/dates-and-times" xmlns:gts="http://www.isotc211.org/2005/gts">
+    <gmd:MD_Distribution>
+      <gmd:MD_Format>
+        <gmd:name>
+          <gco:CharacterString>Shp</gco:CharacterString>
+        </gmd:name>
+        <gmd:version>
+          <gco:CharacterString>*</gco:CharacterString>
+        </gmd:version>
+      </gmd:MD_Format>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.eptb-dordogne.fr/contenu/index/idcontenu/191</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Site de l'Etablissement Public Territorial du Bassin de la Dordogne (EPIDOR, EPTB Dordogne)</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9071&amp;fname=zh_note_synthese.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">zh_note_synthese.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9071&amp;fname=zh_bouillac.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">zh_bouillac.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=9071&amp;fname=ZDH_25000_L93_FEV_2012.zip&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/x-compressed">ZDH_25000_L93_FEV_2012.zip</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/epidor/wms?</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>epidor:epidor_zdh_25000_fev_2012</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Zones à Dominante Humide, inventaire au 1/25000e de 2011 dans le Bassin versant de la Dordogne (secteur Limousin)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Directive INSPIRE - Règlement relatif à l’interopérabilité des séries de données et des services géographiques Règlement (UE) no 1089/2010 de la Commission du 23 novembre 2010 portant modalités d’application de la directive 2007/2/CE du Parlement européen et du Conseil en ce qui concerne l’interopérabilité des séries et des services de données géographiques.</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:alternateTitle>
+                    <gco:CharacterString>Spécification de données INSPIRE sur l'Usage des sols</gco:CharacterString>
+                  </gmd:alternateTitle>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2007-03-14</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Non évalué</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>false</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Le travail consiste dans un premier temps à réaliser un masque discriminant les zones humides potentielles et les zones présumées non humides, à l’aide de diverses couches géographiques disponibles.
+Le masque est réalisé à partir de la combinaison (système additif) des données suivantes: 
+-zone tampon autour des cours d'eau et plans d'eau de la BD Carthage
+-ZNIEFF, Natura 2000, pSIC, classes de CLC et autres inventaires disponibles (arrêtés de biotope, réserves naturelles...): jugées majoritairement humides (MNHN/IFEN)
+-Indice topographique révélant des zones où il y a parfois un creux et une grande aire contributive (en terme d'écoulement potentiel) à ce creux.
+
+Les zones présumées humides sont ensuite interprétées à partir notamment d’orthophotoplans couleur à très haute résolution (taille du pixel 0.5m), d’images satellitales (de type Landsat ETM+), de fonds topographiques (scan25® de l'IGN) et de cartes géologiques (BD Scan-Géol50-BRGM). Cette étape s’appuie sur des clés d’interprétation établies suite à des travaux de terrain. On en déduit l’occupation du sol, au niveau des zones humides, avec une typologie proche des typologies Corine Land Cover et EUNIS. La méthode utilisée combine donc traitements analogiques (PIAO : photo-interprétation assistée par ordinateur), traitements numériques (Image Satellite, données altimétriques (MNT), données thématiques,…), et relevés de terrain (clé d’interprétation et validation). Son échelle de validité est le 1/25000e. Elle a l’avantage de donner des résultats très fiables et homogènes pour un budget relativement abordable. L'inventaire est en cours et la mise à jour de la base se fait au fur et à mesure de l'avancée des travaux.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Création de zones tampons autour des cours d'eau et plans d'eau de la BD Carthage</gco:CharacterString>
+              </gmd:description>
+              <gmd:rationale>
+                <gco:CharacterString>Première étape de la création d'un masque binaire Zones Potentiellement Humides/Zones Présumées Non Humides</gco:CharacterString>
+              </gmd:rationale>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:description>
+                    <gco:CharacterString>BD Carthage, Intégration des pSIC humides au masque, Site proposés comme Sites d'Intérêt Communautaire, Intégration des classes d'occupation du sol de Corine Land Cover pouvant être qualifiées d'humides, Corine Land Cover 2000, Intégration de certaines ZIEFF reconnues spécifiquement humides par l'IFEN et le MNHN au masque, Inventaires des ZNIEFF de type I et II, Exploitation des indices topographiques et intégration au masque, MNT de précision 75m en X-Y et de 1m en Z, Intégration des autres inventaires existants dans le masque, Adaptation de la clé d'interprétation à la zone d'étude - travaux de photointerprétation associés à du terrain, Toutes les sources citées précédemment, plus biblio, , travail à l'échelle des Petites Régions Forestières, Délimitation de l'enveloppe à dominante humide, travail au 1:12000, Masque, BD Ortho 5m, Zones hydrographiques de la BD Carthage, Photo-interprétation de l'enveloppe (PIAO), Orthophotoplans issus de la BD Ortho 0.5m, Images satellitales de type Landsat ETM+, Cartes géologiques Scan 50 Géol</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:scaleDenominator>
+                    <gmd:MD_RepresentativeFraction>
+                      <gmd:denominator>
+                        <gco:Integer>100000</gco:Integer>
+                      </gmd:denominator>
+                    </gmd:MD_RepresentativeFraction>
+                  </gmd:scaleDenominator>
+                </gmd:LI_Source>
+              </gmd:source>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+

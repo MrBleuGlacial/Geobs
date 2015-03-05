@@ -1,0 +1,4 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+for $herit at $pos in //gmd:statement/gco:CharacterString
+return concat($pos,'  - ',$herit)

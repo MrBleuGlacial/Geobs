@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>IGNF_RGEr_ALTI_1-0.xml</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Produit</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc">
+    <gmd:CI_ResponsibleParty id="1261061825289" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+      <gmd:individualName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0557854042</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0557854026</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Gironde</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>33075</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc">
+    <gmd:CI_ResponsibleParty id="1261063389289" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+      <gmd:individualName>
+        <gco:CharacterString>IGN-F-</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Institut Géographique National France</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString />
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString />
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>73 Avenue de Paris</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Saint-Mandé</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Val de Marne</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>94165</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>sav.bd@ign.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/IFN.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2013-10-08T09:25:35</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>2003 Cor.1:2006</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_Georectified>
+      <gmd:numberOfDimensions>
+        <gco:Integer>3</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" />
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>1</gco:Integer>
+          </gmd:dimensionSize>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" />
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>1</gco:Integer>
+          </gmd:dimensionSize>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="vertical" />
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>1</gco:Integer>
+          </gmd:dimensionSize>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CellGeometryCode" codeListValue="point" />
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability>
+        <gco:Boolean>false</gco:Boolean>
+      </gmd:transformationParameterAvailability>
+      <gmd:checkPointAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </gmd:checkPointAvailability>
+      <gmd:checkPointDescription>
+        <gco:CharacterString>Noeud Nord ouest de la grille</gco:CharacterString>
+      </gmd:checkPointDescription>
+      <gmd:pointInPixel>
+        <gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+      </gmd:pointInPixel>
+    </gmd:MD_Georectified>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem id="IGNF_RGEr_ALTI_1-0.referenceSystemInfo.LAMB93.IGN69">
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>RGF 93 - EPSG:4171</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>urn:ogc:def:crs:IGNF:1.1</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Aquitaine : Composante Altimetrique du RGE</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Base de Données altimétrique, MNT RGEALTI, isohypses RGEALTI</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-06-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>Version 1.0</gco:CharacterString>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier id="IGNF_RGEr_ALTI_1-0.identifier">
+              <gmd:code>
+                <gco:CharacterString>pigma.org/RGE_ALTI_AQUITAINE_2013</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:series>
+            <gmd:CI_Series>
+              <gmd:name>
+                <gco:CharacterString>SBV.RGEALTI/SPD/030.pdf</gco:CharacterString>
+              </gmd:name>
+              <gmd:issueIdentification>
+                <gco:CharacterString>Spécification de produit</gco:CharacterString>
+              </gmd:issueIdentification>
+            </gmd:CI_Series>
+          </gmd:series>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Le RGE Alti est un modèle numérique de terrain maillé au pas de 1 m. Il décrit la forme et l’altitude normale de la surface du sol. Il est conçu pour une utilisation à des échelles comprises entre le 1 : 1 000 et le 1 : 50 000.
+Le RGE Alti est disponible sur les territoires aquitains à enjeux sur les zones humides.
+Les territoires disponibles sont les suivants :
+    -   Le Littoral aquitain
+    -   La Vallée de la Dordogne
+    -   La Vallée de l'Isle
+    -   La Nive-Nivelle
+    -   La Dronne
+    -   La Vezeres
+    -   La Garonne
+    -   La Vallée de l'Adour
+    -   Le Saison
+ 
+Les formats disponibles sont :
+        -  Pour le MNT : format .asc
+        -  Pour les métadonnées raster sources : format Geotiff 8 bits couleurs indexées
+        -  Pour les données sources :  format .las.
+
+Cette production a été co-financée par la Direction Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL) d'Aquitaine et par l'Institut National de l'Information Géographique et Forestière (IGN).
+
+Disponible dès à présent aux partenaires PIGMA éligibles au dispositif Diffusion à Coût Marginal (DCM) de l'Institut national de l'information géographique et forestière (IGN). Pour la mise à disposition, veuillez contacter l'équipe PIGMA.
+
+Remarque : Sous le logiciel ArcGIS, une erreur est présente (décimales tronquées). Il est conseillé de passer par NotePad++ pour pallier au problème.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Le MNT RGEALTI a des applications dans divers domaines, tels que la communication (cartographie, réalité virtuelle...), l'aménagement et l'environnement (implantation d'ouvrages d'art, simulation d'inondations, études d'impact...), l'hydrologie (étude de bassins versants, calculs de cubatures, Tsunami, modèle numérique,...), les télécommunications (implantation de relais hertziens...), la défense (profils de vol, inter-visibilité...), la faune et flore.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing" />
+      </gmd:status>
+      <gmd:pointOfContact xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc">
+        <gmd:CI_ResponsibleParty id="1292238344222" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>Direction Régionale de l'Environnement, de l'Aménagement et du Logement</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>DREAL Aquitaine</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>05-56-24-82-52</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>05-57-57-41-66</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>CITE ADMINISTRATIVE - RUE JULES FERRY</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>BORDEAUX CEDEX</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>33 090</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/DREAL2.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="" codeListValue="resourceProvider" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc">
+        <gmd:CI_ResponsibleParty id="1261063389289" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>IGN-F-</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut Géographique National France</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString />
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString />
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>73 Avenue de Paris</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Saint-Mandé</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Val de Marne</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>94165</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sav.bd@ign.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/IFN.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="" codeListValue="resourceProvider" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc">
+        <gmd:CI_ResponsibleParty id="1261061825289" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>0557854042</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>0557854026</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Bordeaux</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Gironde</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>33075</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/GIP.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="distributor" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation id="IGNF_RGEr_ALTI_1-0.resourceMaintenance_1">
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular" />
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:maintenanceNote>
+            <gco:CharacterString>irrégulière</gco:CharacterString>
+          </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://ids.pigma.org:80/geonetwork-private/srv/eng/resources.get?uuid=IGNF_RGEr_ALTI_1-0.xml&amp;fname=Couverture_Octobre_2013_Rge_Alti.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>jpg</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>INSPIRE_ThemeCode_II_Elevation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thésaurus GEMET</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2007-10-17</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>1.0</gco:CharacterString>
+              </gmd:edition>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Région Aquitaine et ses départements</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-09-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.external.place.PIGMA-aquitaine</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Modèle Numérique de Terrain</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>altitude</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>précision altimétrique</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>RGE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ALTI</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MNT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Litto 3D</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>LIDAR</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://librairies.ign.fr/geoportail/resources/CodeLists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Du 1:50 000 ième au 1:1000 ième</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Les zones montagneuses des Alpes achetées auprès de la société Intermap sont utilisables par l'IGN pour la diffusion externe l'IGN est revendeur des données jusqu'en 2012 après cette date les données seront intégrées au produit RGEAlti</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Les zones montagneuses des Pyrénées Cévennes et Corse achetées auprès de la société Intermap sont utilisables par la sphère publique pour la diffusion externe l'IGN est revendeur des données jusqu'en 2014 après cette date les données seront intégrées au produit RGEAlti</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Les zones non montagneuses achetées auprès de la société Intermap sont utilisables par la sphère publique</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints />
+      <gmd:resourceConstraints>
+        <fra:FRA_Constraints xmlns:fra="http://www.cnig.gouv.fr/2005/fra" gco:isoType="gmd:MD_Constraints">
+          <gmd:useLimitation gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:useLimitation>
+        </fra:FRA_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="m">1</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="m">5</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>intelligenceMilitary</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-2.115</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.429</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.782</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.718</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>Le MNT RGEALTI est issue de sources différentes : Données BDALti(restitution photogrammétriques, numérisation de courbes de niveau sur le 1 :25 000, numérisation de courbes de niveau sur le 1 : 50 000 la précision est comprise entre 2m et 8m selon les zones concernées), d'acquisition Lidar (la précisin est comprise entre 0.10 et 0.30 cm), d'acquisition externes (Laprécision est comptrise entre 2 et 7m) de Corrélation d'images aériennes (la précision est compriseente 0.5 et 0.70 cm).</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format id="IGNF_RGEr_ALTI_1-0.distributionFormat.BIL">
+          <gmd:name>
+            <gco:CharacterString>BIL</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Institut national de l'information géographique et forestière (IGN-F)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sav.bd@ign.fr</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:contactInstructions>
+                    <gmx:FileName src="" />
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.ign.fr/</gmd:URL>
+              </gmd:linkage>
+              <gmd:description>
+                <gco:CharacterString>Site de l'IGN</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.geoportail.fr/</gmd:URL>
+              </gmd:linkage>
+              <gmd:description>
+                <gco:CharacterString>Site du Géoportail de l'IGN</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=DC_RGEALTI.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">DC_RGEALTI.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Descriptif du contenu RGE ALTI</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=DL_RGEALTI.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">DL_RGEALTI.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Descriptif de livraison RGE ALTI</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Selon les zones, le MNT RGE Alti est composé des données en entrée suivantes : Zones non refectionnées issues de la BDALti - Numérisation des courbes de niveau et points cotés puis interpolation o à partir de la carte au 1 : 25 000 o à partir de la carte au 1 : 50 000 - Restitution photogrammétrique de courbes de niveau et points cotés puis interpolation o sur des prises de vue au 1 : 30 000 o sur des prises de vue au 1 : 60 000 Zones réfectionnées se substituant progressivement à la BDAlti sur une durée prévue de 6 ans : - Corrélation automatique, recalage de la BDAlti dans les zones masquées par d’importantes surfaces de forêts et restitution photogrammétrique complémentaire sur des prises de vue numériques haute résolution : o Présentant un pixel de taille 20 cm a 25 cm en zones rurales soit à terme une superficie de 285 000 km² o Présentant un pixel de taille au plus égal à 20 cm en zones urbaines soit à terme une superficie de 70 000 km² - Acquisition par laser des zones: o Littorales et Inondables pour une superficie de 48 000 km² o Forêts pour une superficie de 75 000 km² Acquisition de données radar associées à un récalage de la BDAlti sur les zones montagneuses sur une superficie de 65 000 km²</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_GriddedDataPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_01">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Ecart moyen quadratique</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directExternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1106">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=Precision_RGEALTI_1-0.jpg&amp;access=private">Precision_RGEALTI_1-0.jpg</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Carte de la précision attendue pour la composante altimétrique du RGE</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="image/jpeg">image/jpeg</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_GriddedDataPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_2">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique : Informations sur la précision absolue</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Sur les zones acquises par corrélation de PVA a 25 cm l'exactitude théorique moyenne de l'altimétrie est de 0.5 m.</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directExternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1129">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=Precision_Correlation.pdf&amp;access=private">Precision_Correlation.pdf</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Rapports des controles terrain ou des pointés photogrammétriques en zone traitée par corrélation</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="application/pdf">application/pdf</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_3">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique : Informations sur la précision absolue</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Sur les zones acquises par Laser l'exactitude théorique moyenne de l'altimétrie est de 0.3 m.</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directExternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1152">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=Precision_Lidar.pdf&amp;access=private">Precision_Lidar.pdf</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Rapports des controles terrain en zone traitée en LIDAR</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="application/pdf">application/pdf</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_4">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique : Informations sur la précision absolue</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Sur les zones de montagne l'exactitude théorique moyenne de l'altimétrie fournie par Intermap est inférieure à 7 m.</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directInternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1175">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=VSR_Montagne.pdf&amp;access=private">VSR_Montagne.pdf</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Rapports des controles photogrammétriques réalisés en zone de montagne (VSR)</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="application/pdf">application/pdf</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_5">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique : Informations sur la précision absolue</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Hors zones de montagne pour les données Intermap l'exactitude théorique moyenne de l'altimétrie est inférieure a 2 m.</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directInternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1198">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=VSR_hors_Montagne.pdf&amp;access=private">VSR_hors_Montagne.pdf</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Rapports des controles photogrammétriques réalisés hors zone de montagne (VSR)</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="application/pdf">application/pdf</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy id="IGNF_RGEr_ALTI_1-0.report_6">
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Précision géométrique : Informations sur la précision absolue</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:measureDescription>
+            <gco:CharacterString>Sur les zones comportant de la BDALti l'exactitude théorique est liée aux spécifications de ce produit.</gco:CharacterString>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodType>
+            <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directInternal" />
+          </gmd:evaluationMethodType>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:UnitDefinition gml:id="d1e1221">
+                  <gml:identifier codeSpace="http://interop.ign.fr/">inapplicable</gml:identifier>
+                </gml:UnitDefinition>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record xsi:type="gmx:MX_SupportFile_PropertyType">
+                  <gmx:MX_SupportFile>
+                    <gmx:fileName>
+                      <gmx:FileName src="http://ids.pigma.org/geonetwork-private/srv/fre/resources.get?id=20341&amp;fname=Precision_BDAlti.jpg&amp;access=private">Precision_BDAlti.jpg</gmx:FileName>
+                    </gmx:fileName>
+                    <gmx:fileDescription>
+                      <gco:CharacterString>Carte des EMQ calculés par feuille au 1/5000 pour les zones non couvertes par le RGE Alti</gco:CharacterString>
+                    </gmx:fileDescription>
+                    <gmx:fileType>
+                      <gmx:MimeFileType type="image/jpeg">image/jpeg</gmx:MimeFileType>
+                    </gmx:fileType>
+                  </gmx:MX_SupportFile>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Produit par l'Institut national de l'information géographique et forestière (IGN-F)</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_SecurityConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>DCM</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:classification>
+        <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+      </gmd:classification>
+    </gmd:MD_SecurityConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>
+

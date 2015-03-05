@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>e20d79bd-88ba-4532-aa42-f6927cde0f92</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2010-08-13T11:51:18</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.sandre.eaufrance.fr/ftp/carthage/valorisation/LHYLADMG20100803.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>SANDRE / Téléchargement - Format Texte</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>BDCarthage / Croisement entre les cours d'eau et les communes</resTitle>
+      <resRefDate>
+        <refDate>2010-08-03</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>BD Carthage Version 3 - 7eme édition / BD Carto 2008</resEd>
+      <presForm>
+        <PresFormCd value="tableDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Ce produit permet de déterminer la liste des communes traversées par un cours d'eau.</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Groupe Information Géographique sur l'Eau (GIGE)</rpIndName>
+      <rpOrgName>SIE</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="originator" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>COURS D'EAU</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>REFERENTIELS</keyword>
+      <keyword>BDCARTHAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>France</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyword>Unités administratives</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="textTable" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom />
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-180</westBL>
+      <eastBL>180</eastBL>
+      <southBL>-90</southBL>
+      <northBL>90</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Ce produit a été réalisé dans le cadre des travaux du groupe Groupe Information Géographique sur l'Eau (GIGE) du SIE. Les thèmes Administratifs et Hydrographique ne sont pas cohérents, il est possible que des erreurs soient présentes dans ce fichier (eg. cas de cours d'eau en limite de commune).</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement />
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode />
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

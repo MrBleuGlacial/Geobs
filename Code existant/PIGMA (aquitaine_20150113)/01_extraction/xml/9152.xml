@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>d9bf41ac-8ecc-4f0c-9051-b5dccc6e3a56</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-01-12T14:23:23</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/spip.php?article627</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>Consulter la documentation sur le site Sandre</orName>
+        <orDesc />
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ContextePiscicolemif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Téléchargement des données - Format MapInfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ContextePiscicoleshp.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Téléchargement des données - Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Contextes piscicoles</resTitle>
+      <resRefDate>
+        <refDate>2003-04-30</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>2003</resEd>
+      <citId>urn:sandre:referentiels:sa_mdo:1.2:ContextePiscicole:2003:metropole</citId>
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Le contexte piscicole est une composante du réseau hydrographique délimité par un critère biologique. Il est l‘unité spatiale dans laquelle une population de poissons fonctionne de façon autonome. Il est établi pour une population repère dont les caractéristiques sont la représentativité du domaine piscicole et l‘écosensibilité. Le contexte piscicole se définit selon le domaine piscicole et l‘état fonctionnel du peuplement considéré.
+
+Il est lié à la zonation piscicole du cours d‘eau. Trois types de peuplements ont été identifiés selon le potentiel originel du contexte piscicole. 
+- Salmonicole (S) : dans le domaine salmonicole, les caractéristiques naturelles du milieu conviennent aux exigences de la Truite fario et des espèces d‘accompagnement. 
+- Intermédiaire (I) : dans le domaine intermédiaire, les caractéristiques naturelles du milieu conviennent aux exigences de l‘ombre commun et des cyprinidés d‘eaux vives. 
+- Cyprinicole (C) : dans le domaine cyprinicole, les caractéristiques naturelles du milieu conviennent aux exigences des cyprinidés d‘eaux calmes et à leurs prédateurs (carnassiers).</idAbs>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Contact Sandre</rpIndName>
+      <rpOrgName>Office International de l'Eau</rpOrgName>
+      <rpPosName>Ingénieur SIG</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)555114790</voiceNum>
+          <faxNum>+33555114748</faxNum>
+        </cntPhone>
+        <cntAddress>
+          <delPoint>15 rue Edouard Chamberland</delPoint>
+          <city>LIMOGES</city>
+          <adminArea />
+          <postCode>87000</postCode>
+          <country>fr</country>
+          <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>politique de l'environnement</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>DIRECTIVE CADRE EAU</keyword>
+      <keyword>DCE</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyword>ZONAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>20060831</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>Habitats et biotopes</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyword>METROPOLE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <graphOver>
+      <bgFileName>CIBA2008_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>CIBA2008.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-151.49777</westBL>
+      <eastBL>70.56749</eastBL>
+      <southBL>-49.72501</southBL>
+      <northBL>82.64</northBL>
+    </geoBox>
+    <dataExt />
+    <suppInfo>Les limites correspondent à des changements de gamme de valeur des paramètres hydro-morphologiques ou physico-chimiques, établies en référence aux grands types de peuplements piscicoles qu'elles soutiennent.
+
+Pour définir ces limites, ont été utilisées les données existantes, interprétées par des méthodes typologiques classiques (HUET, 1959 ; VERNEAUX, 1977), conduisant à une typologie simplifiée à 3 niveaux (types salmonicole, intermédiaire et cyprinicole). Le contexte piscicole se définit selon le domaine piscicole et l'état fonctionnel du peuplement considéré.
+
+La délimitation spatiale des contextes est issue de la couche Zones Hydrographique de la BD Carthage Métropole version 2.4 édition 2003
+
+Trois types de peuplements ont été identifiés selon le potentiel originel du contexte piscicole. - Salmonicole (S) : dans le domaine salmonicole, les caractéristiques naturelles du milieu conviennent aux exigences de la Truite fario et des espèces d'accompagnement. - Intermédiaire (I) : dans le domaine intermédiaire, les caractéristiques naturelles du milieu conviennent aux exigences de l'ombre commun et des cyprinidés d'eaux vives. - Cyprinicole (C) : dans le domaine cyprinicole, les caractéristiques naturelles du milieu conviennent aux exigences des cyprinidés d'eaux calmes et à leurs prédateurs (carnassiers). Les espèces repères sont : la TRUITE FARIO pour le domaine salmonicole, le BROCHET pour le domaine cyprinicole, l’OMBRE, ou le couple BROCHET/TRUITE, ou les CYPRINS RHEOPHILES pour le domaine intermédiaire.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Récupération de la couche du projet ROM (Réseau d’Observation des Milieux)</statement>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate>2008-04-22</refDate>
+            <refDateType>
+              <DateTypCd value="revision" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

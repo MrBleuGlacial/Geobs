@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1272006444131" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Communauté de communes du Bazadais</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>CDC du Bazadais</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:phone>
+        <gmd:CI_Telephone>
+          <gmd:voice>
+            <gco:CharacterString>05-56-25-28-81</gco:CharacterString>
+          </gmd:voice>
+        </gmd:CI_Telephone>
+      </gmd:phone>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>Route de Lerm</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:city>
+            <gco:CharacterString>Bazas</gco:CharacterString>
+          </gmd:city>
+          <gmd:postalCode>
+            <gco:CharacterString>33430</gco:CharacterString>
+          </gmd:postalCode>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString>ccbazas@wanadoo.fr</gco:CharacterString>
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/BAZADAIS.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role />
+</gmd:CI_ResponsibleParty>
+

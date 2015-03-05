@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>d5a61a80-36a8-11db-b342-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114790</voiceNum>
+        <faxNum />
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea />
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2006-08-28T17:42:50</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>PROTAREAH</orName>
+        <orDesc>Carte des zones d'habitat protégé</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/PROTAREAHmif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format Mapinfo MIF/MID</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/PROTAREAHshp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format ESRI Shapefile</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Zones d'habitat protégé</resTitle>
+      <resRefDate>
+        <refDate>2006-08-28</refDate>
+        <refDateType>
+          <DateTypCd value="creation" />
+        </refDateType>
+      </resRefDate>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Les zones d'habitat protégé sont des zones créées en application de la directive européenne 92/43/CEE du 21 mai 1992 relative à la conservation des habitats naturels ainsi que de la faune et de la flore sauvages.</idAbs>
+    <idPurp>Cette couche a été créée dans le cadre de l'élaboration du référentiel national des zones protégées.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>DIREN du bassin Seine-Normandie</rpIndName>
+      <rpOrgName>DIREN du bassin Seine-Normandie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)155012700</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>79 rue Benoît Malon</delPoint>
+          <city>GENTILLY</city>
+          <adminArea />
+          <postCode>94257</postCode>
+          <country>France</country>
+          <eMailAdd>diren@ile-de-france.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Loire-Bretagne</rpIndName>
+      <rpOrgName>DIREN du bassin Loire-Bretagne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)238499191</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>5 avenue Buffon - BP 6407</delPoint>
+          <city>ORLEANS</city>
+          <adminArea />
+          <postCode>45064</postCode>
+          <country>France</country>
+          <eMailAdd>diren@centre.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhin-Meuse</rpIndName>
+      <rpOrgName>DIREN du bassin Rhin-Meuse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)387399999</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Avenue Foch - BP 60223</delPoint>
+          <city>METZ</city>
+          <adminArea />
+          <postCode>57005</postCode>
+          <country>France</country>
+          <eMailAdd>webmaster@lorraine.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Adour-Garonne</rpIndName>
+      <rpOrgName>DIREN du bassin Adour-Garonne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)562302600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>Cité administrative - Bâtiment G - Bd A. Duportal</delPoint>
+          <city>TOULOUSE</city>
+          <adminArea />
+          <postCode>31074</postCode>
+          <country>France</country>
+          <eMailAdd>diren@midi-pyrenees.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Artois-Picardie</rpIndName>
+      <rpOrgName>DIREN du bassin Artois-Picardie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)3595778300</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>107 Boulevard de la Liberté</delPoint>
+          <city>LILLE</city>
+          <adminArea />
+          <postCode>59041</postCode>
+          <country>France</country>
+          <eMailAdd>contact.webmestre@npdc.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhône-Méditerranée</rpIndName>
+      <rpOrgName>DIREN du bassin Rhône-Méditerranée</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)437483600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>208 bis rue Garibaldi</delPoint>
+          <city>LYON</city>
+          <adminArea />
+          <postCode>69422</postCode>
+          <country>France</country>
+          <eMailAdd>webdiren@rhone-alpes.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Corse</rpIndName>
+      <rpOrgName>DIREN du bassin Corse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)495517970</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Cours Napoléon - Bâtiment D - BP 334</delPoint>
+          <city>AJACCIO</city>
+          <adminArea />
+          <postCode>20180</postCode>
+          <country>France</country>
+          <eMailAdd>diren@corse.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN Martinique</rpIndName>
+      <rpOrgName>DIREN Martinique</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)596713005</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>4 boulevard de Verdun</delPoint>
+          <city>FORT DE FRANCE</city>
+          <adminArea />
+          <postCode>97200</postCode>
+          <country>fr</country>
+          <eMailAdd>jean-christophe.rouille@martinique.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN Guadeloupe</rpIndName>
+      <rpOrgName>DIREN Guadeloupe</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)590993560</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>Chemin des Bougainvilliers</delPoint>
+          <city>BASSE TERRE</city>
+          <adminArea />
+          <postCode>97100</postCode>
+          <country />
+          <eMailAdd>DIREN@guadeloupe.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN Réunion</rpIndName>
+      <rpOrgName>DIREN Réunion</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)262947250</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>23 rue de Paris</delPoint>
+          <city>SAINT DENIS DE LA REUNION</city>
+          <adminArea />
+          <postCode>97400</postCode>
+          <country />
+          <eMailAdd>diren@reunion.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN Guyane</rpIndName>
+      <rpOrgName>DIREN Guyane</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)594296650</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>17, place des Palmistes</delPoint>
+          <city>CAYENNE</city>
+          <adminArea />
+          <postCode>97328</postCode>
+          <country />
+          <eMailAdd>diren@guyane.environnement.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>HABITAT</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>PROTAREAH_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>PROTAREAH.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <suppInfo>Références juridiques :
+- Directive 92/43/CEE du 21 mai 1992 concernant la conservation des habitats naturels ainsi que de la faune et de la flore sauvages</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+  </dqInfo>
+  <refSysInfo>
+    <MdCoRefSys>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>4326</identCode>
+      </refSysID>
+    </MdCoRefSys>
+  </refSysInfo>
+</Metadata>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1262709967875" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Régis Guillaume</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>Syndicat Mixte Gironde Numérique</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>Tour 2000 Front Médoc</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:city>
+            <gco:CharacterString>Bordeaux</gco:CharacterString>
+          </gmd:city>
+          <gmd:administrativeArea>
+            <gco:CharacterString>Gironde</gco:CharacterString>
+          </gmd:administrativeArea>
+          <gmd:postalCode>
+            <gco:CharacterString>33000</gco:CharacterString>
+          </gmd:postalCode>
+          <gmd:country>
+            <gco:CharacterString>France</gco:CharacterString>
+          </gmd:country>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString>r.guillaume@girondenumerique.fr</gco:CharacterString>
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/GNUM.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="" codeListValue="pointOfContact" />
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+

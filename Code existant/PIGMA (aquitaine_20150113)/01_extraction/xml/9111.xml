@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>ae20c830-750a-42de-9677-bbd08043f0c7</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114790</voiceNum>
+        <faxNum>+33(0)555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>Rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2009-09-15T11:52:43</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>ZVUL2007</orName>
+        <orDesc>Accès WMS aux zones vulnérables</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.rhone-mediterranee.eaufrance.fr/gestion/gestion-reglementaire/index.php#zonage</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Références juridiques</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZVUL2007mif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZVUL2007shp.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_LISTE_COMMUNES.txt</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Liste des communes en zones vulnérables en 2007</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_ARRETE_AG.pdf</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Arrêté du 4 octobre 2007 portant délimitation de la zone vulnérable à la pollution par les nitrates à partir de sources agricoles sur le bassin Adour-Garonne</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_ARRETE_LB.pdf</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Arrêté du 27 août 2007 portant délimitation des zones vulnérables aux nitrates d'origine agricole dans le bassin Loire-Bretagne</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_ARRETE_AP.pdf</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Arrêté du 23 novembre 2007 portant sur la délimitation de zones vulnérables aux pollutions par les nitrates d'origine agricole sur le bassin Artois-Picardie</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_ARRETE_RM.pdf</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Arrêté du 23 juillet 2007 portant délimitation des zones vulnérables aux pollutions par les nitrates d'origine agricole sur le bassin Rhin-Meuse</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/ZVUL2007_ARRETE_RMC.pdf</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Arrêté du 28 juin 2007 portant délimitation des zones vulnérables aux pollutions par les nitrates d'origine agricole sur le bassin Rhône-Méditerranée</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.ile-de-france.pref.gouv.fr/biblio/publications/RAA/RAA07/RAA_octobre_07/environnement_delimitation_zones.htm</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Arrêté du 1er octobre 2007 portant sur la délimitation de zones vulnérables aux pollutions par les nitrates d'origine agricole sur le Bassin Seine et côtiers normands</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Zones vulnérables 2007</resTitle>
+      <resRefDate>
+        <refDate>2009-03-09</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Une zone vulnérable est une partie du territoire où la pollution des eaux par le rejet direct ou indirect de nitrates d'origine agricole et d'autres composés azotés susceptibles de se transformer en nitrates, menace à court terme la qualité des milieux aquatiques et plus particulièrement l'alimentation en eau potable. Sont désignées comme zones vulnérables les zones où :
+
+- les eaux douces superficielles et souterraines, notamment celles destinées à l'alimentation en eau potable, ont ou risquent d'avoir une teneur en nitrates supérieure à 50 mg/l,
+
+- les eaux des estuaires, les eaux côtières ou marines et les eaux douces superficielles qui ont subi ou montrent une tendance à l'eutrophisation susceptible d'être combattue de manière efficace par une réduction des apports en azote.</idAbs>
+    <idPurp>Les zones vulnérables sont consultables dans l'atlas dans la rubrique Zonages.
+
+Cette couche fait également partie du registre des zones protégées.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>DIREN du bassin Seine-Normandie</rpIndName>
+      <rpOrgName>DIREN du bassin Seine-Normandie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)155012700</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>79 rue Benoît Malon</delPoint>
+          <city>GENTILLY</city>
+          <adminArea />
+          <postCode>94257</postCode>
+          <country>France</country>
+          <eMailAdd>diren@ile-de-france.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Loire-Bretagne</rpIndName>
+      <rpOrgName>DIREN du bassin Loire-Bretagne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)238499191</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>5 avenue Buffon - BP 6407</delPoint>
+          <city>ORLEANS</city>
+          <adminArea />
+          <postCode>45064</postCode>
+          <country>France</country>
+          <eMailAdd>diren@centre.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhin-Meuse</rpIndName>
+      <rpOrgName>DIREN du bassin Rhin-Meuse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)387399999</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Avenue Foch - BP 60223</delPoint>
+          <city>METZ</city>
+          <adminArea />
+          <postCode>57005</postCode>
+          <country>France</country>
+          <eMailAdd>webmaster@lorraine.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Adour-Garonne</rpIndName>
+      <rpOrgName>DIREN du bassin Adour-Garonne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)562302600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>Cité administrative - Bâtiment G - Bd A. Duportal</delPoint>
+          <city>TOULOUSE</city>
+          <adminArea />
+          <postCode>31074</postCode>
+          <country>France</country>
+          <eMailAdd>diren@midi-pyrenees.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Artois-Picardie</rpIndName>
+      <rpOrgName>DIREN du bassin Artois-Picardie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)3595778300</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>107 Boulevard de la Liberté</delPoint>
+          <city>LILLE</city>
+          <adminArea />
+          <postCode>59041</postCode>
+          <country>France</country>
+          <eMailAdd>contact.webmestre@npdc.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhône-Méditerranée</rpIndName>
+      <rpOrgName>DIREN du bassin Rhône-Méditerranée</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)437483600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>208 bis rue Garibaldi</delPoint>
+          <city>LYON</city>
+          <adminArea />
+          <postCode>69422</postCode>
+          <country>France</country>
+          <eMailAdd>webdiren@rhone-alpes.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Corse</rpIndName>
+      <rpOrgName>DIREN du bassin Corse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)495517970</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Cours Napoléon - Bâtiment D - BP 334</delPoint>
+          <city>AJACCIO</city>
+          <adminArea />
+          <postCode>20180</postCode>
+          <country>France</country>
+          <eMailAdd>diren@corse.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>ZONE PROTEGEE</keyword>
+      <keyword>ZONE VULNERABLE</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>2008-04-03</refDate>
+          <refDateType>
+            <DateTypCd value="creation" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>NITRATES</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>zvul2007_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>zvul2007.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin>2008-01-01T10:00:00</begin>
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>La délimitation des zones vulnérables à la pollution par les nitrates d'origine agricole a été réalisée en application du décret n°93-1038 du 27 août 1993 qui transcrit en droit français la directive n°91/676/EEC. La première délimitation achevée en juillet 1997 a été révisée une fois en mai 2000, une seconde fois en mars 2003 puis une troisième fois en 2007 (présente délimitation). La délimitation des zones est préparée dans chaque département, puis fait l'objet d'un arrêté du préfet coordonnateur de bassin. Dans ces zones, les agriculteurs doivent respecter un programme d'action qui comporte des prescriptions à la gestion de la fertilisation azotée et de l'interculture par zone vulnérable que doivent respecter l'ensemble des agriculteurs de la zone . Il est construit en concertation avec tous les acteurs concernés, sur la base d'un diagnostic local. En dehors des zones vulnérables, un code des bonnes pratiques agricoles, établi au niveau national est d'application volontaire.
+
+Textes de référence :
+
+- Directive n° 91/671/CEE du 12 décembre 1991 dite "Directive nitrates", relative à la protection des eaux par les nitrates à partir de sources agricoles.
+
+- Décret n° 93-1038 du 27 août 1993 relatif à la protection des eaux contre la pollution par les nitrates d'origine agricole.
+
+- Décret n° 96-163 du 4 mars 1996 relatif aux programmes d'action à mettre en oeuvre en vue de la protection des eaux contre la pollution par les nitrates d'origine agricole.
+
+- Décret n° 2001-34 du 10 janvier 2001 relatif aux programmes d'action à mettre en ouvre en vue de la protection des eaux contre la pollution par les nitrates d'origine agricole.
+
+- Arrêté du 6 mars 2001 relatif aux programmes d'actions.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Création couche initiale</stepDesc>
+        <stepDateTm>2008-08-20</stepDateTm>
+        <rpOrgName>Office International de l'Eau</rpOrgName>
+        <role>
+          <RoleCd value="processor" />
+        </role>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Reprojection en RGF93/Lambert93</stepDesc>
+        <stepDateTm>2009-03-09</stepDateTm>
+        <stepProc>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>IGNF</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>LAMB93</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

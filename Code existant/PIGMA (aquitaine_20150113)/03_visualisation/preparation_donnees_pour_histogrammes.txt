@@ -1,0 +1,26 @@
+--------------------------------------------------------
+Mode d'emploi pour produire CSV pour faire histogrammes
+--------------------------------------------------------
+
+1/ A partir de couche SIG "à plat" : export en CSV des
+données attributaires (pays_with_nb.csv) :
+2 colonnes, l'identifiant du polygone et le nb de métadonnées
+superposées pour ce polygone
+
+2/ Ouvrir le fichier CSV avec Calc, l'enregistrer sous un
+nouveau nom (pays_histo.csv)
+
+3/ Ajouter une 3ème colonne "nbfois" remplie de 1
+
+4/ Dans Calc, menu Données, Consolider :
+- Fonction Nombre
+- Plage de Consolidation : 2è et 3è colonne
+- Copier le résultat vers une nouvelle feuille
+- Etiquettes de ligne et de colonne
+
+5/ Dans la 2è feuille, trier les données par valeur
+(1ère colonne)
+
+5/ Supprimer 1ère feuille
+
+Le fichier CSV est prêt pour les scripts Python !

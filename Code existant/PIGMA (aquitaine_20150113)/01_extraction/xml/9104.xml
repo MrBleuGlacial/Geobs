@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>1e01ba00-2e07-11db-b342-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2009-03-11T18:07:34</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>ZRPEHY</orName>
+        <orDesc>Carte des zones de répartition des eaux superficielles</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>ZRPEHY</orName>
+        <orDesc>Service WFS / zones de répartition des eaux souterraines</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZRPEHYmif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZRPEHYshp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Zones de répartition des eaux superficielles</resTitle>
+      <resRefDate>
+        <refDate>2009-03-09</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>Février 2004</resEd>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>* Description : Les zones de répartition des eaux sont des zones comprenant des bassins, sous-bassins, fractions de sous-bassins hydrographiques ou des systèmes aquifères, caractérisées par une insuffisance, autre qu'exceptionnelle, des ressources par rapport aux besoins.
+
+* Procédure : Ces zones sont définies par le décret n°94-354 du 29 avril 1994, modifié par le décret n°2003-869 du 11 septembre 2003. Classées par décret, ces zones sont traduites en liste de communes par les préfets des départements. Dans ces zones, les seuils d'autorisation et de déclarations des prélèvements dans les eaux superficielles comme dans les eaux souterraines sont abaissés. Ces dispositions sont destinées à permettre une meilleure maîtrise de la demande en eau, afin d'assurer au mieux la préservation des écosystèmes aquatiques et la conciliation des usages économiques de l'eau. Dans ces zones, les prélèvements d'eau supérieurs à 8m3/s sont soumis à autorisation et tous les autres sont soumis à déclaration.
+
+* Textes de référence : 
+- Décret n°94-354 du 29 avril 1994 
+- Décret n°2003-869 du 11 septembre 2003</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>DIREN du bassin Seine-Normandie</rpIndName>
+      <rpOrgName>DIREN du bassin Seine-Normandie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)155012700</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>79 rue Benoît Malon</delPoint>
+          <city>GENTILLY</city>
+          <adminArea />
+          <postCode>94257</postCode>
+          <country>France</country>
+          <eMailAdd>diren@ile-de-france.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Loire-Bretagne</rpIndName>
+      <rpOrgName>DIREN du bassin Loire-Bretagne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)238499191</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>5 avenue Buffon - BP 6407</delPoint>
+          <city>ORLEANS</city>
+          <adminArea />
+          <postCode>45064</postCode>
+          <country>France</country>
+          <eMailAdd>diren@centre.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhin-Meuse</rpIndName>
+      <rpOrgName>DIREN du bassin Rhin-Meuse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)387399999</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Avenue Foch - BP 60223</delPoint>
+          <city>METZ</city>
+          <adminArea />
+          <postCode>57005</postCode>
+          <country>France</country>
+          <eMailAdd>webmaster@lorraine.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Adour-Garonne</rpIndName>
+      <rpOrgName>DIREN du bassin Adour-Garonne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)562302600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>Cité administrative - Bâtiment G - Bd A. Duportal</delPoint>
+          <city>TOULOUSE</city>
+          <adminArea />
+          <postCode>31074</postCode>
+          <country>France</country>
+          <eMailAdd>diren@midi-pyrenees.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Artois-Picardie</rpIndName>
+      <rpOrgName>DIREN du bassin Artois-Picardie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)3595778300</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>107 Boulevard de la Liberté</delPoint>
+          <city>LILLE</city>
+          <adminArea />
+          <postCode>59041</postCode>
+          <country>France</country>
+          <eMailAdd>contact.webmestre@npdc.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhône-Méditerranée</rpIndName>
+      <rpOrgName>DIREN du bassin Rhône-Méditerranée</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)437483600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>208 bis rue Garibaldi</delPoint>
+          <city>LYON</city>
+          <adminArea />
+          <postCode>69422</postCode>
+          <country>France</country>
+          <eMailAdd>webdiren@rhone-alpes.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Corse</rpIndName>
+      <rpOrgName>DIREN du bassin Corse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)495517970</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Cours Napoléon - Bâtiment D - BP 334</delPoint>
+          <city>AJACCIO</city>
+          <adminArea />
+          <postCode>20180</postCode>
+          <country>France</country>
+          <eMailAdd>diren@corse.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <graphOver>
+      <bgFileName>ZREHY_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>ZREHY.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-4.85862</westBL>
+      <eastBL>3.159416</eastBL>
+      <southBL>42.624579</southBL>
+      <northBL>48.537431</northBL>
+    </geoBox>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Couche initiale</stepDesc>
+        <stepDateTm />
+      </prcStep>
+      <prcStep>
+        <stepDesc>Révision</stepDesc>
+        <stepDateTm>2004-05-25</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Reprojection en RGF93/Lambert93</stepDesc>
+        <stepDateTm>2009-03-09</stepDateTm>
+        <stepProc>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>2154</identCode>
+      </refSysID>
+    </RefSystem>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>IGNF</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>LAMB93</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

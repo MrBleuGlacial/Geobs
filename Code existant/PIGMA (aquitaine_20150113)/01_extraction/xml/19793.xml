@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1261067461523" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Syndicat Mixte Géolandes</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>Syndicat Mixte Géolandes</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString />
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/GEOLANDES.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role />
+</gmd:CI_ResponsibleParty>
+

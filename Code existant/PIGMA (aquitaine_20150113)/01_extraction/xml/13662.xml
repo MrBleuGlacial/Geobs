@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>a24fa427-6e69-413c-aff7-60a770467710</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeListValue="service" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>PIGMA service</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>0557854042</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>0557854026</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6 Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Gironde</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>33075</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2014-10-27T12:54:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo xmlns:date="http://exslt.org/dates-and-times">
+    <srv:SV_ServiceIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>INSEE - Démonstrateur Socio-Economique (WMS)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-12-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>http://pigma.org/insee_socioeco_2012</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Données sur :
+ - la part des chômeurs
+ - la part des actifs
+ - le taux de chômage
+ - le taux de croissance de la population entre 1968 et 2008
+ - la répartition de la population par limites administratives (communes, iris, canton, ...)</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+          <gmd:individualName>
+            <gco:CharacterString>INSEE</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut National de la Statistique et des Etudes Economiques (INSEE)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>pigma@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/INSEE.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>WMS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>service</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>flux</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>chômeurs</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>croissances</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>populations</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>taux</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>actifs</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>occupés</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>répartition</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>15-64 ans</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>15-24 ans</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>25-54 ans</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>55-64 ans</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>iris</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>infoMapAccessService</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>INSPIRE Service taxonomy</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Limites administratives</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Activités économiques</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Démographie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Système de maillage géographique</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Région Aquitaine et ses départements</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-09-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.external.place.PIGMA-aquitaine</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <fra:FRA_Constraints gco:isoType="gmd:MD_Constraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Pas de limite d'utilisation</gco:CharacterString>
+          </gmd:useLimitation>
+        </fra:FRA_Constraints>
+      </gmd:resourceConstraints>
+      <srv:serviceType>
+        <gco:LocalName>view</gco:LocalName>
+      </srv:serviceType>
+      <srv:serviceTypeVersion>
+        <gco:CharacterString>1.3.0</gco:CharacterString>
+      </srv:serviceTypeVersion>
+      <srv:accessProperties>
+        <gmd:MD_StandardOrderProcess>
+          <gmd:fees>
+            <gco:CharacterString>NONE</gco:CharacterString>
+          </gmd:fees>
+        </gmd:MD_StandardOrderProcess>
+      </srv:accessProperties>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>AQUITAINE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-2.115</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.429</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.782</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.718</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>ebefc5d8-8a9e-4c4c-aa30-f5765d27f54f</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>574a6d84-1f44-465b-b4f9-8738d9e9eaa8</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>2e72b06d-4baf-48da-a6c8-ed58de9e6000</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>a14f7aa8-6451-41e7-b215-d92cc9a579b5</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>da5e0f1d-a553-40d9-8365-ce0ec5f7c0af</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>4c26654f-1720-48cc-a295-82af453d20a8</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>83d72d24-7994-4cae-88ec-16bdbd2f8b4a</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>a97f4ae7-c957-4684-8510-7dd1e9140021</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>0ca5890b-47fd-4146-a02b-1b1803de5392</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>63828b6a-235e-4095-a9a6-e1ce550ef5a5</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>50e6dd83-922a-4099-9de1-7f39db9f7131</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>555c3378-5d6f-4b35-809b-117b659c29b0</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>c86234e7-d0ab-450a-9b84-de4f193b6a53</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>f9081bc8-dbb9-4dcd-bd4f-346fd948bbec</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>90f3a432-acb4-4e86-9c64-1f37de64445c</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>a88fbc0f-33db-4680-ba8e-178999706d37</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>293399e8-f8b6-43f1-af9e-14014983de0c</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>dff293af-19ed-4764-bf7d-b28923f10df1</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>bc95caea-33a0-4132-8926-5c89cf8d54b0</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>dba0e4d4-4ecc-4306-bc02-0e196ff72151</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>b44d1701-defa-46d5-a76e-9159048554d6</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>6e300b56-d8ed-4fde-a43d-3474a8616360</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>43c9a811-8a4f-4ffc-9fd4-9eff7dd0a069</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>3531034d-d6bc-4736-a283-e327ec2500fe</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:coupledResource>
+        <srv:SV_CoupledResource>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:identifier>
+            <gco:CharacterString>7ddb9341-9202-4f85-9440-08c45fe68298</gco:CharacterString>
+          </srv:identifier>
+          <gco:ScopedName />
+        </srv:SV_CoupledResource>
+      </srv:coupledResource>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight" />
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/demo_socio_eco/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetMap</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/demo_socio_eco/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/demo_socio_eco/wms</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>DescribeLayer</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/demo_socio_eco/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+          </srv:DCP>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ids.pigma.org/geoserver/demo_socio_eco/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn uuidref="ebefc5d8-8a9e-4c4c-aa30-f5765d27f54f" />
+      <srv:operatesOn uuidref="574a6d84-1f44-465b-b4f9-8738d9e9eaa8" />
+      <srv:operatesOn uuidref="2e72b06d-4baf-48da-a6c8-ed58de9e6000" />
+      <srv:operatesOn uuidref="a14f7aa8-6451-41e7-b215-d92cc9a579b5" />
+      <srv:operatesOn uuidref="da5e0f1d-a553-40d9-8365-ce0ec5f7c0af" />
+      <srv:operatesOn uuidref="4c26654f-1720-48cc-a295-82af453d20a8" />
+      <srv:operatesOn uuidref="83d72d24-7994-4cae-88ec-16bdbd2f8b4a" />
+      <srv:operatesOn uuidref="a97f4ae7-c957-4684-8510-7dd1e9140021" />
+      <srv:operatesOn uuidref="0ca5890b-47fd-4146-a02b-1b1803de5392" />
+      <srv:operatesOn uuidref="63828b6a-235e-4095-a9a6-e1ce550ef5a5" />
+      <srv:operatesOn uuidref="50e6dd83-922a-4099-9de1-7f39db9f7131" />
+      <srv:operatesOn uuidref="555c3378-5d6f-4b35-809b-117b659c29b0" />
+      <srv:operatesOn uuidref="c86234e7-d0ab-450a-9b84-de4f193b6a53" />
+      <srv:operatesOn uuidref="f9081bc8-dbb9-4dcd-bd4f-346fd948bbec" />
+      <srv:operatesOn uuidref="90f3a432-acb4-4e86-9c64-1f37de64445c" />
+      <srv:operatesOn uuidref="a88fbc0f-33db-4680-ba8e-178999706d37" />
+      <srv:operatesOn uuidref="293399e8-f8b6-43f1-af9e-14014983de0c" />
+      <srv:operatesOn uuidref="dff293af-19ed-4764-bf7d-b28923f10df1" />
+      <srv:operatesOn uuidref="bc95caea-33a0-4132-8926-5c89cf8d54b0" />
+      <srv:operatesOn uuidref="dba0e4d4-4ecc-4306-bc02-0e196ff72151" />
+      <srv:operatesOn uuidref="b44d1701-defa-46d5-a76e-9159048554d6" />
+      <srv:operatesOn uuidref="6e300b56-d8ed-4fde-a43d-3474a8616360" />
+      <srv:operatesOn uuidref="43c9a811-8a4f-4ffc-9fd4-9eff7dd0a069" />
+      <srv:operatesOn uuidref="3531034d-d6bc-4736-a283-e327ec2500fe" />
+      <srv:operatesOn uuidref="7ddb9341-9202-4f85-9440-08c45fe68298" />
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>WMS</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.3.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="service" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+          </gmd:level>
+          <gmd:levelDescription />
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>INSPIRE Implementing rules</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2008-08-11</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Non évalué</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>false</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Relevé terrain</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+

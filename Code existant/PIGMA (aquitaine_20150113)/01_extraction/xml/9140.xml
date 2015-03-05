@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>c8a26660-f70e-11da-96f2-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpCntInfo>
+      <cntPhone />
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2008-01-31T10:31:47</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.carteleau.org/guide/d006.htm</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>Références juridiques</orName>
+        <orDesc>Références juridiques</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZSEN06mif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/ZSEN06shp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>ZSEN06</orName>
+        <orDesc>Carte des zones sensibles de 2005</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Zones sensibles - Arrêté 2005</resTitle>
+      <resRefDate>
+        <refDate>2006-06-01</refDate>
+        <refDateType>
+          <DateTypCd value="creation" />
+        </refDateType>
+      </resRefDate>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Description : les zones sensibles sont des bassins versants, lacs ou zones maritimes qui sont particulièrement sensibles aux pollutions. Il s'agit notamment des zones qui sont sujettes à l'eutrophisation et dans lesquelles les rejets de phosphore, d'azote, ou de ces deux substances, doivent être réduits. Il peut également s'agir de zones dans lesquelles un traitement complémentaire (traitement de l'azote ou de la pollution microbiologique) est nécessaire afin de satisfaire aux directives du Conseil dans le domaine de l'eau (directive "Eaux brutes", "Baignade" ou "Conchyliculture").</idAbs>
+    <idPurp>La couche des zones sensibles est encore en cours de validation.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>DIREN du bassin Adour-Garonne</rpIndName>
+      <rpOrgName>DIREN du bassin Adour-Garonne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)562302600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>Cité administrative - Bâtiment G - Bd A. Duportal</delPoint>
+          <city>TOULOUSE</city>
+          <adminArea />
+          <postCode>31074</postCode>
+          <country>France</country>
+          <eMailAdd>diren@midi-pyrenees.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Artois-Picardie</rpIndName>
+      <rpOrgName>DIREN du bassin Artois-Picardie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)3595778300</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>107 Boulevard de la Liberté</delPoint>
+          <city>LILLE</city>
+          <adminArea />
+          <postCode>59041</postCode>
+          <country>France</country>
+          <eMailAdd>contact.webmestre@npdc.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Loire-Bretagne</rpIndName>
+      <rpOrgName>DIREN du bassin Loire-Bretagne</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)238499191</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>5 avenue Buffon - BP 6407</delPoint>
+          <city>ORLEANS</city>
+          <adminArea />
+          <postCode>45064</postCode>
+          <country>France</country>
+          <eMailAdd>diren@centre.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhin-Meuse</rpIndName>
+      <rpOrgName>DIREN du bassin Rhin-Meuse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)387399999</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Avenue Foch - BP 60223</delPoint>
+          <city>METZ</city>
+          <adminArea />
+          <postCode>57005</postCode>
+          <country>France</country>
+          <eMailAdd>webmaster@lorraine.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Rhône-Méditerranée</rpIndName>
+      <rpOrgName>DIREN du bassin Rhône-Méditerranée</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)437483600</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>208 bis rue Garibaldi</delPoint>
+          <city>LYON</city>
+          <adminArea />
+          <postCode>69422</postCode>
+          <country>France</country>
+          <eMailAdd>webdiren@rhone-alpes.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Corse</rpIndName>
+      <rpOrgName>DIREN du bassin Corse</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)495517970</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>19, Cours Napoléon - Bâtiment D - BP 334</delPoint>
+          <city>AJACCIO</city>
+          <adminArea />
+          <postCode>20180</postCode>
+          <country>France</country>
+          <eMailAdd>diren@corse.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>DIREN du bassin Seine-Normandie</rpIndName>
+      <rpOrgName>DIREN du bassin Seine-Normandie</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+33(0)155012700</voiceNum>
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>79 rue Benoît Malon</delPoint>
+          <city>GENTILLY</city>
+          <adminArea />
+          <postCode>94257</postCode>
+          <country>France</country>
+          <eMailAdd>diren@ile-de-france.ecologie.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>ZONE SENSIBLE</keyword>
+      <keyword>EUTROPHISATION</keyword>
+      <keyword>ZONE PROTEGEE</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>ZSENS05_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>ZSENS05.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <suppInfo>* Procédure : dans chaque bassin ou groupement de bassins, le comité de bassin (ou la DIREN dans les départements d'Outre Mer) élabore un projet de carte des zones sensibles qui est transmis aux préfets intéressés, qui consultent les conseils généraux et régionaux concernés. Le préfet coordonnateur de bassin adresse le projet, avec ses remarques, au ministre chargé de l'environnement qui arrête la carte des zones sensibles.
+La première délimitation des zones sensibles à l'eutrophisation a été réalisée dans le cadre de l'application du décret n°94-469 du 3 juin 1994 qui transcrit en droit français la directive européenne n°91/271 du 21 mai 1991. Cette carte devant être révisée au moins tous les 4 ans, de nouvelles zones ont été créées en 1999 et en 2005, ces deux arrêtés complétant le premier.
+* Obligations réglementaires imposées dans ces zones : 
+- mise en place d'un système de collecte et de station(s) d'épuration (avec traitement complémentaire de l'azote et/ou du phosphore et/ou d'un traitement de la pollution microbiologique)
+- dates limites de réalisation : 31 décembre 1998 ou 31 décembre 2006 selon la taille des agglomérations concernées et la date de l'arrêté ayant créé la zone.
+* Textes de référence :
+- Directive européenne n° 91/271/CEE du 21 mai 1991 relative au traitement des eaux résiduaires urbaines
+- Décret n° 94-469 du 3 juin 1994 relatif à la collecte et au traitement des eaux usées mentionnées aux articles L. 372-1-1 et L. 372-3 du code des communes 
+- Arrêté du 23 novembre 1994 modifié portant délimitation des zones sensibles pris en application du décret n° 94-469 du 3 juin 1994 relatif à la collecte et au traitement des eaux usées
+- Arrêté du 31 août 1999 modifiant l'arrêté du 23 novembre 1994
+- Arrêté du 8 janvier 2001 modifiant l'arrêté du 23 novembre 1994
+- Circulaire du 23 juin 2005 relative aux modalités de révision de la délimitation des zones sensibles
+- Arrêté du 22 décembre 2005 portant révision des zones sensibles dans le bassin Rhône-Méditerranée
+- Arrêté du 23 décembre 2005 portant révision des zones sensibles dans le bassin Seine-Normandie
+- Arrêté du 9 janvier 2006 portant révision des zones sensibles dans le bassin Loire-Bretagne
+- Arrêté du 12 janvier 2006 portant révision des zones sensibles à l'eutrophisation dans le bassin Artois-Picardie</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement>Origine non renseignée</statement>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <MdCoRefSys>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>4326</identCode>
+      </refSysID>
+    </MdCoRefSys>
+  </refSysInfo>
+</Metadata>
+

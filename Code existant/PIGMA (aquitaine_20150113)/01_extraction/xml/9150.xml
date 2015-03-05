@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>53058946-a745-4047-8521-aa21f82b014b</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114790</voiceNum>
+        <faxNum>+33(0)555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>Rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-09-30T14:28:44</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorFormat>
+        <formatName>ESRI Shapefile</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorOrdPrc>
+        <resFees />
+      </distorOrdPrc>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.cemagref.fr/le-cemagref/lorganisation/les-centres/lyon/ur-maly/Hydroecologie_Cours_dEau/projets-nationaux/regionalisation-et-typologie/les-hydro-ecoregions-une-approche-fonctionnelle-de-la-typologie-des-rivieres</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Les hydroécorégions sur le site du Laboratoire d'hydroécologie quantitative</orDesc>
+        <orFunct>
+          <OnFunctCd value="information" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/mdo_metropole</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>Hydroecoregion1</orName>
+        <orDesc>Hydroécorégion de niveau 1</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/Hydroecoregion1mif.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/Hydroecoregion1shp.zip</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Hydroecorégion de niveau 1 (HER-1)</resTitle>
+      <resRefDate>
+        <refDate>2011-09-30</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Entité spatiale homogène du point de vue des déterminants physiques qui contrôlent l’organisation et le fonctionnement global des écosystèmes aquatiques. A l'échelle du bassin, les déterminants primaires universellement reconnus du fonctionnement écologique des cours d'eau sont la géologie, le relief et le climat. Ce concept s'inspire des théories de contrôle hiérarchique des hydrosystèmes, et repose particulièrement sur l'emboîtement des échelles physiques, du bassin jusqu'au micro-habitat. 
+Le CEMAGREF a défini les hydroécorégion pour la France métropolitaine. Il a développé le cadre conceptuel de la régionalisation par "hydroécorégion" et les aspects généraux de la méthode, l'objectif étant de définir et caractériser les Hydroécorégions pour la France métropolitaine. 
+On distingue deux niveaux pour les hydroécorégions (HER) : le niveau 1 et le niveau 2. 
+ Au total, 22 Hydro-écorégions de niveau 1 (HER-1) ont été identifiées sur des critères combinant le géologie, le relief et le climat, considérés de manière universelle comme les déterminants primaires du fonctionnement des écosystèmes d'eaux courante à l'échelle du 1/1.000.000ième.
+
+La méthode et les résultats sont décris sur le site du Laboratoire d'Hydroécologie Quantitative (voir partie Source en ligne)</idAbs>
+    <idPurp>Base d'une typologie des cours d'eau (application de la Directive Européenne Cadre sur l'Eau),
+- cadre de travail pour effectuer toute analyse statistique à large échelle concernant les milieux aquatiques</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName />
+      <rpOrgName>Cemagref - Gpt de Lyon - Laboratoire d'hydroécologie quantitative</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint>3 bis, quai Chauveau</delPoint>
+          <city>Lyon</city>
+          <adminArea />
+          <postCode>69336 Lyon cedex 09</postCode>
+          <country>France</country>
+          <eMailAdd>sigeau@lists.lyon.cemagref.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <useLimit>Utilisation libre avec citation de l'auteur, de l'organisme créateur et de la date de création ou de mise à jour, sauf : - diffusion à des tiers - modification des données - utilisation commerciale sans autorisation préalable</useLimit>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>Masses d'eau</keyword>
+      <keyword>DCE</keyword>
+      <keyword>WFD</keyword>
+      <keyword>EAU DE SURFACE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>cours d'eau</keyword>
+      <thesaName>
+        <resTitle>GEMET</resTitle>
+      </thesaName>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>1000000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataLang>
+      <languageCode />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.147804</westBL>
+      <eastBL>10.812435</eastBL>
+      <southBL>41.351626</southBL>
+      <northBL>51.089891</northBL>
+    </geoBox>
+    <suppInfo>Les HER-1 sont basées sur : 
+* la BD Carthage V 2.4 (ed°1997)
+* la carte géologique au 1:1 000 000 ème, du BRGM 6e édition (1996). Bonnefoy D., Chantraine J.,Lebret P., Rabu D. (1996) - Carte géologique de la France à 1/1.000.000 numérique. Guide d'utilisation. Rapport BRGM R39145, 33p, 11 tab
+* le modèle numérique de terrain au pas de 250 m de la BDALTI® de l'IGN,
+* la carte des moyennes mensuelles de précipitationspour la période 1961 -1990 calculée avec modèle AURHELY maille 5 x 5km de Météo France
+* la carte de la végétation de Dupias et Rey du CNRS - 1980 - Dupias G. &amp; Rey P., 1980.- Carte des régions écologiques de la France au 1/1000.000. CNRS ed. - Service de la carte la végétation.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement />
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>RGF93</resTitle>
+        </identAuth>
+        <identCode>EPSG-6171</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

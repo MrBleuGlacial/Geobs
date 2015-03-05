@@ -1,0 +1,6 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+for $herit at $pos in //gmd:CI_ResponsibleParty
+	let $roleCode := $herit/gmd:role/gmd:CI_RoleCode/@codeListValue
+where $roleCode = 'owner'
+return concat($pos,' - ', string($herit/gmd:organisationName),' - ', data($herit/gmd:role/gmd:CI_RoleCode/@codeListValue))

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1290072895049" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Clément COUTELIER</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>Labo AUSONIUS</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:positionName>
+    <gco:CharacterString>Ingénieur d'études - UMR 5607</gco:CharacterString>
+  </gmd:positionName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:phone>
+        <gmd:CI_Telephone>
+          <gmd:voice>
+            <gco:CharacterString>05.57.12.15.55</gco:CharacterString>
+          </gmd:voice>
+          <gmd:facsimile>
+            <gco:CharacterString>05.57.12.45.59</gco:CharacterString>
+          </gmd:facsimile>
+        </gmd:CI_Telephone>
+      </gmd:phone>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>Maison de l'archéologie</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>8 esplanade des Antilles</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:city>
+            <gco:CharacterString>Pessac cedex</gco:CharacterString>
+          </gmd:city>
+          <gmd:administrativeArea>
+            <gco:CharacterString>Université Bordeaux Montaigne / CNRS</gco:CharacterString>
+          </gmd:administrativeArea>
+          <gmd:postalCode>
+            <gco:CharacterString>33607</gco:CharacterString>
+          </gmd:postalCode>
+          <gmd:country>
+            <gco:CharacterString>France</gco:CharacterString>
+          </gmd:country>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString>clement.coutelier@u-bordeaux-montaigne.fr</gco:CharacterString>
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/AUSONIUS.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role />
+</gmd:CI_ResponsibleParty>
+

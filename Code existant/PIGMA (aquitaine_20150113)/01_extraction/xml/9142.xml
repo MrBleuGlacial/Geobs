@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>dc2a519b-7673-4a3f-aae1-1af7fda623cc</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum />
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea />
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-06-20T10:33:19</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://gesteau.eaufrance.fr/service?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>SAGEREV</orName>
+        <orDesc>Carte des SAGE en révision</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://gesteau.eaufrance.fr/sage/SAGE-SHP.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Téléchargement - Format ESRI shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://gesteau.eaufrance.fr/sage/SAGE-MIF.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Téléchargement - Format Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.gesteau.eaufrance.fr</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>GEST'EAU</orName>
+        <orDesc>GEST'EAU - Site des outils de gestion intégrée de l'eau</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Schémas d'Aménagement et de Gestion des Eaux : première révision</resTitle>
+      <resRefDate>
+        <refDate>2011-06-20</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd />
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>* Définition : les Schémas d'Aménagement et de Gestion des Eaux (SAGE) fixent, dans un groupement de sous-bassins ou un sous-bassin correspondant à une unité hydrographique ou à un système aquifère, les objectifs généraux d'une gestion équilibrée de l'eau afin de satisfaire aux principes énumérés à l'article 1 de la loi sur l'eau n°92-3 du 3 janvier 1992. 
+
+* Objectifs : Les SAGE fixent notamment, dans le respect des orientations retenues dans le schéma directeur (SDAGE) correspondant, les objectifs de protection des écosystèmes aquatiques et des ressources en eau, d'utilisation et de mise en valeur de ces ressources et de préservation des zones humides, pour l'ensemble des ressources situées dans leurs périmètres respectifs et la totalité des usages qui y sont exercés, de manière à satisfaire les besoins présents et futurs. 
+
+* Procédure : l'établissement d'un SAGE comporte principalement quatre grandes phases successives : 
+
+1 - l'émergence : depuis la phase préliminaire qui permet aux comités de bassin et aux préfets d'estimer la pertinence de la démarche du SAGE et sa cohérence en terme de gestion hydrographique et de constituer un dossier de communication et de consultation à destination des acteurs locaux, jusqu'à l'arrêté de délimitation du périmètre, établi par le ou les préfet(s) concerné(s), 
+
+2 - l'instruction : depuis la constitution de la commission locale de l'eau (CLE), jusqu'à la validation de sa composition par arrêté préfectoral, 
+
+3 - l'élaboration : depuis la rédaction des documents du SAGE (Plan d'Aménagement et de Gestion Durable - PAGD, règlement et documents cartographiques), jusqu'à leur validation par la CLE, puis approbation par l'autorité préfectorale, 
+
+4 - la mise en oeuvre : la phase de mise en oeuvre des orientations et des dispositions et de suivi du SAGE. 
+
+Les SAGE approuvés avant la loi sur l'eau de 2006 doivent se mettre en conformité avec les nouvelles dispositions et sont considérés en cours de révision. Cette couche correspond aux SAGE en cours de première révision. 
+
+Pour en savoir plus : http://www.gesteau.eaufrance.fr</idAbs>
+    <idPurp />
+    <status>
+      <ProgCd value="onGoing" />
+    </status>
+    <idPoC>
+      <rpIndName>GEST'EAU</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country>fr</country>
+          <eMailAdd>gesteau-admin@oieau.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>SAGE</keyword>
+      <keyword>COMMISSION LOCALE DE L'EAU</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>THESAURUS EAU</resTitle>
+        <resRefDate>
+          <refDate>2010-08-17</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="planningCadastre" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement />
+    </dataLineage>
+  </dqInfo>
+</Metadata>
+

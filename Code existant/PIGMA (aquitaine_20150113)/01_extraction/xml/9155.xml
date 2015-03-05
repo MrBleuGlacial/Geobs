@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>89bf3769-40f4-4b2f-af07-6d9c473d4060</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>Rue édouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2011-06-08T10:05:55</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/spip.php?article627</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>Service d'Administration National des Données et Référentiels sur l'Eau</orName>
+        <orDesc>Modèle de données, dictionnaire de données publiés par le Sandre</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>GWN1D</orName>
+        <orDesc>Service WMS / masse d'eau souterraine</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/GWBODY/</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName />
+        <orDesc>Format ESRI / Mapinfo MIF/MID</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Masse d'eau souterraine</resTitle>
+      <resRefDate>
+        <refDate>2011-06-07</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>1</resEd>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Une masse d'eau souterraine est un volume distinct d'eau souterraine à l'intérieur d'un ou de plusieurs aquifères.
+Les masses d'eau souterraine sont dérivées de travaux réalisés sur le référentiel BDRHF v1.
+Le découpage retenu pour les masses d'eau répond aux quelques grands principes exposés ci après :
+- Les masses d'eau sont délimitées sur la base de critères géologiques et hydrogéologiques,
+- Le redécoupage des masses d'eau pour tenir compte des effets des pressions anthropiques doit rester limité.
+- Les limites des masses d'eau doivent être stables et durables
+- A l'image des masses d'eau superficielle, la délimitation des masses d'eau souterraine est organisée à partir d'une typologie.
+Cette typologie s'inspire largement de celle élaborée pour les entités hydrogéologiques définies dans le cadre de la révision de
+la BD RHF. Elle est basée sur la nature géologique et le comportement hydrodynamique ou fonctionnement « en grand » des
+systèmes aquifères (nature, vitesse des écoulements). Elle comprend 2 niveaux de caractéristiques (principales et
+secondaires).
+- Les masses d'eau peuvent avoir des échanges entre elles
+- Tous les captages fournissant plus de 10m3/jour d'eau potable ou utilisés pour l'alimentation en eau de plus de 50 personnes
+doivent être inclus dans une masse d'eau
+- Les eaux souterraines profondes, sans lien avec les cours d'eau et les écosystèmes de surface, dans lesquelles il ne
+s'effectue aucun prélèvement et qui se sont pas susceptibles d'être utilisées pour l'eau potable en raison de leur qualité
+(salinité, température?), ou pour des motifs technico-économiques (coût du captage disproportionné) peuvent ne pas
+constituer des masses d'eau.
+- Compte tenu de sa taille, une masse d'eau pourra présenter une certaine hétérogénéité spatiale tant au niveau de ses
+caractéristiques hydrogéologiques que de son état qualitatif et quantitatif.
+- En un point quelconque plusieurs masses d'eau peuvent se superposer.
+(source : BRGM, MISE EN OEUVRE DE LA DCE : IDENTIFICATION ET DELIMITATION DES MASSES D'EAU
+SOUTERRAINE - guide méthodologique, Janvier 2003)</idAbs>
+    <idPurp>Les masses d'eau souterraine ont été élaborée par le BRGM et les Agences de l'eau pour les besoins de la directive cadre sur les eaux. Les spécifications ont été élaborés par le groupe Référentiels du SIE. Le BRGM a réalisé les couches nationales. Les masses d'eau souterraine sont découpés en 10 niveaux en métropole et 2 dans les DOM.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName />
+      <rpOrgName>BRGM</rpOrgName>
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city>Orléans</city>
+          <adminArea />
+          <postCode />
+          <country>FRANCE</country>
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="processor" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="copyright" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="otherRestictions" />
+        </useConsts>
+        <othConsts>none</othConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>DCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyword>Géologie</keyword>
+      <keyword>Zones de gestion, de restriction ou de réglementation et unités de déclaration</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>2010-01-13</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <graphOver>
+      <bgFileName>gwbody_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>gwbody.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>100000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-180</westBL>
+      <eastBL>180</eastBL>
+      <southBL>-90</southBL>
+      <northBL>90</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Les masses d'eau souterraine sont principalement dérivées du référentiel BDRHFv1, du thème hydrographique BDCarthage® v3 de la BDCarto®.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Correction couches niveaux générées à partir de la couche GW_MS_NIVEAU (inchangée). La couche GW_TRANSDISTRICT est également inchangée.</stepDesc>
+        <stepDateTm>2011-06-07</stepDateTm>
+        <stepProc>
+          <rpIndName>Ingénieur SIG</rpIndName>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Intégation nouvelle codification masses d'eau souterraines 2009</stepDesc>
+        <stepDateTm>2009-11-13</stepDateTm>
+        <stepProc>
+          <rpIndName>Ingénieur SIG</rpIndName>
+          <rpOrgName>Office International de l'Eau</rpOrgName>
+          <role>
+            <RoleCd value="processor" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate>2007-08-27</refDate>
+            <refDateType>
+              <DateTypCd value="revision" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>4326</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

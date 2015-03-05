@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:CI_ResponsibleParty xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" id="1286437991759" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:individualName>
+    <gco:CharacterString>Syndicat Départemental d'Electricité et d'Energie du Lot-et-Garonne</gco:CharacterString>
+  </gmd:individualName>
+  <gmd:organisationName>
+    <gco:CharacterString>SDEE 47</gco:CharacterString>
+  </gmd:organisationName>
+  <gmd:contactInfo>
+    <gmd:CI_Contact>
+      <gmd:phone>
+        <gmd:CI_Telephone>
+          <gmd:voice>
+            <gco:CharacterString>05-53-77-65-00</gco:CharacterString>
+          </gmd:voice>
+        </gmd:CI_Telephone>
+      </gmd:phone>
+      <gmd:address>
+        <gmd:CI_Address>
+          <gmd:deliveryPoint>
+            <gco:CharacterString>26 RUE DIDEROT</gco:CharacterString>
+          </gmd:deliveryPoint>
+          <gmd:city>
+            <gco:CharacterString>AGEN</gco:CharacterString>
+          </gmd:city>
+          <gmd:postalCode>
+            <gco:CharacterString>47000</gco:CharacterString>
+          </gmd:postalCode>
+          <gmd:country>
+            <gco:CharacterString>France</gco:CharacterString>
+          </gmd:country>
+          <gmd:electronicMailAddress>
+            <gco:CharacterString>contact@sdee47.fr</gco:CharacterString>
+          </gmd:electronicMailAddress>
+        </gmd:CI_Address>
+      </gmd:address>
+      <gmd:contactInstructions>
+        <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="https://ids.pigma.org/geonetwork-private/srv/fre/../../images/harvesting/SDEE47.gif" />
+      </gmd:contactInstructions>
+    </gmd:CI_Contact>
+  </gmd:contactInfo>
+  <gmd:role>
+    <gmd:CI_RoleCode codeList="" codeListValue="owner" />
+  </gmd:role>
+</gmd:CI_ResponsibleParty>
+

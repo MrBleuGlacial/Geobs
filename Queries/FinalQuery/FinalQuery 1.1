@@ -1,0 +1,18 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+let $mdMetadata := //gmd:MD_Metadata
+return 
+<result> 
+	{	
+		for $root in $mdMetadata
+		let $fileIdentifier := string($root/gmd:fileIdentifier)
+		let $langage := data($root/gmd:language/gmd:LanguageCode/@codeListValue) 		
+		let $typeOfData := string($root/gmd:hierarchyLevelName[1])
+		return 
+			<Fiche>
+				<ID_Fiche>{$fileIdentifier}</ID_Fiche>
+				<Langage>{$langage}</Langage>
+				<Hierarchie>{$typeOfData}</Hierarchie>
+			</Fiche>
+	} 
+</result>

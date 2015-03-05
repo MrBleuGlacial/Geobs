@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>00-217</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Joël LHER - CETMEF</rpIndName>
+    <rpOrgName>Joël LHER - CETMEF</rpOrgName>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2006-04-21T17:19:55</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/app/dispositif/html/RESEAUX/presentation/consultation/consultRDM.php?APPLI=FICHEL&amp;FORMAT=HTML&amp;ID=00-217</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orFunct>
+          <OnFunctCd value="information" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/app/fd/searchouvapp.php?id_article=91</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>Fiches descriptives des installations portuaires</orName>
+        <orDesc />
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>DRAGAGE (Données relatives a la gestion des activités de DRAGAGE)</resTitle>
+      <resAltTitle />
+      <resRefDate>
+        <refDate>1986</refDate>
+        <refDateType>
+          <DateTypCd value="creation" />
+        </refDateType>
+      </resRefDate>
+      <citId />
+      <citIdType>SANDRE</citIdType>
+      <presForm>
+        <PresFormCd value="documentDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>DRAGAGE (Données relatives a la gestion des activités de DRAGAGE)</idAbs>
+    <idPurp>Contrôle vis à vis des volumes de dragage autorisés pour chaque site et vis à vis des immersions (quantité, qualité et lieu) autorisées et déclarées.Bilan tous les 4/5 ans suivant la convention OSPAR (Convention d'Oslo et de Paris pour la protection du milieu marin de l'Atlantique du Nord Est)</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Joël LHER - CETMEF</rpIndName>
+      <rpOrgName>Joël LHER - CETMEF</rpOrgName>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>CETMEF</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>CETMEF</city>
+          <postCode />
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="custodian" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>CETMEF</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>CETMEF</city>
+          <postCode />
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="principalInvestigator" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Direction des transports maritimes, des ports et du littoral</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Direction des transports maritimes, des ports et du littoral</city>
+          <postCode>75700</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpOrgName>Direction des transports maritimes, des ports et du littoral</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <city>Direction des transports maritimes, des ports et du littoral</city>
+          <postCode>75700</postCode>
+          <country>FRANCE</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="originator" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="restricted" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="unknown" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>EAUX LITTORALES</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>AIN</keyword>
+      <keyword>AISNE</keyword>
+      <keyword>ALLIER</keyword>
+      <keyword>ALPES-DE-HAUTE-PROVENCE</keyword>
+      <keyword>HAUTES-ALPES</keyword>
+      <keyword>ALPES-MARITIMES</keyword>
+      <keyword>ARDECHE</keyword>
+      <keyword>ARDENNES</keyword>
+      <keyword>ARIEGE</keyword>
+      <keyword>AUBE</keyword>
+      <keyword>AUDE</keyword>
+      <keyword>AVEYRON</keyword>
+      <keyword>BOUCHES-DU-RHONE</keyword>
+      <keyword>CALVADOS</keyword>
+      <keyword>CANTAL</keyword>
+      <keyword>CHARENTE</keyword>
+      <keyword>CHARENTE-MARITIME</keyword>
+      <keyword>CHER</keyword>
+      <keyword>CORREZE</keyword>
+      <keyword>COTE-D'OR</keyword>
+      <keyword>COTES-D'ARMOR</keyword>
+      <keyword>CREUSE</keyword>
+      <keyword>DORDOGNE</keyword>
+      <keyword>DOUBS</keyword>
+      <keyword>DROME</keyword>
+      <keyword>EURE</keyword>
+      <keyword>EURE-ET-LOIR</keyword>
+      <keyword>FINISTERE</keyword>
+      <keyword>CORSE-DU-SUD</keyword>
+      <keyword>HAUTE-CORSE</keyword>
+      <keyword>GARD</keyword>
+      <keyword>HAUTE-GARONNE</keyword>
+      <keyword>GERS</keyword>
+      <keyword>GIRONDE</keyword>
+      <keyword>HERAULT</keyword>
+      <keyword>ILLE-ET-VILAINE</keyword>
+      <keyword>INDRE</keyword>
+      <keyword>INDRE-ET-LOIRE</keyword>
+      <keyword>ISERE</keyword>
+      <keyword>JURA</keyword>
+      <keyword>LANDES</keyword>
+      <keyword>LOIR-ET-CHER</keyword>
+      <keyword>LOIRE</keyword>
+      <keyword>HAUTE-LOIRE</keyword>
+      <keyword>LOIRE-ATLANTIQUE</keyword>
+      <keyword>LOIRET</keyword>
+      <keyword>LOT</keyword>
+      <keyword>LOT-ET-GARONNE</keyword>
+      <keyword>LOZERE</keyword>
+      <keyword>MAINE-ET-LOIRE</keyword>
+      <keyword>MANCHE</keyword>
+      <keyword>MARNE</keyword>
+      <keyword>HAUTE-MARNE</keyword>
+      <keyword>MAYENNE</keyword>
+      <keyword>MEURTHE-ET-MOSELLE</keyword>
+      <keyword>MEUSE</keyword>
+      <keyword>MORBIHAN</keyword>
+      <keyword>MOSELLE</keyword>
+      <keyword>NIEVRE</keyword>
+      <keyword>NORD</keyword>
+      <keyword>OISE</keyword>
+      <keyword>ORNE</keyword>
+      <keyword>PAS-DE-CALAIS</keyword>
+      <keyword>PUY-DE-DOME</keyword>
+      <keyword>PYRENEES-ATLANTIQUES</keyword>
+      <keyword>HAUTES-PYRENEES</keyword>
+      <keyword>PYRENEES-ORIENTALES</keyword>
+      <keyword>BAS-RHIN</keyword>
+      <keyword>HAUT-RHIN</keyword>
+      <keyword>RHONE</keyword>
+      <keyword>HAUTE-SAONE</keyword>
+      <keyword>SAONE-ET-LOIRE</keyword>
+      <keyword>SARTHE</keyword>
+      <keyword>SAVOIE</keyword>
+      <keyword>HAUTE-SAVOIE</keyword>
+      <keyword>PARIS</keyword>
+      <keyword>SEINE-MARITIME</keyword>
+      <keyword>SEINE-ET-MARNE</keyword>
+      <keyword>YVELINES</keyword>
+      <keyword>DEUX-SEVRES</keyword>
+      <keyword>SOMME</keyword>
+      <keyword>TARN</keyword>
+      <keyword>TARN-ET-GARONNE</keyword>
+      <keyword>VAR</keyword>
+      <keyword>VAUCLUSE</keyword>
+      <keyword>VENDEE</keyword>
+      <keyword>VIENNE</keyword>
+      <keyword>HAUTE-VIENNE</keyword>
+      <keyword>VOSGES</keyword>
+      <keyword>YONNE</keyword>
+      <keyword>TERRITOIRE DE BELFORT</keyword>
+      <keyword>ESSONNE</keyword>
+      <keyword>HAUTS-DE-SEINE</keyword>
+      <keyword>SEINE SAINT-DENIS</keyword>
+      <keyword>VAL-DE-MARNE</keyword>
+      <keyword>VAL D'OISE</keyword>
+      <keyword>GUADELOUPE</keyword>
+      <keyword>MARTINIQUE</keyword>
+      <keyword>GUYANE</keyword>
+      <keyword>REUNION</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Nouvelle convention internationale OSPAR exigeant un rapport d'état annuel (en charge CETMEF sous-couvert MEDD &amp; DTMPL)</stepDesc>
+        <stepDateTm>1998-03-27</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Base de données en cours de création</stepDesc>
+        <stepDateTm>2001-01-01</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Extension de la base de données à la Méditerranée et outre mer</stepDesc>
+        <stepDateTm>2004-09-01</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+</Metadata>
+

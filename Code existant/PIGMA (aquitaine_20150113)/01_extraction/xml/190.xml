@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra http://eden.ign.fr/xsd/fra/20060106/fra/fra.xsd">
+  <gmd:fileIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+    <gco:CharacterString>bad06547-99ea-49bb-8294-c4cf71d123e2</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+  </gmd:language>
+  <gmd:characterSet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:parentIdentifier xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>c9bb2d71-24b2-424d-a4e4-7770c25d64e3</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>Jeu de données</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Responsable catalogue</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>6, Parvis des Chartrons</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bordeaux</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>33000</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>France</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions>
+            <gmx:FileName xmlns:gmx="http://www.isotc211.org/2005/gmx" src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:DateTime>2013-07-12T11:49:44</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:fra="http://www.cnig.gouv.fr/2005/fra">
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" />
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem xmlns:xlink="http://www.w3.org/1999/xlink">
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>NTF Lambert II Etendu (urn:ogc:def:crs:EPSG:6.11:27572)</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>urn:ogc:def:crs:EPSG:6.11</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>6.11</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:referenceSystemInfo xmlns:xlink="http://www.w3.org/1999/xlink">
+    <crsList>
+      <crs>
+        <code>2000</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Anguilla 1957 / British West Indies Grid (EPSG:2000)</description>
+      </crs>
+      <crs>
+        <code>2001</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Antigua 1943 / British West Indies Grid (EPSG:2001)</description>
+      </crs>
+      <crs>
+        <code>2002</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Dominica 1945 / British West Indies Grid (EPSG:2002)</description>
+      </crs>
+      <crs>
+        <code>2003</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Grenada 1953 / British West Indies Grid (EPSG:2003)</description>
+      </crs>
+      <crs>
+        <code>2004</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Montserrat 1958 / British West Indies Grid (EPSG:2004)</description>
+      </crs>
+      <crs>
+        <code>2005</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>St. Kitts 1955 / British West Indies Grid (EPSG:2005)</description>
+      </crs>
+      <crs>
+        <code>2006</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>St. Lucia 1955 / British West Indies Grid (EPSG:2006)</description>
+      </crs>
+      <crs>
+        <code>2007</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>St. Vincent 45 / British West Indies Grid (EPSG:2007)</description>
+      </crs>
+      <crs>
+        <code>2008</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 2 (EPSG:2008)</description>
+      </crs>
+      <crs>
+        <code>2009</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 3 (EPSG:2009)</description>
+      </crs>
+      <crs>
+        <code>2010</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 4 (EPSG:2010)</description>
+      </crs>
+      <crs>
+        <code>2011</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 5 (EPSG:2011)</description>
+      </crs>
+      <crs>
+        <code>2012</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 6 (EPSG:2012)</description>
+      </crs>
+      <crs>
+        <code>2013</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 7 (EPSG:2013)</description>
+      </crs>
+      <crs>
+        <code>2014</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 8 (EPSG:2014)</description>
+      </crs>
+      <crs>
+        <code>2015</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 9 (EPSG:2015)</description>
+      </crs>
+      <crs>
+        <code>2016</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / SCoPQ zone 10 (EPSG:2016)</description>
+      </crs>
+      <crs>
+        <code>2017</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 8 (EPSG:2017)</description>
+      </crs>
+      <crs>
+        <code>2018</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 9 (EPSG:2018)</description>
+      </crs>
+      <crs>
+        <code>2019</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 10 (EPSG:2019)</description>
+      </crs>
+      <crs>
+        <code>2020</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 11 (EPSG:2020)</description>
+      </crs>
+      <crs>
+        <code>2021</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 12 (EPSG:2021)</description>
+      </crs>
+      <crs>
+        <code>2022</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 13 (EPSG:2022)</description>
+      </crs>
+      <crs>
+        <code>2023</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 14 (EPSG:2023)</description>
+      </crs>
+      <crs>
+        <code>2024</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 15 (EPSG:2024)</description>
+      </crs>
+      <crs>
+        <code>2025</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 16 (EPSG:2025)</description>
+      </crs>
+      <crs>
+        <code>2026</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / MTM zone 17 (EPSG:2026)</description>
+      </crs>
+      <crs>
+        <code>2027</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / UTM zone 15N (EPSG:2027)</description>
+      </crs>
+      <crs>
+        <code>2028</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / UTM zone 16N (EPSG:2028)</description>
+      </crs>
+      <crs>
+        <code>2029</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / UTM zone 17N (EPSG:2029)</description>
+      </crs>
+      <crs>
+        <code>2030</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(76) / UTM zone 18N (EPSG:2030)</description>
+      </crs>
+      <crs>
+        <code>2031</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / UTM zone 17N (EPSG:2031)</description>
+      </crs>
+      <crs>
+        <code>2032</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / UTM zone 18N (EPSG:2032)</description>
+      </crs>
+      <crs>
+        <code>2033</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / UTM zone 19N (EPSG:2033)</description>
+      </crs>
+      <crs>
+        <code>2034</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / UTM zone 20N (EPSG:2034)</description>
+      </crs>
+      <crs>
+        <code>2035</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD27(CGQ77) / UTM zone 21N (EPSG:2035)</description>
+      </crs>
+      <crs>
+        <code>2036</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD83(CSRS98) / New Brunswick Stereo (EPSG:2036)</description>
+      </crs>
+      <crs>
+        <code>2037</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD83(CSRS98) / UTM zone 19N (EPSG:2037)</description>
+      </crs>
+      <crs>
+        <code>2038</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>NAD83(CSRS98) / UTM zone 20N (EPSG:2038)</description>
+      </crs>
+      <crs>
+        <code>2039</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Israel / Israeli TM Grid (EPSG:2039)</description>
+      </crs>
+      <crs>
+        <code>2040</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Locodjo 1965 / UTM zone 30N (EPSG:2040)</description>
+      </crs>
+      <crs>
+        <code>2041</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Abidjan 1987 / UTM zone 30N (EPSG:2041)</description>
+      </crs>
+      <crs>
+        <code>2042</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Locodjo 1965 / UTM zone 29N (EPSG:2042)</description>
+      </crs>
+      <crs>
+        <code>2043</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Abidjan 1987 / UTM zone 29N (EPSG:2043)</description>
+      </crs>
+      <crs>
+        <code>2044</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hanoi 1972 / Gauss-Kruger zone 18 (EPSG:2044)</description>
+      </crs>
+      <crs>
+        <code>2045</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hanoi 1972 / Gauss-Kruger zone 19 (EPSG:2045)</description>
+      </crs>
+      <crs>
+        <code>2046</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hartebeesthoek94 / Lo15 (EPSG:2046)</description>
+      </crs>
+      <crs>
+        <code>2047</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hartebeesthoek94 / Lo17 (EPSG:2047)</description>
+      </crs>
+      <crs>
+        <code>2048</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hartebeesthoek94 / Lo19 (EPSG:2048)</description>
+      </crs>
+      <crs>
+        <code>2049</code>
+        <authority>European Petroleum Survey Group</authority>
+        <version>7.4</version>
+        <codeSpace>EPSG</codeSpace>
+        <description>Hartebeesthoek94 / Lo21 (EPSG:2049)</description>
+      </crs>
+    </crsList>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <fra:FRA_DataIdentification xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Gironde : Carroyage 2 km</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2009-07-28T17:16:00</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2004-05-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>FRA-DEP33-VECTEUR_CARROYAGE2km-2004</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Carrés de 2 km du carroyage opérationnel alphanumérique.
+Date de Publication : 2009</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>GIP ATGeRi</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>6, parvis des chartrons</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Bordeaux</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>33000</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>France</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>contact@gipatgeri.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions>
+                <gmx:FileName src="http://ids.pigma.org/geonetwork/images/logos/GIP.gif" />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>carroy2000_33_s.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>carroy2000_33big.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Systèmes de maillage géographique</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.theme.inspire</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Système de maillage géographique</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Thèmes PIGMA</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013-01-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>geonetwork.thesaurus.local.theme.pigma</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>GIRONDE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external.place.DepartementFR</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>inspire</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <fra:FRA_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Aucune condition ne s'applique</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:accessConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:accessConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" />
+          </gmd:useConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Aucune raison de restriction</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Cf.résolution spatiale</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Logo à faire apparaître en cas de reproduction</gco:CharacterString>
+          </gmd:otherConstraints>
+        </fra:FRA_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <fra:FRA_Constraints gco:isoType="gmd:MD_Constraints">
+          <gmd:useLimitation>
+            <gco:CharacterString>Non autorisé : Secteur Associatif</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>Non autorisé : Grand Public</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useLimitation>
+            <gco:CharacterString>Accès public restreint</gco:CharacterString>
+          </gmd:useLimitation>
+        </fra:FRA_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <fra:FRA_SecurityConstraints gco:isoType="gmd:MD_SecurityConstraints">
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </fra:FRA_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>0</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>location</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>GIRONDE</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-1.795</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>.275</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.197</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>45.589</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </fra:FRA_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Gxt</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>5.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Shp</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>*</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Mif/Mid</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>*</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.pigma.com/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Site de la Plate-forme de l'Information Géographique Mutualisée en Aquitaine (PIGMA)</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Directive INSPIRE - Règlement relatif à l’interopérabilité des séries de données et des services géographiques Règlement (UE) no 1089/2010 de la Commission du 23 novembre 2010 portant modalités d’application de la directive 2007/2/CE du Parlement européen et du Conseil en ce qui concerne l’interopérabilité des séries et des services de données géographiques.</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:alternateTitle>
+                    <gco:CharacterString>Spécification de données INSPIRE sur l'Altitude</gco:CharacterString>
+                  </gmd:alternateTitle>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2007-03-14</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Non évaluée</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>false</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Carroyage régional continu</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+

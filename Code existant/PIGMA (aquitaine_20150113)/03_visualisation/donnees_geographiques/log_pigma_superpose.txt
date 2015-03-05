@@ -1,0 +1,161 @@
+----------------------------------------------------------------------------------------------------
+2015-01-14 15:25:42.430229
+Execution du script empriseSpatiale.py
+Fichier en entree : //home//julie//Bureau//csv//emprise_spatiale.csv
+----------------------------------------------------------------------------------------------------
+
+num_ligne	fichier	probleme	coord
+0	"5919.xml"	pas de coord
+1	"5787.xml"	pas de coord
+2	"5039.xml"	pas de coord
+3	"5838.xml"	pas de coord
+5	"24610.xml"	pas de coord
+8	"24730.xml"	pas de coord
+9	"5870.xml"	pas de coord
+10	"24605.xml"	pas de coord
+11	"24677.xml"	pas de coord
+13	"5043.xml"	pas de coord
+16	"24679.xml"	pas de coord
+17	"1758.xml"	pas de coord
+18	"5828.xml"	pas de coord
+21	"24562.xml"	pas de coord
+25	"5839.xml"	pas de coord
+29	"5924.xml"	pas de coord
+30	"5878.xml"	pas de coord
+31	"5027.xml"	pas de coord
+34	"5680.xml"	pas de coord
+36	"5038.xml"	pas de coord
+37	"24645.xml"	pas de coord
+40	"5678.xml"	pas de coord
+41	"5833.xml"	pas de coord
+42	"5034.xml"	pas de coord
+44	"24513.xml"	pas de coord
+49	"5664.xml"	pas de coord
+54	"5037.xml"	pas de coord
+55	"5720.xml"	pas de coord
+57	"5729.xml"	pas de coord
+60	"5041.xml"	pas de coord
+63	"5745.xml"	pas de coord
+64	"5802.xml"	pas de coord
+65	"1756.xml"	pas de coord
+67	"5792.xml"	pas de coord
+69	"5871.xml"	pas de coord
+72	"24561.xml"	pas de coord
+76	"5047.xml"	pas de coord
+78	"5774.xml"	pas de coord
+79	"5700.xml"	pas de coord
+83	"5843.xml"	pas de coord
+88	"5901.xml"	pas de coord
+89	"5676.xml"	pas de coord
+91	"1713.xml"	pas de coord
+93	"5812.xml"	pas de coord
+96	"5048.xml"	pas de coord
+97	"13518.xml"	pas de coord
+98	"5746.xml"	pas de coord
+99	"24620.xml"	pas de coord
+102	"13571.xml"	pas de coord
+105	"24531.xml"	pas de coord
+112	"5672.xml"	pas de coord
+114	"5881.xml"	pas de coord
+117	"1757.xml"	pas de coord
+120	"5823.xml"	pas de coord
+123	"5044.xml"	pas de coord
+125	"5668.xml"	pas de coord
+127	"24715.xml"	pas de coord
+129	"5909.xml"	pas de coord
+130	"24590.xml"	pas de coord
+131	"5682.xml"	pas de coord
+132	"5810.xml"	pas de coord
+133	"5706.xml"	pas de coord
+136	"5912.xml"	pas de coord
+139	"5815.xml"	pas de coord
+141	"5786.xml"	pas de coord
+145	"5846.xml"	pas de coord
+147	"5686.xml"	pas de coord
+152	"24750.xml"	pas de coord
+158	"5053.xml"	pas de coord
+159	"5794.xml"	pas de coord
+160	"24788.xml"	pas de coord
+162	"24829.xml"	pas de coord
+164	"24681.xml"	pas de coord
+166	"5879.xml"	pas de coord
+168	"5031.xml"	pas de coord
+172	"5898.xml"	pas de coord
+173	"5896.xml"	pas de coord
+175	"5840.xml"	pas de coord
+179	"5040.xml"	pas de coord
+180	"5042.xml"	pas de coord
+185	"5798.xml"	pas de coord
+187	"5844.xml"	pas de coord
+461	"1760.xml"	pas de coord
+462	"1761.xml"	pas de coord
+466	"5868.xml"	pas de coord
+469	"5703.xml"	pas de coord
+470	"5932.xml"	pas de coord
+471	"5803.xml"	pas de coord
+472	"5902.xml"	pas de coord
+473	"5829.xml"	pas de coord
+475	"5045.xml"	pas de coord
+476	"5028.xml"	pas de coord
+477	"5719.xml"	pas de coord
+478	"5911.xml"	pas de coord
+479	"5741.xml"	pas de coord
+480	"5765.xml"	pas de coord
+481	"24642.xml"	pas de coord
+483	"6044.xml"	pas de coord
+486	"5890.xml"	pas de coord
+487	"6042.xml"	pas de coord
+488	"5030.xml"	pas de coord
+494	"24700.xml"	pas de coord
+495	"5781.xml"	pas de coord
+497	"24721.xml"	pas de coord
+498	"5674.xml"	pas de coord
+501	"5029.xml"	pas de coord
+502	"5845.xml"	pas de coord
+504	"5035.xml"	pas de coord
+505	"5671.xml"	pas de coord
+507	"5907.xml"	pas de coord
+509	"1759.xml"	pas de coord
+510	"5777.xml"	pas de coord
+516	"5793.xml"	pas de coord
+519	"5708.xml"	pas de coord
+520	"1433.xml"	pas de coord
+523	"5858.xml"	pas de coord
+525	"5702.xml"	pas de coord
+526	"1081.xml"	pas de coord
+527	"5685.xml"	pas de coord
+530	"5800.xml"	pas de coord
+533	"5714.xml"	pas de coord
+534	"5662.xml"	pas de coord
+535	"24734.xml"	pas de coord
+536	"5889.xml"	pas de coord
+537	"5782.xml"	pas de coord
+538	"5773.xml"	pas de coord
+542	"5808.xml"	pas de coord
+543	"5033.xml"	pas de coord
+545	"24607.xml"	pas de coord
+546	"6043.xml"	pas de coord
+548	"5814.xml"	pas de coord
+553	"5689.xml"	pas de coord
+554	"5872.xml"	pas de coord
+555	"5751.xml"	pas de coord
+556	"5731.xml"	pas de coord
+557	"5667.xml"	pas de coord
+559	"24669.xml"	pas de coord
+563	"5669.xml"	pas de coord
+598	"13372.xml"	pas de coord
+619	"5937.xml"	coord invalides	"REQUIRED: Western-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Eastern-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Southern-most coordinate of the limit of coverage expressed in latitude. REQUIRED: Northern-most coordinate of the limit of coverage expressed in latitude."
+619	"5937.xml"	pas de coord
+647	"5894.xml"	coord invalides	"REQUIRED: Western-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Eastern-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Southern-most coordinate of the limit of coverage expressed in latitude. REQUIRED: Northern-most coordinate of the limit of coverage expressed in latitude."
+647	"5894.xml"	pas de coord
+662	"5836.xml"	coord invalides	"REQUIRED: Western-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Eastern-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Southern-most coordinate of the limit of coverage expressed in latitude. REQUIRED: Northern-most coordinate of the limit of coverage expressed in latitude."
+662	"5836.xml"	pas de coord
+664	"5665.xml"	coord invalides	"REQUIRED: Western-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Eastern-most coordinate of the limit of coverage expressed in longitude. REQUIRED: Southern-most coordinate of the limit of coverage expressed in latitude. REQUIRED: Northern-most coordinate of the limit of coverage expressed in latitude."
+664	"5665.xml"	pas de coord
+
+----------------------------------------------------------------------------------------------------
+Bilan
+----------------------------------------------------------------------------------------------------
+
+143/695 fichiers n'avaient pas de coordonnees ou des coordonnees invalides
+0 fichiers sur les 552 restants avaient au moins une emprise invalide  (et au moins une emprise valide qui a ete prise en compte)

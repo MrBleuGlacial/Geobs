@@ -1,0 +1,16 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+let $mdMetadata := //gmd:MD_Metadata
+let $fileIdentifier := //gmd:fileIdentifier
+let $langage := //gmd:language
+return 
+<result> 
+	{	
+		for $root in $mdMetadata
+ 		return 
+			<Fiche>
+				<ID_Fiche>{string($root/$fileIdentifier)}</ID_Fiche>
+				<Langage>{$root/$langage}</Langage>
+			</Fiche>
+	} 
+</result>

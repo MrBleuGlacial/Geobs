@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>b8053e20-f7ba-11da-96f2-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'Eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33(0)555114790</voiceNum>
+        <faxNum />
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea />
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2010-11-30T17:31:45</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/zonage?</linkage>
+        <protocol>OGC:WMS-1.1.1-http-get-map</protocol>
+        <orName>COQI</orName>
+        <orDesc>Service WMS / Zones conchylicoles</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/geo/ouvrage?</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>COQI</orName>
+        <orDesc>Service WFS / Zones conchylicoles</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://www.zones-conchylicoles.eaufrance.fr/</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orDesc>Atlas des zones conchylicoles</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/COQIshp.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format ESRI Shapefile</orDesc>
+        <orFunct>
+          <OnFunctCd value="download" />
+        </orFunct>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/gis/COQImif.zip</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName />
+        <orDesc>Téléchargement - Format MIF/MID</orDesc>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Zones conchylicoles</resTitle>
+      <resRefDate>
+        <refDate>2005-02-01</refDate>
+        <refDateType>
+          <DateTypCd value="creation" />
+        </refDateType>
+      </resRefDate>
+      <resEd />
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>* Description : Les zones conchylicoles sont les zones de production professionnelle de coquillages vivants destinés à la consommation humaine. 
+
+Dans le cadre de la réglementation sanitaire des coquillages, ces zones de production professionnelle sont identifiées et délimitées. Elles font l'objet d'un suivi permanent de leur qualité microbiologique, chimique et phytoplanctonique qui permet de les classer.</idAbs>
+    <idPurp>Cette couche fait partie du référentiel national des zones protégées.</idPurp>
+    <status>
+      <ProgCd value="completed" />
+    </status>
+    <idPoC>
+      <rpIndName>Directions Départementales des Affaires Maritimes (DDAM)</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd>france-ocean@equipement.gouv.fr</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="pointOfContact" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="copyright" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+    </resMaint>
+    <descKeys>
+      <keyword>COQUILLAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>FRANCE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys />
+    <graphOver>
+      <bgFileName>PROTOAREAE_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>PROTOAREAE.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="environment" />
+    </tpCat>
+    <geoBox>
+      <westBL>-5.79028</westBL>
+      <eastBL>9.56222</eastBL>
+      <southBL>41.36493</southBL>
+      <northBL>51.09111</northBL>
+    </geoBox>
+    <suppInfo>* Procédure : le classement sanitaire des zones conchylicoles est fixé par arrêté préfectoral à partir d'une étude de la qualité moyenne du milieu marin. Ce classement ne prend pas en compte, pour des raisons techniques, les éventuelles mesures d'interdiction de récolte qui interviennent en cas de contamination temporaire du milieu marin (micro-algues toxiques, contamination microbiologique, etc,). 
+
+
+
+* Classement :
+
+- Zone A : zones dans lesquelles les coquillages peuvent être récoltés pour la consommation humaine directe.
+
+- Zone B : Zones dans lesquelles les coquillages peuvent être récoltés mais ne peuvent être mis sur le marché pour la consommation humaine directe qu'après avoir subi pendant un temps suffisant soit un traitement dans un centre de purification, associé ou non à un reparcage, soit un reparcage. La pêche de loisir est possible mais les usagers sont invités à prendre quelques précautions (cuisson des coquillages souhaitable).
+
+- Zone C : Zones dans lesquelles les coquillages ne peuvent être mis sur le marché pour la consommation humaine directe qu'après un reparcage de longue durée. La pêche de loisir y est interdite.
+
+- Zone D : Toute activité de pêche ou d?élevage y est interdite.
+
+
+
+Ce classement est établi pour trois groupes de coquillages :
+
+- Groupe 1 : les gastéropodes (bulots, etc.), les échinodermes (oursins) et les tuniciers (violets).
+
+- Groupe 2 : Les bivalves fouisseurs, c'est à dire les mollusques bivalves filtreurs dont l'habitat est constitué par les sédiments (palourdes, coques,...)
+
+- Groupe 3 : Les bivalves non fouisseurs, c'est-à-dire les autres mollusques bivalves filtreurs (huîtres, moules).
+
+
+
+Un contrôle permanent permet de vérifier la pertinence de ce classement et, en cas de contamination microbiologique, chimique, voire par des micro-algues toxinogènes, de restreindre voire d'interdire la récolte des coquillages.
+
+
+
+* Références juridiques : 
+
+- Directive n° 79/923/CEE du 30 octobre 1979 relative à la qualité requise des eaux conchylicoles
+
+- Directive n° 91/492 du 15 juillet 1991 relative aux règles sanitaires régissant la production et la mise sur le marché des mollusques bivalves vivants, modifiée par la Directive n° 97/61 du 20 octobre 1997
+
+- Décret n° 91-1283 du 19 décembre 1991 relatif à la qualité des eaux conchylicoles
+
+- Décret n° 94/340 du 28 avril 1994 modifié par les décrets n° 98-696 du 30 juillet 1998 et n° 99-1064 du 15 décembre 1999 relatifs aux conditions sanitaires de production et de mise sur le marché des coquillages.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement />
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate>
+            <refDate />
+            <refDateType>
+              <DateTypCd value="" />
+            </refDateType>
+          </resRefDate>
+        </identAuth>
+        <identCode>27572</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

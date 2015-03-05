@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ids.pigma.org:80/geonetwork-private/xml/schemas/iso19115/schema.xsd">
+  <mdFileID>35ce48b0-48ba-11db-82f2-00508bb83273</mdFileID>
+  <mdLang>
+    <languageCode value="fr" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="utf8" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="dataset" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Contact Sandre</rpIndName>
+    <rpOrgName>Office International de l'eau</rpOrgName>
+    <rpPosName>Ingénieur SIG</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+33555114790</voiceNum>
+        <faxNum>+33555114748</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>15 rue Edouard Chamberland</delPoint>
+        <city>LIMOGES</city>
+        <adminArea>HAUTE-VIENNE</adminArea>
+        <postCode>87000</postCode>
+        <country>FRANCE</country>
+        <eMailAdd>sandre@sandre.eaufrance.fr</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="pointOfContact" />
+    </role>
+  </mdContact>
+  <mdDateSt>2010-03-09T15:35:54</mdDateSt>
+  <mdStanName>ISO 19115</mdStanName>
+  <mdStanVer>FDIS</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Sandre</rpOrgName>
+        <role>
+          <RoleCd value="publisher" />
+        </role>
+      </distorCont>
+      <distorFormat>
+        <formatName>Mapinfo</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorOrdPrc>
+        <resFees />
+      </distorOrdPrc>
+    </distributor>
+    <distributor>
+      <distorCont>
+        <rpOrgName>DIREN Guadeloupe</rpOrgName>
+        <role>
+          <RoleCd value="publisher" />
+        </role>
+      </distorCont>
+      <distorFormat>
+        <formatName>Mapinfo</formatName>
+        <formatVer />
+      </distorFormat>
+      <distorOrdPrc>
+        <resFees />
+      </distorOrdPrc>
+    </distributor>
+    <distTranOps>
+      <unitsODist>Guadeloupe</unitsODist>
+      <onLineSrc>
+        <linkage>http://sandre.eaufrance.fr/rubrique.php3?id_rubrique=17&amp;lang=fr</linkage>
+        <protocol>WWW:LINK-1.0-http--link</protocol>
+        <orName>SANDRE / Information</orName>
+        <orDesc>SANDRE / Information</orDesc>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>http://services.sandre.eaufrance.fr/data/zonage/HydrographieDOM/</linkage>
+        <protocol>WWW:DDOWNLOAD-1.0-http--download</protocol>
+        <orName>Téléchargement des données</orName>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>BDCarthage Guadeloupe</resTitle>
+      <resRefDate>
+        <refDate>2009</refDate>
+        <refDateType>
+          <DateTypCd value="revision" />
+        </refDateType>
+      </resRefDate>
+      <resEd>Version 0.9</resEd>
+      <presForm>
+        <PresFormCd value="mapDigital" />
+      </presForm>
+    </idCitation>
+    <idAbs>Cours d'eau, hydrographie surfacique et zones hydrographiques de la Guadeloupe.</idAbs>
+    <idPurp>L'identification et la définition des entités hydrographiques de référence relève de la responsabilité de la DIREN Guadeloupe.</idPurp>
+    <status>
+      <ProgCd value="onGoing" />
+    </status>
+    <idPoC>
+      <rpIndName>DIREN Guadeloupe</rpIndName>
+      <rpOrgName />
+      <rpPosName />
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum />
+          <faxNum />
+        </cntPhone>
+        <cntAddress>
+          <delPoint />
+          <city />
+          <adminArea />
+          <postCode />
+          <country />
+          <eMailAdd />
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="owner" />
+      </role>
+    </idPoC>
+    <resConst>
+      <LegConsts>
+        <useLimit>Utilisation non commerciale</useLimit>
+        <accessConsts>
+          <RestrictCd value="" />
+        </accessConsts>
+        <useConsts>
+          <RestrictCd value="license" />
+        </useConsts>
+        <othConsts />
+      </LegConsts>
+    </resConst>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="asNeeded" />
+      </maintFreq>
+      <dateNext />
+      <upScpDesc>
+        <attribSet />
+      </upScpDesc>
+    </resMaint>
+    <descKeys>
+      <keyword>REFERENTIELS</keyword>
+      <keyword>BDCARTHAGE</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>GUADELOUPE</keyword>
+      <keyTyp>
+        <KeyTypCd value="place" />
+      </keyTyp>
+    </descKeys>
+    <descKeys>
+      <keyword>Hydrographie</keyword>
+      <keyTyp>
+        <KeyTypCd value="theme" />
+      </keyTyp>
+      <thesaName>
+        <resTitle>GEMET version 2.4</resTitle>
+        <resRefDate>
+          <refDate>20100113</refDate>
+          <refDateType>
+            <DateTypCd value="revision" />
+          </refDateType>
+        </resRefDate>
+      </thesaName>
+    </descKeys>
+    <graphOver>
+      <bgFileName>guadeloupe_s.png</bgFileName>
+      <bgFileDesc>thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <graphOver>
+      <bgFileName>guadeloupe.png</bgFileName>
+      <bgFileDesc>large_thumbnail</bgFileDesc>
+      <bgFileType>png</bgFileType>
+    </graphOver>
+    <spatRpType>
+      <SpatRepTypCd value="vector" />
+    </spatRpType>
+    <dataScale>
+      <equScale>
+        <rfDenom>50000</rfDenom>
+      </equScale>
+    </dataScale>
+    <dataLang>
+      <languageCode value="fr" />
+    </dataLang>
+    <dataChar>
+      <CharSetCd value="utf8" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="inlandWaters" />
+    </tpCat>
+    <geoBox>
+      <westBL>-61.79611</westBL>
+      <eastBL>-61.18708</eastBL>
+      <southBL>15.87</southBL>
+      <northBL>16.51292</northBL>
+    </geoBox>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_GeometricPrimitive>
+              <TM_Period>
+                <begin />
+                <end />
+              </TM_Period>
+            </TM_GeometricPrimitive>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>La BDCarthage Guadeloupe est maintenue par la DIREN Guadeloupe. La structure de la base de données est identique au format métropole.La BD Carthage Guadeloupe est une version validée par le SIE mais pas par l'IGN et que donc des problemes d'incompatibilité avec des referentiels IGN peuvent survenir (et qu'une mise à jour "officialisera" la BD Carthage avec la validation IGN).</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="unclassified" />
+      </class>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="dataset" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <statement />
+    </dataLineage>
+  </dqInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identAuth>
+          <resTitle>EPSG</resTitle>
+          <resRefDate />
+        </identAuth>
+        <identCode>2989</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</Metadata>
+

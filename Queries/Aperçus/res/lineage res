@@ -1,0 +1,207 @@
+1) Éléments essentiels du recensement des bases des impôts locaux. La conservation cadastrale a pour objectifs de tenir la documentation à jour de toutes les modifications constatées dans la situation des biens et des propriétaires. Afin d'accroître l'efficacité du régime déclaratif, la Direction générale de la Finance publique utilise différentes sources d'informations :
+     elle bénéficie de la transmission mensuelle des fichiers en provenance des services de l’Equipement qui centralisent les demandes d’autorisations relatives au droit des sols (permis de construire, déclarations de travaux, permis de démolir)
+     le parcours des communes par les agents des impôts permet de constater et de recueillir des informations sur l’achèvement de travaux, des constructions non répertoriées construites sans demandes d’autorisations ...
+     chaque fois que cela est souhaitable pour l’amélioration de la rapidité, de qualité ou de l’exhaustivité des données collectées, les services du cadastre peuvent se rapprocher des communes qui assurent elles-mêmes la gestion et l’instruction de leurs permis de construire de manière informatisée, pour récupérer directement l’information à sa source.
+
+Pour la commune de Galgon, le cadastre a été numérisé par la société IF TECHNOLOGIES-SIRAP sur demande de la Cdc de Fronsac.
+2) base info issue du Services Départementale d'Incendie et de Secours de la Dordogne (sdis24)
+La localisation des objets provient de numérisation sur orthophoto métrique ou par relevés GPS
+3) Cette ressource provienne de Gaz de France, spécialisé dans le transport et la distribution de gaz naturel en France
+4) Éléments essentiels du recensement des bases des impôts locaux. La conservation cadastrale a pour objectifs de tenir la documentation à jour de toutes les modifications constatées dans la situation des biens et des propriétaires. Afin d'accroître l'efficacité du régime déclaratif, la Direction générale de la Finance publique utilise différentes sources d'informations :
+     elle bénéficie de la transmission mensuelle des fichiers en provenance des services de l’Equipement qui centralisent les demandes d’autorisations relatives au droit des sols (permis de construire, déclarations de travaux, permis de démolir)
+     le parcours des communes par les agents des impôts permet de constater et de recueillir des informations sur l’achèvement de travaux, des constructions non répertoriées construites sans demandes d’autorisations ...
+     chaque fois que cela est souhaitable pour l’amélioration de la rapidité, de qualité ou de l’exhaustivité des données collectées, les services du cadastre peuvent se rapprocher des communes qui assurent elles-mêmes la gestion et l’instruction de leurs permis de construire de manière informatisée, pour récupérer directement l’information à sa source.
+
+Pour la commune de Galgon, le cadastre a été numérisé par la société IF TECHNOLOGIES-SIRAP sur demande de la Cdc de Fronsac.
+5) Extraction des données du recensement agricole 2010
+6) -- Généalogie du jeu de données --
+7) Fourniture des données à partir d'un fichier excel collecté par M.D. Castagnos (DSD)
+8) Fourniture des données à partir d'un fichier excel collecté par M.D. Castagnos (DSD)
+9) Fourniture des données à partir d'un fichier excel collecté par M.D. Castagnos (DSD)
+10) GÉNÉALOGIE : Objectifs de la production : La lutte contre les accidents de la circulation et notamment ceux qui entrainent le décès d'une ou plusieurs personnes nécessite d'avoir une connaissance la plus précise possible de l'accidentalité. La localisation sur une carte permet de repérer les sites les plus dangereux de sorte que les actions de sécurité routière ou les contrôles de police se réalisent en ces lieux afin de réduire le nombre et la gravité des accidents.
+
+Données issues du logiciel « CONCERTO »
+Date de production : Décembre 2012
+
+ QUALITÉ DES DONNÉES : Précision géométrique : 100 mètres
+Exhaustivité : La quasi totalité des accidents mortels sont fournis et localisés
+11) Synthèse des résultats de l'étude Ressource /Mobilisation réalisée en 2012 par Interbois Périgord.
+12) Les données ont été créées pour la DDT24 afin d'apporter une aide à l'organisation des contrôles des coupes de bois. Elles sont issues de la comparaison de deux couvertures d'images satellites.
+Les images pour 2010 sont des images Rapideye multi-spectrales à 5 m de résolution. Elles sont fournies par Géosud. Elles se composent de gamme de longueurs d'ondes visibles et d'infra rouge.
+Les images pour 2011 sont des images SPOT5 à 2,5 m de résolution. Elles sont issues du programme GMES de l'agence spatiale Européenne (ESA). 
+Les étapes de création de la données sont : 
+- Ciblage des zones forestières grace au masque forestier de l'IGN.
+- Correction radiométrique des couvertures satellites
+- Calcul d'une image indice de végétation pour chaque couverture
+- Production d'une image différence des indices de végétation
+- Seuillage de l'image diffférence (1 : coupe sure, 2 : coupe probable, 4 : défichement (coupe + changement de vocation)
+- Traitement morphologique, élimination des faibles surfaces et regroupement des pixels isolés
+- Vectorisation des contours 
+- Vérification manuelle des zones détectées en coupe à l'aide des images satellites et de la BD Ortho de l'IGN.
+13) Numérisation des contextes piscicoles à partir de la BDCarthage et de la BDAlti. Données issues du PDPG 64 (Plan Départemental pour la Protection du milieu aquatique et la Gestion des ressources piscicoles 2012-2016)
+14) Cartographie basée sur l'interprétation d'une orthophographie aérienne de 2009 (couleurs naturelles et Infra-rouge couleurs).
+Taille de la plus petite entité : 1000 m² (territoires artificialisés ) et 10 000 m² (autres territoires) sauf sur le SCOT de Bayonne où la taille de la plus petite entité est 1000 m² pour tous postes.
+Utilisation de données exogènes (BD Topo, Géoportail, Google Maps, SCAN 25,...)
+Les zones artificialisées et naturelles n’ont pas été numérisée avec le même degrés de précision :
+-	les zones naturelles, agricoles et forestières » ont été produites afin de permettre une exploitation au 25 000ème. 
+Echelle de saisie : 1/8 000ème - Unité Minimale de Collecte : 10 000m² (1ha).
+-	les zones artificialisées ont fait l’objet d’une cartographie à grande échelle permettant une exploitation au 5 000ème plus fine que le reste du territoire. 
+Echelle de saisie : 1/2 000ème - Unité Minimale de Collecte : 1 000m²  (0,1ha)
+15) Le Scan 25 représente la carte scannée de la carte papier IGN Top 25. Les données "SCAN 25" de l'IGN sont constituées de dalles de 10 x10 km (4000 pixels x 4000 pixels). La résolution des données est de 2,5 mètres. Le document scanné par l'IGN est la carte papier série bleue ou Top 25;
+La précision des données est de l'ordre de 5 m. Les données sont codées sur 8 bits (256 couleurs)
+16) Le Scan 25 représente la carte scannée de la carte papier IGN Top 25. Les données "SCAN 25" de l'IGN sont constituées de dalles de 10 x10 km (4000 pixels x 4000 pixels). La résolution des données est de 2,5 mètres. Le document scanné par l'IGN est la carte papier série bleue ou Top 25 et le système de projection est le Lambert II. Les données sont disponibles aux formats TIFF et ErMapper.
+La précision des données est de l'ordre de 5 m. Les données sont codées sur 8 bits (256 couleurs)
+17) Le Scan 25 représente la carte scannée de la carte papier IGN Top 25. Les données "SCAN 25" de l'IGN sont constituées de dalles de 10 x10 km (4000 pixels x 4000 pixels). La résolution des données est de 2,5 mètres. Le document scanné par l'IGN est la carte papier série bleue ou Top 25;
+La précision des données est de l'ordre de 5 m. Les données sont codées sur 8 bits (256 couleurs)
+18) Le Scan 25 représente la carte scannée de la carte papier IGN Top 25. Les données "SCAN 25" de l'IGN sont constituées de dalles de 10 x10 km (4000 pixels x 4000 pixels). La résolution des données est de 2,5 mètres. Le document scanné par l'IGN est la carte papier série bleue ou Top 25;
+La précision des données est de l'ordre de 5 m. Les données sont codées sur 8 bits (256 couleurs)
+19) Produit de l'IGN, le SCAN 50 couvre l'ensemble de la Gironde en dalles de 25km x 25 km. Il présente de nombreuses informations topographiques pour des usages à moyennes échelles avec une résolution au sol de 5 m.
+20) Produit de l'IGN, le SCAN 50 couvre l'ensemble des Landes en dalles de 25km x 25 km. Il présente de nombreuses informations topographiques pour des usages à moyennes échelles avec une résolution au sol de 5 m.
+21) Le "SCAN 100" représente la carte scannée de la carte papier de l'IGN au 1/100 000  ème. Les données "SCAN 100" de l'IGN sont constituées de dalles de 40 x 27 km (soit 4000 pixels x 2700 pixels). La résolution des données est de 10 mètres. Le système de projection est le Lambert II. La précision des données est de l'ordre de 20 m
+22) Le "SCAN 100" représente la carte scannée de la carte papier de l'IGN au 1/100 000  ème. Les données "SCAN 100" de l'IGN sont constituées de dalles de 40 x 27 km (soit 4000 pixels x 2700 pixels). La résolution des données est de 10 mètres. Le système de projection est le Lambert II. La précision des données est de l'ordre de 20 m
+23) Le "SCAN 100" représente la carte scannée de la carte papier de l'IGN au 1/100 000  ème. Les données "SCAN 100" de l'IGN sont constituées de dalles de 40 x 27 km (soit 4000 pixels x 2700 pixels). La résolution des données est de 10 mètres. Le système de projection est le Lambert II. La précision des données est de l'ordre de 20 m
+24) Le "SCAN 100" représente la carte scannée de la carte papier de l'IGN au 1/100 000  ème. Les données "SCAN 100" de l'IGN sont constituées de dalles de 40 x 27 km (soit 4000 pixels x 2700 pixels). La résolution des données est de 10 mètres. Le système de projection est le Lambert II. La précision des données est de l'ordre de 20 m
+25) Le programme national de la carte géologique de la France est un programme constamment actualisé dont la maîtrise d'oeuvre est confiée au BRGM depuis 1968. Ce programme est destiné à informer la collectivité sur l'état des connaissances.
+Il est obtenu par numérisation et orthorectification (mise en projection) des fonds cartographiques au 1:250 000 de l'IGN.
+Description générale : Dalles de 100km x 100 km
+26) Le programme national de la carte géologique de la France est un programme constamment actualisé dont la maîtrise d'oeuvre est confiée au BRGM depuis 1968. Ce programme est destiné à informer la collectivité sur l'état des connaissances.
+Il est obtenu par numérisation et orthorectification (mise en projection) des fonds cartographiques au 1:250 000 de l'IGN.
+Description générale : Dalles de 100km x 100 km
+27) Le programme national de la carte géologique de la France est un programme constamment actualisé dont la maîtrise d'oeuvre est confiée au BRGM depuis 1968. Ce programme est destiné à informer la collectivité sur l'état des connaissances.
+Il est obtenu par numérisation et orthorectification (mise en projection) des fonds cartographiques au 1:250 000 de l'IGN.
+Description générale : Dalles de 100km x 100 km
+28) Le programme national de la carte géologique de la France est un programme constamment actualisé dont la maîtrise d'oeuvre est confiée au BRGM depuis 1968. Ce programme est destiné à informer la collectivité sur l'état des connaissances.
+Il est obtenu par numérisation et orthorectification (mise en projection) des fonds cartographiques au 1:250 000 de l'IGN.
+Description générale : Dalles de 100km x 100 km
+29) Produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. Il comporte des dalles de 900 km2. Enfin la résolution au niveau du sol est de 12,5 m. L'Ign comptabilise une mise à jour tous les 3 ans.
+
+Le SCAN Départemental® a la même précision géométrique que les données vecteurs servant à la constitution des cartes de la série « cartes départementales ». Le processus de fabrication des cartes départementales comprend une généralisation automatique ou interactive de la plupart des thèmes, afin d'obtenir une information lisible à l'échelle du 1 : 125 000.
+30) Produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. Il comporte des dalles de 900 km2. Enfin la résolution au niveau du  sol est de  12,5 m. L'Ign comptabilise une mise à jour tous les 3 ans.
+Le SCAN Départemental® a la même précision géométrique que les données vecteurs servant à la constitution des cartes de la série « cartes départementales ». Le processus de fabrication des cartes départementales comprend une généralisation automatique ou interactive de la plupart des thèmes, afin d'obtenir une information lisible à l'échelle du 1 : 125 000.
+31) produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. L'échelle de la cartographie au 1 : 125 000 et sa résolution est de 100 μm. Il comporte des dalles de 900 km2. Enfin la résolution au niveau du  sol est de  12,5 m. Ign comptabilise une mise à jour tous les 3 ans.
+Le SCAN Départemental® a la même précision géométrique que les données vecteurs servant à la constitution des cartes de la série « cartes départementales ». Le processus de fabrication des cartes départementales comprend une généralisation automatique ou interactive de la plupart des thèmes, afin d'obtenir une information lisible à l'échelle du 1 : 125 000.
+32) Produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. Il comporte des dalles de 900 km2. Enfin la résolution au niveau du sol est de 12,5 m. L'Ign comptabilise une mise à jour tous les 3 ans.
+
+Le SCAN Départemental® a la même précision géométrique que les données vecteurs servant à la constitution des cartes de la série « cartes départementales ». Le processus de fabrication des cartes départementales comprend une généralisation automatique ou interactive de la plupart des thèmes, afin d'obtenir une information lisible à l'échelle du 1 : 125 000.
+33) produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. L'échelle de la cartographie au 1 : 125 000 et sa résolution est de 100 μm. Il comporte des dalles de 900 km2. Enfin la résolution au niveau du sol est de 12,5 m. Ign comptabilise une mise à jour tous les 3 ans.
+
+Le SCAN Départemental® a la même précision géométrique que les données vecteurs servant à la constitution des cartes de la série « cartes départementales ». Le processus de fabrication des cartes départementales comprend une généralisation automatique ou interactive de la plupart des thèmes, afin d'obtenir une information lisible à l'échelle du 1 : 125 000.
+34) produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. L'échelle de la cartographie au 1 : 1000 000 et la résolution au niveau du  sol est de  100 m.
+35) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+36) Issu des relevés GPS venant enrichir les référentiels géographiques de l'IGN
+37) Issu de l'intégration du référentiel géographique de l'IGN bd Carto des divers relevés GPS sur le terrain ainsi que de la mise à jour de la cartographie urbaine et rurale
+38) Issu de l'intégration du référentiel géographique de l'IGN bd Carto des divers relevés GPS sur le terrain ainsi que de la mise à jour de la cartographie urbaine et rurale
+39) Issu des divers relevés GPS effectués sur le terrain
+40) Ressources issues de relevés GPS effectués sur le terrain
+41) Issu des divers relevés GPS sur le terrain, de l'intégration des référentiels de l'IGN ainsi que de la numérisation du Scan 25®
+42) issu des différents relevés GPS effectués sur le terrain
+43) Issue des différents relevés GPS effectués sur le terrain
+44) issu des différents relevés GPS effectués sur le terrain
+45) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+46) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+47) La localisation des objets provient de numérisation sur orthophoto métrique ou par relevés GPS
+48) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+49) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+50) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+51) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+52) Issu des divers relevés GPS sur le terrain ainsi que de la collecte sur référentiels de l'IGN
+53) Issu des divers relevés GPS effectués sur le terrain
+54) Issu de l'intégration du référentiel géographique de l'IGN bd carto des divers relevés GPS sur le terrain ainsi que de la mise à jour de la cartographie urbaine et rurale
+55) Issu des relevés GPS effectués sur le terrain ainsi que de la mise à jour de la cartographie urbaine et rurale
+56) Issu des relevés GPS effectués sur le terrain
+57) Issu des relevés GPS effectués sur le terrain
+58) Issu des différents relevés GPS effectués sur le terrain
+59) issu de la numérisation sur les référentiels de l'IGN et de relevés GPS
+60) issu de la numérisation sur les référentiels de l'IGN et de relevés GPS
+61) Position déterminée par triangulation depuis les tours de guet ou issu de relevés GPS effectués sur le terrain
+62) Position déterminée par triangulation depuis les tours de guet ou issu de relevés GPS effectués sur le terrain
+63) Provenance :  Expolitation par les agents de l'IGN d'informations collectée auprès des DDE, Conseils généraux et sur le terrain.
+Collecte terrain par les agents IGN auprès des organismes (RFF)
+Saisie par les agents IGN grâce aux contributions des agences de l'eau
+Mise à jour annuelle par les agents IGN
+Mise à jour trimestrielle par les agents IGN
+Collecte par les agents IGN
+
+Thème administratif : mise à jour annuelle et opérationnelle depuis juin 1996 (mise à jour réalisée à partir de la BD administrative, actualisée au 1er janvier de chaque année). - Thèmes routier et ferré : mis à jour par département des réseaux principaux. Rythme annuel depuis 1999. Mise à jour du réseau secondaire au rythme de révision de la carte de base. - Thème hydrographie : Mise à jour annuelle dérivée des informations de la BD CARTHAGE. -Thèmes toponymes et équipements: mis à jour prévue tous les 2 ans; mis à jour annuelle pour le thème électrique. - Thème habillage : mise à prévue tous les 10 à 15 ans ; projet de mise à jour commune avec l'IFEN (Corine Land Cover). Mise à jour au 04/11/2005.
+64) Expolitation par les agents de l'IGN d'informations collectée auprès des DDE, Conseils généraux et sur le terrain.
+Collecte terrain par les agents IGN auprès des organismes (RFF)
+Saisie par les agents IGN grâce aux contributions des agences de l'eau
+Mise à jour annuelle par les agents IGN
+Mise à jour trimestrielle par les agents IGN
+Collecte par les agents IGN
+
+Thème administratif : mise à jour annuelle et opérationnelle depuis juin 1996 (mise à jour réalisée à partir de la BD administrative, actualisée au 1er janvier de chaque année). - Thèmes routier et ferré : mis à jour par département des réseaux principaux. Rythme annuel depuis 1999. Mise à jour du réseau secondaire au rythme de révision de la carte de base. - Thème hydrographie : Mise à jour annuelle dérivée des informations de la BD CARTHAGE. -Thèmes toponymes et équipements: mis à jour prévue tous les 2 ans; mis à jour annuelle pour le thème électrique. - Thème habillage : mise à prévue tous les 10 à 15 ans ; projet de mise à jour commune avec l'IFEN (Corine Land Cover). Mise à jour au 04/11/2005.
+65) Expolitation par les agents de l'IGN d'informations collectée auprès des DDE, Conseils généraux et sur le terrain.
+
+Collecte terrain par les agents IGN auprès des organismes (RFF)
+
+Saisie par les agents IGN grâce aux contributions des agences de l'eau
+
+Mise à jour annuelle par les agents IGN
+
+Mise à jour trimestrielle par les agents IGN
+
+Collecte par les agents IGN
+
+Thème administratif : mise à jour annuelle et opérationnelle depuis juin 1996 (mise à jour réalisée à partir de la BD administrative, actualisée au 1er janvier de chaque année). - Thèmes routier et ferré : mis à jour par département des réseaux principaux. Rythme annuel depuis 1999. Mise à jour du réseau secondaire au rythme de révision de la carte de base. - Thème hydrographie : Mise à jour annuelle dérivée des informations de la BD CARTHAGE. -Thèmes toponymes et équipements: mis à jour prévue tous les 2 ans; mis à jour annuelle pour le thème électrique. - Thème habillage : mise à prévue tous les 10 à 15 ans ; projet de mise à jour commune avec l'IFEN (Corine Land Cover). Mise à jour au 04/11/2005.
+66) Expolitation par les agents de l'IGN d'informations collectée auprès des DDE, Conseils généraux et sur le terrain.
+Collecte terrain par les agents IGN auprès des organismes (RFF)
+Saisie par les agents IGN grâce aux contributions des agences de l'eau
+Mise à jour annuelle par les agents IGN
+Mise à jour trimestrielle par les agents IGN
+Collecte par les agents IGN
+
+Thème administratif : mise à jour annuelle et opérationnelle depuis juin 1996 (mise à jour réalisée à partir de la BD administrative, actualisée au 1er janvier de chaque année). - Thèmes routier et ferré : mis à jour par département des réseaux principaux. Rythme annuel depuis 1999. Mise à jour du réseau secondaire au rythme de révision de la carte de base. - Thème hydrographie : Mise à jour annuelle dérivée des informations de la BD CARTHAGE. -Thèmes toponymes et équipements: mis à jour prévue tous les 2 ans; mis à jour annuelle pour le thème électrique. - Thème habillage : mise à prévue tous les 10 à 15 ans ; projet de mise à jour commune avec l'IFEN (Corine Land Cover). Mise à jour au 04/11/2005.
+67) Provenance :  Expolitation par les agents de l'IGN d'informations collectée auprès des DDE, Conseils généraux et sur le terrain.
+Collecte terrain par les agents IGN auprès des organismes (RFF)
+Saisie par les agents IGN grâce aux contributions des agences de l'eau
+Mise à jour annuelle par les agents IGN
+Mise à jour trimestrielle par les agents IGN
+Collecte par les agents IGN
+
+Thème administratif : mise à jour annuelle et opérationnelle depuis juin 1996 (mise à jour réalisée à partir de la BD administrative, actualisée au 1er janvier de chaque année). - Thèmes routier et ferré : mis à jour par département des réseaux principaux. Rythme annuel depuis 1999. Mise à jour du réseau secondaire au rythme de révision de la carte de base. - Thème hydrographie : Mise à jour annuelle dérivée des informations de la BD CARTHAGE. -Thèmes toponymes et équipements: mis à jour prévue tous les 2 ans; mis à jour annuelle pour le thème électrique. - Thème habillage : mise à prévue tous les 10 à 15 ans ; projet de mise à jour commune avec l'IFEN (Corine Land Cover). Mise à jour au 04/11/2005.
+68) Inconnue
+69) Issu des relevés GPS effectués sur le terrain ainsi que de la digitalisation sur référentiel
+70) Issu des relevés GPS effectués sur le terrain ainsi que de la digitalisation sur référentiel
+71) Issu des relevés GPS effectués sur le terrain ainsi que de la digitalisation sur référentiel
+72) Issu de digitalisation sur le référentiel Bd CARTO® de l'IGN
+73) Issu de digitalisation sur le référentiel Bd CARTO® de l'IGN
+74) Issu de digitalisation sur le référentiel Bd CARTO® de l'IGN ainsi que des divers relevés GPS effectués sur le terrain.
+75) GeoFLA®, BD TOPO® de l'IGN
+76) GeoFLA® de l'IGN, BD TOPO®
+77) GeoFLA®, BD TOPO® de l'IGN
+78) Cette ressource est issue des limites administratives de la Bd Topo® de l'IGN.
+79) Cette ressource est issue des limites administratives de la Bd Topo® de l'IGN.
+80) Cette ressource est issue des limites administratives de la Bd Topo® de l'IGN.
+81) Cette ressource est issue des limites administratives de la Bd Topo® de l'IGN.
+82) Cette ressource est réalisé depuis la Bd Carto et les relevés GPS.
+83) Carroyage régional continu
+84) Carroyage régional continu
+85) Carroyage régional continu
+86) Carroyage régional continu
+87) Carroyage régional continu
+88) Emprises générées par un module d' impression additionnel fonctionnant avec le logiciel Géoconcept.
+89) Issu des divers relevée GPS effectués sur le terrain ainsi que de la digitalisation sur référentiel de l'IGN
+90) produit cartographique numérique raster, élaboré à partir des bases de données de l’IGN. L'échelle de la cartographie au 1 : 1000 000 et la résolution au niveau du  sol est de  100 m.
+91) -- Informer sur la provenance du service --
+92) Qualité non renseignée par le gestionnaire
+93) /
+94) CAMPAGNES OCEANOGRAPHIQUES : - Thalia de l'Ifremer pour les campagnes BISCAYE 79 en juin et novembre 1979 ; - Côtes d'Aquitaine du CNRS, de 1981 à 1984. Dans le bassin, les campagnes de terrain ont été effectuées à bord du : - Nauplius, pinasse de l'Institut de Biologie Marine, avant 1986 ; - Caprelle, vedette de l'Ifremer, de 1990 à 1994 ; - Atea-Nui, voilier, de 1990 à 1994. PHOTOGRAPHIES AERIENNES A AXE VERTICAL : - Aéro Photo Industrie (couleur), octobre 1984, échelle 1/10000 à basse mer ; - STU (noir et blanc), 17/05/1987, échelle 1/10000 à basse mer ; - STU (noir et blanc), 02/10/1988, échelle 1/10000 à basse mer ; - IGN (couleur et infrarouge noir et blanc), mai 1993, échelle 1/20000 à haute mer (passes et bancs des passes). CARTES : - Bouchet J.M., 1966, Bassin d'Arcachon, Carte marine des chenaux, bancs de sable et crassats, échelle 1/20000 ; - IGN, Carnets de coordonnées géodésiques Arcachon, Audenge, La Teste ; - Institut de géologie du bassin d'Aquitaine (LA 197), Service de géomorphologie, Carte bathymétrique du proche plateau continental du cap Ferret, échelle 1/50000 ; - Port Autonome de Bordeaux, 1987, Chenaux intérieurs, Bathymétrie, échelle 1/20000 ; - Port Autonome de Bordeaux, 1993, Passes d'entrée, Bathymétrie, échelle 1/20000 ; - SHOM, 1991, Carte n° 6766, échelle 1/48800. REFERENCES BIBLIOGRAPHIQUES : Amanieu M., 1967, Recherches écologiques sur les faunes des plages abritées et des étangs saumâtres de la région d'Arcachon, Thèse doctorat, Faculté des Sciences Bordeaux, n° 197, 2 vol. ; Bouchet J. M., 1968, Etude océanographique des chenaux du bassin d'Arcachon, Thèse doctorat, Faculté des Sciences Bordeaux, n° 212, 2 vol. ; Bouchet J. M., Bachelet G., Cornet M., Lissalde J. P., Sorbe J. C., Amoureux L., 1983, Evolution des peuplements des fonds côtiers au large du bassin d'Arcachon ¿ Littoral soft bottom communities evolution off the Arcachon Bay, Oceanologica Acta, 17e symposium européen de biologie marine, Brest, 27 septembre 1982, pp. 39-43 ; Carruesco C., Alvinerie J., 1990, Le bassin d'Arcachon, environnement lagunaire de la côte landaise en constante évolution, Actes colloque Arcachon, octobre 1990, Soc. Histor. et Archéol. d'Arcachon et du Pays de Buch "Le littoral gascon et son arrière pays" ; Auby I., 1991, Contribution à l'étude des herbiers de Zostera noltii dans le bassin d'Arcachon, Thèse doctorat en Ecologie, Bordeaux I, n° 605, 2 vol.
+95) Travail de synthèse et d'homogénéïsation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
+96) Travail de synthèse et d'homogénéisation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
+97) Travail de synthèse et d'homogénéïsation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
+98) Travail de synthèse et d'homogénéïsation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
+99) Travail de synthèse et d'homogénéïsation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
+100) Travail de synthèse et d'homogénéïsation à partir de données de la DIACT (sources) et de l'INSEE (procédures de fusion/dé-fusion des communes) et de fonds de plans de l'IGN (BDCarto®).
+Validation par le Pays.
+Mise à jour annuelle demandée au Pays.
