@@ -15,9 +15,9 @@ return
 		let $lineage := string($root/gmd:dataQualityInfo[1]/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:statement[1])
 		return 
 			<Fiche>
-				<ID_Fiche>{$fileIdentifier}</ID_Fiche>
+				<ID_Fiche>-{$fileIdentifier}</ID_Fiche>
 				<langage>-{$langage}</langage>
-				<Hierarchie>{$typeOfData}</Hierarchie>
+				<Hierarchie>-{$typeOfData}</Hierarchie>
 				<CreationXML>-{$dateCreation}</CreationXML>
 				{
 					for $responsable in $identificationInfo/gmd:pointOfContact/gmd:CI_ResponsibleParty
