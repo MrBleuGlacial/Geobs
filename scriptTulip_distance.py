@@ -29,11 +29,15 @@ from math import sqrt
 # the main(graph) function must be defined 
 # to run the script on the current graph
 
+file = open("testSimi.txt","w")
+
 def fillVector(elem,ch,vct):
 	if(elem in ch):
 		vct.append(1)
+		return True
 	else:
 		vct.append(0)
+		return False
 
 def cleanString(ch):
 	for i in range(len(ch)):		
@@ -53,6 +57,7 @@ def getCosValue(vct1,vct2):
 	
 def getDistance(n1,n2,graph):
 	Tags = graph.getStringProperty("Tags")
+	sameTags = ""	
 	
 	ch1 =  Tags[n1][1:-2].split(";;")
 	ch2 = Tags[n2][1:-2].split(";;")	
@@ -72,10 +77,13 @@ def getDistance(n1,n2,graph):
 			unionKey.append(i)
 						
 	for i in range(0,len(unionKey)):
-		fillVector(unionKey[i],ch1,vct1)
-		fillVector(unionKey[i],ch2,vct2)
-	
-	return(getCosValue(vct1,vct2))
+		tmpBool1 = fillVector(unionKey[i],ch1,vct1)
+		tmpBool2 = fillVector(unionKey[i],ch2,vct2)
+		if(tmpBool1 & tmpBool2):
+			sameTags += (unionKey[i] + " ; ")
+	if(sameTags != ""):
+		file.write(sameTags + "\n")
+	return [(getCosValue(vct1,vct2)), sameTags]
 	#print unionKey 
 	#print vct1
 	#print vct2
@@ -116,7 +124,11 @@ def main(graph):
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 
+	#On edge
 	Distance = graph.getDoubleProperty("Distance")
+	Tags_Communs = graph.getStringProperty("Tags_Communs")
+
+	THRESHOLD = 0.5
 
 	################################################################
 #	n1 =  graph.getOneNode()
@@ -133,12 +145,15 @@ def main(graph):
 	for n1 in graph.getNodes():
 		for n2 in graph.getNodes():
 			if(n1 != n2):
-				dist = getDistance(n1,n2,graph)
-				if(dist > 0.5):
+				resTab = getDistance(n1,n2,graph)	
+				dist = resTab[0]
+				if(dist > THRESHOLD):
 					dist = round(dist,6)
 					e = graph.addEdge(n1,n2)
 					Distance[e] = dist
-					viewLabel[e] = repr(dist)
+					Tags_Communs[e] = resTab[1]
+					#viewLabel[e] = repr(dist)
+
 
 
 	#for e in graph.getEdges():
