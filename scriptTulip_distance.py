@@ -29,7 +29,7 @@ from math import sqrt
 # the main(graph) function must be defined 
 # to run the script on the current graph
 
-file = open("testSimi.txt","w")
+#file = open("testSimi.txt","w")
 
 def fillVector(elem,ch,vct):
 	if(elem in ch):
@@ -81,8 +81,8 @@ def getDistance(n1,n2,graph):
 		tmpBool2 = fillVector(unionKey[i],ch2,vct2)
 		if(tmpBool1 & tmpBool2):
 			sameTags += (unionKey[i] + " ; ")
-	if(sameTags != ""):
-		file.write(sameTags + "\n")
+	#if(sameTags != ""):
+		#file.write(sameTags + "\n")
 	return [(getCosValue(vct1,vct2)), sameTags]
 	#print unionKey 
 	#print vct1
