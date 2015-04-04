@@ -14,8 +14,6 @@
 #   * Ctrl + Space  : show auto-completion dialog.
 
 from tulip import *
-import time
-from math import sqrt
 
 # the updateVisualization(centerViews = True) function can be called
 # during script execution to update the opened views
@@ -29,66 +27,6 @@ from math import sqrt
 # the main(graph) function must be defined 
 # to run the script on the current graph
 
-#file = open("testSimi.txt","w")
-
-def fillVector(elem,ch,vct):
-	if(elem in ch):
-		vct.append(1)
-		return True
-	else:
-		vct.append(0)
-		return False
-
-def cleanString(ch):
-	for i in range(len(ch)):		
-		ch[i] = ch[i].strip()
-
-def getCosValue(vct1,vct2):
-	num = 0.0
-	denum = 0.0	
-	tmp1 = 0.0
-	tmp2 = 0.0
-	for i in range(0,len(vct1)):
-		num += (vct1[i]*vct2[i])
-		tmp1 += vct1[i]
-		tmp2 += vct2[i]
-	denum = sqrt(tmp1)*sqrt(tmp2)
-	return(num/denum)	
-	
-def getDistance(n1,n2,graph):
-	Tags = graph.getStringProperty("Tags")
-	sameTags = ""	
-	
-	ch1 =  Tags[n1][1:-2].split(";;")
-	ch2 = Tags[n2][1:-2].split(";;")	
-	vct1 = []
-	vct2 = []	
-	unionKey = []	
-	cleanString(ch1)
-	cleanString(ch2)	
-	#print ch1	
-	#print ch2
-	
-	for i in ch1:
-		if(not(i in unionKey)):
-			unionKey.append(i)
-	for i in ch2:
-		if(not(i in unionKey)):
-			unionKey.append(i)
-						
-	for i in range(0,len(unionKey)):
-		tmpBool1 = fillVector(unionKey[i],ch1,vct1)
-		tmpBool2 = fillVector(unionKey[i],ch2,vct2)
-		if(tmpBool1 & tmpBool2):
-			sameTags += (unionKey[i] + " ; ")
-	#if(sameTags != ""):
-		#file.write(sameTags + "\n")
-	return [(getCosValue(vct1,vct2)), sameTags]
-	#print unionKey 
-	#print vct1
-	#print vct2
-
-
 def main(graph): 
 	Acces = graph.getStringProperty("Acces")
 	CreationXML = graph.getStringProperty("CreationXML")
@@ -99,13 +37,16 @@ def main(graph):
 	Langage = graph.getStringProperty("Langage")
 	OrganisationName = graph.getStringVectorProperty("OrganisationName")
 	OrganisationRole = graph.getStringVectorProperty("OrganisationRole")
+	Role = graph.getStringProperty("Role")
+	Similarite = graph.getDoubleProperty("Similarite")
 	Tags = graph.getStringProperty("Tags")
+	Tags_Communs = graph.getStringProperty("Tags_Communs")
 	Titre = graph.getStringProperty("Titre")
-	
 	viewBorderColor = graph.getColorProperty("viewBorderColor")
 	viewBorderWidth = graph.getDoubleProperty("viewBorderWidth")
 	viewColor = graph.getColorProperty("viewColor")
 	viewFont = graph.getStringProperty("viewFont")
+	viewFontAwesomeIcon = graph.getStringProperty("viewFontAwesomeIcon")
 	viewFontSize = graph.getIntegerProperty("viewFontSize")
 	viewLabel = graph.getStringProperty("viewLabel")
 	viewLabelBorderColor = graph.getColorProperty("viewLabelBorderColor")
@@ -124,42 +65,9 @@ def main(graph):
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 
-	#On edge
-	Distance = graph.getDoubleProperty("Distance")
-	Tags_Communs = graph.getStringProperty("Tags_Communs")
-
-	THRESHOLD = 0.5
-
-	################################################################
-#	n1 =  graph.getOneNode()
-#	n2 = graph.addNode()
-#	Tags[n2] = "-AQUITAINE;;" #"-FONDS RASTER;;AQUITAINE;;MKX;;TOMATE;;ORTHO;;RGE;;2,5M;;"
-#	getDistance(n1,n2,graph)
-	print("--- Started ---")	
-	print(time.strftime("%H:%M:%S"))
+	dataset = tlp.getDefaultPluginParameters("Degree",graph)
+	graph.applyDoubleAlgorithm("Degree", Degree, dataset)
 
 	for n in graph.getNodes():
-		if(ID_Fiche[n] == ""):
+		if(Degree[n] == 0):
 			graph.delNode(n)
-
-	for n1 in graph.getNodes():
-		for n2 in graph.getNodes():
-			if(n1 != n2):
-				resTab = getDistance(n1,n2,graph)	
-				dist = resTab[0]
-				if(dist > THRESHOLD):
-					dist = round(dist,6)
-					e = graph.addEdge(n1,n2)
-					Distance[e] = dist
-					Tags_Communs[e] = resTab[1]
-					#viewLabel[e] = repr(dist)
-
-
-
-	#for e in graph.getEdges():
-	#	Distance[e] = 1
-	
-	print(time.strftime("%H:%M:%S"))	
-	print("--- Ended ---")
-
-	
