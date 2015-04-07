@@ -11,7 +11,7 @@ from math import sqrt
 
 #----------------------- SETUP VALUES -----------------------
 THRESHOLD = 0.5        # between 0 (all) and 1 (nothing)
-cleanBeforeAction = 0  # 0 or 1
+cleanBeforeAction = 1  # 0 or 1
 #------------------------------------------------------------
 
 def fillVector(elem,ch,vct):

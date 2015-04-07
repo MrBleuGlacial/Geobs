@@ -147,34 +147,5 @@ def main(graph):
 				Acces[tmp] = listCard[i][j]
 		#viewLabel[tmp] = str(tmp.id)
 	
-	if(actionMode == "keyword"):
-		#Creation of keyword nodes
-		tagFamilies = {}
-		for n in graph.getNodes():
-			tmpString =  (Tags[n][1:]).split(';;')
-			#print tmpString
-			for s in tmpString:
-				tagFamilies.setdefault(s,[]).append(n)
-		#Creation of edges between xml nodes and keyword nodes
-		for s in tagFamilies:
-			if(len(s) > 2):		
-				tmpNode = graph.addNode()
-				viewLabel[tmpNode] = s
-				viewColor[tmpNode] = tlp.Color(100,255,100)
-				for n in tagFamilies[s]:
-					graph.addEdge(tmpNode,n)
-		
-	if(actionMode == "actor"):
-		#Creation of actor nodes
-		actorFamilies = {}
-		for n in graph.getNodes():
-			for i in range(len(OrganisationName[n])):
-				actorFamilies.setdefault(OrganisationName[n][i],[]).append([n,OrganisationRole[n][i]])
-		for t in actorFamilies:			
-			tmpNode = graph.addNode()
-			viewShape[tmpNode] = tlp.NodeShape.Triangle
-			viewLabel[tmpNode] = t
-			for i in  actorFamilies[t]:
-				e = graph.addEdge(i[0],tmpNode)
-				Role[e] = i[1]
+	
 				
