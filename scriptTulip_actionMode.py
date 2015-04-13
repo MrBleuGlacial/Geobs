@@ -3,7 +3,7 @@
 from tulip import *
 
 #----------------------- SETUP VALUES -----------------------
-actionMode = "keyword" #keyword or actor
+actionMode = "hybrid" #keyword, actor or hybrid
 #------------------------------------------------------------
 
 def main(graph): 
@@ -18,6 +18,7 @@ def main(graph):
 	Role = graph.getStringProperty("Role")
 	Tags = graph.getStringProperty("Tags")
 	Titre = graph.getStringProperty("Titre")
+	TypeNode = graph.getStringProperty("TypeNode")
 	
 	viewBorderColor = graph.getColorProperty("viewBorderColor")
 	viewBorderWidth = graph.getDoubleProperty("viewBorderWidth")
@@ -54,11 +55,13 @@ def main(graph):
 		for s in tagFamilies:
 			if(len(s) > 2):		
 				tmpNode = graph.addNode()
+				TypeNode[tmpNode] = "Keyword"
 				viewLabel[tmpNode] = s
 				viewColor[tmpNode] = tlp.Color(100,255,100)
 				for n in tagFamilies[s]:
 					graph.addEdge(tmpNode,n)
-		
+	
+	#Problem : few actors are the same actor with different names	
 	if(actionMode == "actor"):
 		#Creation of actor nodes
 		actorFamilies = {}
@@ -67,8 +70,45 @@ def main(graph):
 				actorFamilies.setdefault(OrganisationName[n][i],[]).append([n,OrganisationRole[n][i]])
 		for t in actorFamilies:			
 			tmpNode = graph.addNode()
+			TypeNode[tmpNode] = "Actor"			
 			viewShape[tmpNode] = tlp.NodeShape.Triangle
+			viewColor[tmpNode] = tlp.Color(100,255,100)
 			viewLabel[tmpNode] = t
 			for i in  actorFamilies[t]:
 				e = graph.addEdge(i[0],tmpNode)
 				Role[e] = i[1]
+
+	#Same problem than actor mode
+	if(actionMode == "hybrid"):
+		for n in graph.getNodes():	
+			if((Tags[n]=="-") or (OrganisationName[n] == [])):
+				graph.delNode(n)
+				
+		actorFamilies = {}        #
+		keyFamilies = {}          #
+		
+		for n in graph.getNodes():
+			tmpString =  (Tags[n][1:]).split(';;')	
+			for i in range(len(OrganisationName[n])):
+				for s in tmpString:	
+					s = s.strip()
+					actorFamilies.setdefault(OrganisationName[n][i],[]).append(s) 
+
+		for actor in actorFamilies:
+			tmpNodeActor = graph.addNode()
+			TypeNode[tmpNodeActor] = "Actor"
+			viewShape[tmpNodeActor] = tlp.NodeShape.Triangle
+			viewColor[tmpNodeActor] = tlp.Color.Blue
+			viewLabel[tmpNodeActor] = actor	
+			for s in actorFamilies[actor]:
+				if(not (s in keyFamilies)):
+					tmpNodeKeyword = graph.addNode()
+					TypeNode[tmpNodeKeyword] = "Keyword"
+					viewColor[tmpNodeKeyword] = tlp.Color.Green
+					Titre[tmpNodeKeyword] = s
+					keyFamilies[s] = tmpNodeKeyword
+				graph.addEdge(tmpNodeActor,keyFamilies[s])		
+		
+		for n in graph.getNodes():
+			if(ID_Fiche[n] != ""):
+				graph.delNode(n)
