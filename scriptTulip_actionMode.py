@@ -92,7 +92,8 @@ def main(graph):
 			for i in range(len(OrganisationName[n])):
 				for s in tmpString:	
 					s = s.strip()
-					actorFamilies.setdefault(OrganisationName[n][i],[]).append(s) 
+					if(s != ""):
+						actorFamilies.setdefault(OrganisationName[n][i],[]).append(s) 
 
 		for actor in actorFamilies:
 			tmpNodeActor = graph.addNode()
