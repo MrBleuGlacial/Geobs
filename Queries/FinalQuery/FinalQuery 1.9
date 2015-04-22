@@ -1,0 +1,59 @@
+declare namespace gmd="http://www.isotc211.org/2005/gmd";
+declare namespace gco="http://www.isotc211.org/2005/gco";
+declare namespace fra="http://www.cnig.gouv.fr/2005/fra";
+let $mdMetadata := //gmd:MD_Metadata
+return 
+<result> 
+	{	
+		for $root in $mdMetadata
+		let $fileIdentifier := string($root/gmd:fileIdentifier)
+		let $langage := data($root/gmd:language/gmd:LanguageCode/@codeListValue)
+		let $typeOfData := lower-case(string($root/gmd:hierarchyLevelName[1]))
+		let $dateCreation := string($root/gmd:dateStamp)
+		let $identificationInfo := $root/gmd:identificationInfo/fra:FRA_DataIdentification
+		let $keyWords := $identificationInfo/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword
+		let $lineage := string($root/gmd:dataQualityInfo[1]/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:statement[1])
+		let $title := string($identificationInfo/gmd:citation/gmd:CI_Citation/gmd:title[1])
+		let $restrain := $identificationInfo/gmd:resourceConstraints/fra:FRA_LegalConstraints/gmd:useLimitation
+		return 
+			<Fiche>
+				<ID_Fiche>-{$fileIdentifier}</ID_Fiche>
+				<langage>-{$langage}</langage>
+				<Hierarchie>-{$typeOfData}</Hierarchie>
+				<CreationXML>-{$dateCreation}</CreationXML>
+				<Titre>-{$title}</Titre>
+				{
+					for $responsable in $identificationInfo/gmd:pointOfContact/gmd:CI_ResponsibleParty
+					let $roleResponsable := $responsable/gmd:role/gmd:CI_RoleCode/@codeListValue
+					let $nameResponsable := $responsable/gmd:organisationName
+					where $roleResponsable = 'owner' or $roleResponsable = 'pointOfContact'
+					return 
+					<Organisation>
+						<OrganisationName>{string($nameResponsable)}</OrganisationName>
+						<OrganisationRole>{data($roleResponsable)}</OrganisationRole>
+					</Organisation>
+				}
+				{
+					for $geographicElement in $identificationInfo/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox
+					return
+					<Surface>
+						<Nord>{number($geographicElement/gmd:northBoundLatitude)}</Nord>
+						<Sud>{number($geographicElement/gmd:southBoundLatitude)}</Sud>
+						<Ouest>{number($geographicElement/gmd:westBoundLongitude)}</Ouest>
+						<Est>{number($geographicElement/gmd:eastBoundLongitude)}</Est>
+					</Surface>
+				}
+				<Tags>-{
+					for $tag at $pos in $keyWords
+					return upper-case(concat($tag,';;'))
+				}
+				</Tags>
+				<Acces>-{
+					for $rest in $restrain
+					return concat($rest,';;')
+				}
+				</Acces>
+				<Genealogie>-{($lineage)}</Genealogie>
+			</Fiche>
+	} 
+</result>
