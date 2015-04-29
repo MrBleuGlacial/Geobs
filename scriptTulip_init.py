@@ -180,4 +180,4 @@ def main(graph):
 		#viewLabel[tmp] = str(tmp.id)
 	
 	graph.applyLayoutAlgorithm("Random layout",viewLayout)
-	
+	updateVisualization(centerViews = True)
