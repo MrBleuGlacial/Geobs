@@ -2,6 +2,7 @@
 
 import urllib
 import xml.etree.ElementTree as ET
+from math import *
 
 #----------------------- SETUP VALUES -----------------------
 debugValue = 0
