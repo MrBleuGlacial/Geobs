@@ -1,3 +1,5 @@
+# -*- coding: utf8 -*-
+
 # Powered by Python 2.7
 
 # To cancel the modifications performed by the script
@@ -16,27 +18,19 @@
 from tulip import *
 from math import *
 
-# the updateVisualization(centerViews = True) function can be called
-# during script execution to update the opened views
-
-# the pauseScript() function can be called to pause the script execution.
-# To resume the script execution, you will have to click on the "Run script " button.
-
-# the runGraphScript(scriptFile, graph) function can be called to launch another edited script on a tlp.Graph object.
-# The scriptFile parameter defines the script name to call (in the form [a-zA-Z0-9_]+.py)
-
-# the main(graph) function must be defined 
-# to run the script on the current graph
-
 def do_tf(word,list_words):
 	count = 0
 	cleanedWord = word.strip().upper()
+	#print list_words
 	
-	for w in list_word:
+	for w in list_words:
+		#print w.strip().upper()
+		#print cleanedWord
+		#print "---------------------"
 		if(w.strip().upper() == cleanedWord):
 			count += 1
-	
-	return float(count/len(list_words))
+	#print float(count)/float(len(list_words))		
+	return float(count)/float(len(list_words))
 	
 def do_idf(graph,word):
 	Genealogie = graph.getStringProperty("Genealogie")	
@@ -51,13 +45,13 @@ def do_idf(graph,word):
 				hadOcccurence = True
 		if(hadOcccurence == True):
 			nmbrWithOccurence += 1
-	
-	return float(log(graph.numberOfNodes()/nmbrWithOccurence))
+	#print log(float(graph.numberOfNodes())/float(nmbrWithOccurence))
+	return log(float(graph.numberOfNodes())/float(nmbrWithOccurence))
 
 def do_tf_idf(graph,word,n):
 	Genealogie = graph.getStringProperty("Genealogie")
 	
-	tf = do_tf(word,Genealogie[n])
+	tf = do_tf(word,Genealogie[n].split())
 	idf = do_idf(graph,word)
 	
 	return float(tf*idf)
@@ -101,7 +95,21 @@ def main(graph):
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 
-#	for n in graph.getNodes():
-#		print n
+	f = open("tf_idf_test","w")
 
-	print graph.numberOfNodes()
+	for n in graph.getNodes():
+		if(Genealogie[n]=="-"):
+			graph.delNode(n)
+
+	for n in graph.getNodes():
+		str_split = Genealogie[n].split()
+		#print str_split
+		File_Score = {}
+		for s in str_split:
+			s_cleaned = s.strip().upper()
+			if(not s_cleaned in File_Score):
+				File_Score[s_cleaned.encode("utf-8")] = do_tf_idf(graph,s_cleaned,n)
+		print >> f, File_Score, "\n------------------------------------------------------------------------------------------\n"
+		break	
+		
+		
