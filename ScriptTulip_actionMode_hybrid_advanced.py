@@ -64,7 +64,7 @@ def main(graph):
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 
 	print("--- Let's get started ---")
-#	
+	
 #	for n1 in graph.getNodes():
 #		if(TypeNode[n1]=="Actor"):
 #			for n2 in graph.getNodes():
@@ -82,7 +82,7 @@ def main(graph):
 #	for n in graph.getNodes():
 #		if(TypeNode[n]=="Keyword"):
 #			graph.delNode(n)							
-									
+#									
 	for n in graph.getNodes():
 		if(TypeNode[n]=="Keyword"):
 			listn = tlp.reachableNodes(graph,n,1,tlp.UNDIRECTED)

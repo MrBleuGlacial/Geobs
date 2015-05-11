@@ -1,22 +1,11 @@
-# -*- coding: utf8 -*-
+# coding: utf8
 
 # Powered by Python 2.7
 
-# To cancel the modifications performed by the script
-# on the current graph, click on the undo button.
-
-# Some useful keyboards shortcuts : 
-#   * Ctrl + D : comment selected lines.
-#   * Ctrl + Shift + D  : uncomment selected lines.
-#   * Ctrl + I : indent selected lines.
-#   * Ctrl + Shift + I  : unindent selected lines.
-#   * Ctrl + Return  : run script.
-#   * Ctrl + F  : find selected text.
-#   * Ctrl + R  : replace selected text.
-#   * Ctrl + Space  : show auto-completion dialog.
-
 from tulip import *
 from math import *
+import time
+import sys 
 
 def do_tf(word,list_words):
 	count = 0
@@ -55,6 +44,38 @@ def do_tf_idf(graph,word,n):
 	idf = do_idf(graph,word)
 	
 	return float(tf*idf)
+
+def comp(v1, v2):
+    if v1[1]<v2[1]:
+        return -1
+    elif v1[1]>v2[1]:
+        return 1
+    else:
+        return 0
+        
+def compareScore(scoreElem,maxScore,elem):
+	#print scoreElem
+	for i in range(len(maxScore)):
+		if(scoreElem > maxScore[i][1]):
+			tmpSc = maxScore[i][1]
+			tmpStr = maxScore[i][0]
+			
+			maxScore[i][1] = scoreElem
+			maxScore[i][0] = elem 
+			#print maxScore		  
+			for j in range(i+1,len(maxScore)):
+				tmpSc2 = maxScore[j][1]
+				tmpStr2 = maxScore[j][0]
+				maxScore[j][1] = tmpSc
+				maxScore[j][0] = tmpStr
+				tmpSc = tmpSc2
+				tmpStr= tmpStr2 
+			
+			break
+	#print maxScore			
+	maxScore = sorted(maxScore, reverse = True, cmp = comp)
+	#print maxScore	
+	
 
 def main(graph): 
 	Acces = graph.getStringProperty("Acces")
@@ -95,21 +116,44 @@ def main(graph):
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 
-	f = open("tf_idf_test","w")
+	print "Start at :"
+	print(time.strftime("%H:%M:%S"))
 
+	f = open("tf_idf_test2","w")
+	
+	#delete nodes without genealogy data
 	for n in graph.getNodes():
 		if(Genealogie[n]=="-"):
 			graph.delNode(n)
 
+	bestScorePerNode = []
+
+	#tf-idf processing to obtain scores for words
 	for n in graph.getNodes():
 		str_split = Genealogie[n].split()
 		#print str_split
 		File_Score = {}
 		for s in str_split:
 			s_cleaned = s.strip().upper()
+			#print(type(s_cleaned))
 			if(not s_cleaned in File_Score):
-				File_Score[s_cleaned.encode("utf-8")] = do_tf_idf(graph,s_cleaned,n)
-		print >> f, File_Score, "\n------------------------------------------------------------------------------------------\n"
-		break	
+				File_Score[s_cleaned] = do_tf_idf(graph,s_cleaned,n)
+		#print >> f, File_Score, "\n------------------------------------------------------------------------------------------\n"
 		
+		maxScore = [["",0],["",0],["",0]]
+		for elem in File_Score:
+			compareScore(File_Score[elem],maxScore,elem)
+			#print maxScore		
+			#print "----------------------"  
+		bestScorePerNode.append([n,maxScore])
+	
+	#print >> f, bestScorePerNode
+	for s in bestScorePerNode:
+		print >> f, s[0]
+		print >> f, s[1]
+		print >> f, "------------------------------------------------------------------------------------------------------------------" 	
+	f.close()
+
+	print "End at :"
+	print(time.strftime("%H:%M:%S"))	
 		
