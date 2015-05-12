@@ -1,45 +1,22 @@
 # Powered by Python 2.7
 
-# To cancel the modifications performed by the script
-# on the current graph, click on the undo button.
-
-# Some useful keyboards shortcuts : 
-#   * Ctrl + D : comment selected lines.
-#   * Ctrl + Shift + D  : uncomment selected lines.
-#   * Ctrl + I : indent selected lines.
-#   * Ctrl + Shift + I  : unindent selected lines.
-#   * Ctrl + Return  : run script.
-#   * Ctrl + F  : find selected text.
-#   * Ctrl + R  : replace selected text.
-#   * Ctrl + Space  : show auto-completion dialog.
-
 from tulip import *
 from math import sqrt
+import time
 
-# the updateVisualization(centerViews = True) function can be called
-# during script execution to update the opened views
-
-# the pauseScript() function can be called to pause the script execution.
-# To resume the script execution, you will have to click on the "Run script " button.
-
-# the runGraphScript(scriptFile, graph) function can be called to launch another edited script on a tlp.Graph object.
-# The scriptFile parameter defines the script name to call (in the form [a-zA-Z0-9_]+.py)
-
-# the main(graph) function must be defined 
-# to run the script on the current graph
-
-THRESHOLD = 0
+THRESHOLD = 50
 	
 def analyseSurface(n1,n2):
 	SurfaceNord = graph.getDoubleVectorProperty("SurfaceNord")	
+	SurfaceCommune = graph.getIntegerProperty("SurfaceCommune")
 	intersection = 0
 	
 	for i1 in range(len(SurfaceNord[n1])):
 		for i2 in range(len(SurfaceNord[n2])):
 			intersection += intersectionSurface(n1,n2,i1,i2)
 	if(intersection > THRESHOLD):
-		graph.addEdge(n1,n2)	
-		
+		e = graph.addEdge(n1,n2)	
+		SurfaceCommune[e] = intersection
 
 def intersectionSurface(n1,n2,i1,i2):
 	SurfaceEst = graph.getDoubleVectorProperty("SurfaceEst")
@@ -94,6 +71,15 @@ def cmpr3Pts(v,v1,v2):
 		print v2
 		return -2
 
+def inclusionSurface(s1,s2):
+	if(cmpr3Pts(s1[0],s2[0],s2[1]) == 0\
+		and cmpr3Pts(s1[1],s2[0],s2[1]) == 0\
+		and cmpr3Pts(s1[2],s2[2],s2[3]) == 0\
+		and cmpr3Pts(s1[3],s2[2],s2[3]) == 0):
+			return 1
+	else:
+		return 0
+
 def distancePoints(p1,p2):
 	return sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
 
@@ -114,6 +100,7 @@ def main(graph):
 	SurfaceSud = graph.getDoubleVectorProperty("SurfaceSud")
 	Tags = graph.getStringProperty("Tags")
 	Titre = graph.getStringProperty("Titre")
+	SurfaceCommune = graph.getIntegerProperty("SurfaceCommune")
 	
 	viewBorderColor = graph.getColorProperty("viewBorderColor")
 	viewBorderWidth = graph.getDoubleProperty("viewBorderWidth")
@@ -138,8 +125,11 @@ def main(graph):
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
 	
+	print "Start at :"
+	print(time.strftime("%H:%M:%S"))	
+	
 	for n in graph.getNodes():
-		if(SurfaceNord[n] == []):
+		if(SurfaceNord[n] == [] or SurfaceNord[n] == [0]):
 			graph.delNode(n)	
 			
 	updateVisualization(centerViews = True)
@@ -149,5 +139,8 @@ def main(graph):
 			if(n1 != n2):
 				if(not tlp.edge.isValid(graph.existEdge(n1,n2,False))):
 					analyseSurface(n1,n2)	
-					
+	
+	print "End at :"
+	print(time.strftime("%H:%M:%S"))	
+		
 	
