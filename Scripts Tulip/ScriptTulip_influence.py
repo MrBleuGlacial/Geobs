@@ -72,6 +72,7 @@ def cmpr3Pts(v,v1,v2):
 		return -2
 
 def inclusionSurface(s1,s2):
+	#s corresponds to a [North,South,West,Est] vector
 	if(cmpr3Pts(s1[0],s2[0],s2[1]) == 0\
 		and cmpr3Pts(s1[1],s2[0],s2[1]) == 0\
 		and cmpr3Pts(s1[2],s2[2],s2[3]) == 0\
