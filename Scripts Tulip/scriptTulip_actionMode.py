@@ -3,7 +3,7 @@
 from tulip import *
 
 #----------------------- SETUP VALUES -----------------------
-actionMode = "actor" #keyword, actor or hybrid
+actionMode = "keyword" #keyword, actor or hybrid
 #------------------------------------------------------------
 
 def main(graph): 

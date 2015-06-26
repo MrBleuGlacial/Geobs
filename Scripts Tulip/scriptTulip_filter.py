@@ -1,24 +1,12 @@
 # Powered by Python 2.7
-
+# -*- coding: utf8 -*-
 from tulip import *
-from math import sqrt
-import time
 
 #----------------------- SETUP VALUES -----------------------
-THRESHOLD = 50
+actionMode = "surface" #tags or surface
+refTags = ["mer","littoral","mer et littoral","biodiversité"]
+refBox = [45.5731,43.3067,-1.78601,-0.577148] #[N,S,W,E]
 #------------------------------------------------------------
-	
-def analyseSurface(n1,n2):
-	SurfaceNord = graph.getDoubleVectorProperty("SurfaceNord")	
-	SurfaceCommune = graph.getIntegerProperty("SurfaceCommune")
-	intersection = 0
-	
-	for i1 in range(len(SurfaceNord[n1])):
-		for i2 in range(len(SurfaceNord[n2])):
-			intersection += intersectionSurface(n1,n2,i1,i2)
-	if(intersection > THRESHOLD):
-		e = graph.addEdge(n1,n2)	
-		SurfaceCommune[e] = intersection
 
 def intersectionSurface(n1,n2,i1,i2):
 	SurfaceEst = graph.getDoubleVectorProperty("SurfaceEst")
@@ -73,21 +61,7 @@ def cmpr3Pts(v,v1,v2):
 		print v2
 		return -2
 
-def inclusionSurface(s1,s2):
-	#s corresponds to a [North,South,West,Est] vector
-	if(cmpr3Pts(s1[0],s2[0],s2[1]) == 0\
-		and cmpr3Pts(s1[1],s2[0],s2[1]) == 0\
-		and cmpr3Pts(s1[2],s2[2],s2[3]) == 0\
-		and cmpr3Pts(s1[3],s2[2],s2[3]) == 0):
-			return 1
-	else:
-		return 0
-
-def distancePoints(p1,p2):
-	return sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
-
 def main(graph): 
-	
 	Acces = graph.getStringProperty("Acces")
 	CreationXML = graph.getStringProperty("CreationXML")
 	Genealogie = graph.getStringProperty("Genealogie")
@@ -103,8 +77,6 @@ def main(graph):
 	SurfaceSud = graph.getDoubleVectorProperty("SurfaceSud")
 	Tags = graph.getStringProperty("Tags")
 	Titre = graph.getStringProperty("Titre")
-	SurfaceCommune = graph.getIntegerProperty("SurfaceCommune")
-	
 	viewBorderColor = graph.getColorProperty("viewBorderColor")
 	viewBorderWidth = graph.getDoubleProperty("viewBorderWidth")
 	viewColor = graph.getColorProperty("viewColor")
@@ -127,23 +99,42 @@ def main(graph):
 	viewTexture = graph.getStringProperty("viewTexture")
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
+
+	if(actionMode == "tags"):
+		for n in graph.getNodes():
+			validate = False
+			s = Tags[n].split(";;")
+			s[0] = s[0][1:]
+			for i in s :
+				for j in refTags :
+					if(i.strip() == j.upper()):
+						validate = True
+						break;
+			if(not validate):
+				graph.delNode(n)
 	
-	print "Start at :"
-	print(time.strftime("%H:%M:%S"))	
-	
-	for n in graph.getNodes():
-		if(SurfaceNord[n] == [] or SurfaceNord[n] == [0]):
-			graph.delNode(n)	
-			
-	updateVisualization(centerViews = True)
-	
-	for n1 in graph.getNodes():
-		for n2 in graph.getNodes():
-			if(n1 != n2):
-				if(not tlp.edge.isValid(graph.existEdge(n1,n2,False))):
-					analyseSurface(n1,n2)	
-	
-	print "End at :"
-	print(time.strftime("%H:%M:%S"))	
+	if(actionMode == "surface"):
+		box = graph.addNode()
+		SurfaceNord[box]= [refBox[0]]
+		SurfaceSud[box]= [refBox[1]]
+		SurfaceOuest[box]= [refBox[2]]
+		SurfaceEst[box]= [refBox[3]]
 		
-	
+		for n in graph.getNodes():
+			validate = False
+			for i in range(len(SurfaceNord[n])):
+				if(SurfaceSud[box][0] <= SurfaceNord[n][i] <= SurfaceNord[box][0]):
+					validate = True
+					break
+				if(SurfaceSud[box][0] <= SurfaceSud[n][i] <= SurfaceNord[box][0]):
+					validate = True
+					break
+				if(SurfaceOuest[box][0] <= SurfaceOuest[n][i] <= SurfaceEst[box][0]):
+					validate = True
+					break
+				if(SurfaceOuest[box][0] <= SurfaceEst[n][i] <= SurfaceEst[box][0]):
+					validate = True
+					break	
+			if(not validate):
+				graph.delNode(n)	
+		graph.delNode(box)	
