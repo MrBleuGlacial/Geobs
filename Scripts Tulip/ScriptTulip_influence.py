@@ -5,7 +5,7 @@ from math import sqrt
 import time
 
 #----------------------- SETUP VALUES -----------------------
-THRESHOLD = 50
+THRESHOLD = 85
 #------------------------------------------------------------
 	
 def analyseSurface(n1,n2):
@@ -142,6 +142,9 @@ def main(graph):
 			if(n1 != n2):
 				if(not tlp.edge.isValid(graph.existEdge(n1,n2,False))):
 					analyseSurface(n1,n2)	
+	
+	graph.applyLayoutAlgorithm("FM^3 (OGDF)",viewLayout)
+	updateVisualization(centerViews = True)	
 	
 	print "End at :"
 	print(time.strftime("%H:%M:%S"))	

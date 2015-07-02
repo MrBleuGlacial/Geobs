@@ -3,7 +3,7 @@
 from tulip import *
 
 #----------------------- SETUP VALUES -----------------------
-actionMode = "keyword" #keyword, actor or hybrid
+actionMode = "hybrid" #keyword, actor or hybrid
 #------------------------------------------------------------
 
 def main(graph): 
@@ -113,3 +113,6 @@ def main(graph):
 		for n in graph.getNodes():
 			if(ID_Fiche[n] != ""):
 				graph.delNode(n)
+				
+	graph.applyLayoutAlgorithm("FM^3 (OGDF)",viewLayout)
+	updateVisualization(centerViews = True)

@@ -75,4 +75,7 @@ def main(graph):
 		if(TypeNode[n]=="Keyword"):
 			graph.delNode(n)
 			
+	graph.applyLayoutAlgorithm("FM^3 (OGDF)",viewLayout)
+	updateVisualization(centerViews = True)		
+	
 	print("--- Ended ---")

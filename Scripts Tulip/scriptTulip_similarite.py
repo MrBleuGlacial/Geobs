@@ -137,6 +137,10 @@ def main(graph):
 							#viewLabel[e] = repr(dist)
 
 	print(time.strftime("%H:%M:%S"))	
+	
+	graph.applyLayoutAlgorithm("FM^3 (OGDF)",viewLayout)
+	updateVisualization(centerViews = True)
+	
 	print("--- Ended ---")
 
 	
