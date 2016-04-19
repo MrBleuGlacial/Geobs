@@ -10,7 +10,7 @@ from math import sqrt
 #file = open("testSimi.txt","w")
 
 #----------------------- SETUP VALUES -----------------------
-THRESHOLD = 0.5        # between 0 (all) and 1 (nothing)
+THRESHOLD = 0.55        # between 0 (all) and 1 (nothing)
 cleanBeforeAction = 1  # 0 or 1
 #------------------------------------------------------------
 

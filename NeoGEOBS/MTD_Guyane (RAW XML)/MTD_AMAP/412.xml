@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:geonet="http://www.fao.org/geonetwork">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>17e5dafc-0450-41d3-ad4b-d698b0f1a9ad</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>IRD cartothèque</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone />
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>cartotheque@ird.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>IRD NumeriSud</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone />
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>numerisud@ird.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://numerisud.ird.fr/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>NumeriSud</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Zaiss, Rainer</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone />
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>rainer.zaiss@ird.fr</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2016-03-11T06:00:58</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>WGS 84 (EPSG:4326)</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>7.9</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation />
+  </gmd:metadataExtensionInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Atlas des départements français d'Outre-Mer : 4. La Guyane. 4 mosaics of 4 map sheets and a set of 32 map sheets. Scale of 1:40 000 000 to 1:7 100. Date of publication: 1978-1979.</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>1978-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>IRD_GUF_AAAA_1978-79_40000000-7100</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>4 mosaics of 4 map sheets and a set of 32 additional map sheets
+1.   Administrations, banques : la Guyane : planche 29. Scale of 1:3 000 000 to 1:10 000. Date of publication: 1979.
+2.   Archéologie, histoire des Amérindiens : la Guyane : planche 17. Scale of 1:15 000 000 to 1:1 500 000. Date of publication: 1979.
+3.   Cartes anciennes : la Guyane : planche 18. Scale of 1:2 500 000 to 1:630 000. Date of publication: 1979.
+4.   Cayenne : la Guyane : planche 34. Scale of 1:60 000 to 1:10 000. Date of publication: 1979.
+5.   Circulation, transports : la Guyane : planche 27. Scale of 1:14 000 000 to 1:100 000. Date of publication: 1979.
+6.   Climatologie : la Guyane : planche 7. Scale of 1:3 500 000. Date of publication: 1979.
+7.   Climatologie II : pluviométrie annuelle moyenne : la Guyane : planche 8. Scale of 1:1 000 000. Date of publication: 1979.
+8.   Commerce, industrie, pêche, tourisme : la Guyane : planche 28. Scale of 1:2 000 000 to 1:1 500 000. Date of publication: 1979.
+9.   Energie, eaux, PTT et radiotélévision : la Guyane : planche 30. Scale of 1:1 500 000 to 1:225 000. Date of publication: 1979.
+10.  Exploitation forestière : la Guyane : planche 25. Scale of 1:1 000 000. Date of publication: 1979.
+11.  Faunes originales : plaines côtières : la Guyane : planche 15. Scale of 1:350 000. Date of publication: 1979.
+12.  Géologie : la Guyane : planche 4. Scale of 1:2 500 000 to 1:1 000 000. Date of publication: 1979.
+13.  Géomorphologie : la Guyane : planche 5. Scale of 1:2 000 000 to 1:1 000 000. Date of publication: 1979.
+14.  Groupes humains : la Guyane : planche 20. Scale of 1:2 000 000 to 1:300 000. Date of publication: 1979.
+15.  Histoire coloniale : la Guyane : planche 19. Scale of 1:2 000 000 to 1:500 000. Date of publication: 1979.
+16.  Hydrologie : la Guyane : planche 9. Scale of 1:1 000 000. Date of publication: 1978.
+17.  Ile de Cayenne : la Guyane : planche 35. Scale of 1:100 000 to 1:60 000. Date of publication: 1978.
+18.  Kourou, Saint-Laurent, Sinnamary : la Guyane : planche 36. Scale of 1:100 000 to 1:7 100. Date of publication: 1979.
+19.  La région des Guyanes : la Guyane : planche 2. Scale of 1:5 000 000. Date of publication: 1979.
+20.  Logement : la Guyane : planche 33. Scale of 1:1 000 000 to 1:35 000. Date of publication: 1979.
+21.  Milieu marin : la Guyane : planche 14. Scale of 1:1 500 000. Date of publication: 1979.
+22.  Mouvements migratoires : la Guyane : planche 22. Scale of 1:1 000 000 to 1:100 000. Date of publication: 1979.
+23.  Pathologie : la Guyane : planche 16. Scale of 1:2 000 000 to 1:150 000. Date of publication: 1979.
+24.  Pédologie : la Guyane : planche 10. Scale of 1:1 000 000. Date of publication: 1979.
+25.  Pédologie : plaines côtières : la Guyane : planche 11. Scale of 1:350 000. Date of publication: 1979.
+26.  Population : répartition : la Guyane : planche 21. Scale of 1:2 000 000 to 1:100 000. Date of publication: 1979.
+27.  Productions agricoles : la Guyane : planche 24. Scale of 1:2 000 000. Date of publication: 1979.
+28.  Relief : la Guyane : planche 3. Scale of 1:1 000 000 to 1:100 000. Date of publication: 1979.
+29.  Ressources minières : la Guyane : planche 26. Scale of 1:1 000 000 to 1:25 000. Date of publication: 1979.
+30.  Santé et action sociale, scolarité : la Guyane : planche 31. Scale of 1:1 500 000 to 1:50 000. Date of publication: 1979.
+31.  Sédimentologie : plaines côtières : la Guyane : planche 6. Scale of 1:350 000. Date of publication: 1979.
+32.  Situation : la Guyane : planche 1. Scale of 1:40 000 000. Date of publication: 1979.
+33.  Sports et loisirs, cultes : la Guyane : planche 32. Scale of 1:1 500 000 to 1:20 000. Date of publication: 1979.
+34.  Utilisation du sol : la Guyane : planche 23. Scale of 1:1 000 000 to 1:200 000. Date of publication: 1979.
+35.  Végétation : la Guyane : planche 12. Scale of 1:1 000 000. Date of publication: 1979.
+36.  Végétation : plaines côtières : la Guyane : planche 13. Scale of 1:350 000. Date of publication: 1979.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The region Île-de-France, under the project NumeriSud, supported the action to transforme around 2800 maps that are conserved at the Institut de recherche pour le développement (IRD) library in Bondy into a standard coordinate system. The transformation of the images has been done by:
+
+GMR (Global Mapping Resources)
+
+P.O. Box 414113
+
+Craighall 2024
+
+South Africa
+
+email: Maurizio@madmappers.com
+
+www: http://www.madmappers.com
+
+GRM has extensive international experience in this kind of work.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
+      </gmd:status>
+      <gmd:pointOfContact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>IRD cartothèque</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone />
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>cartotheque@ird.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>IRD NumeriSud</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone />
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>numerisud@ird.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://numerisud.ird.fr/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>NumeriSud</gco:CharacterString>
+                  </gmd:name>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Zaiss, Rainer</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Institut de recherche pour le développement (IRD)</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone />
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>rainer.zaiss@ird.fr</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00760RC_IRD_GUF_PEDO_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 10 : pédologie</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00754RC_IRD_GUF_ILLU_1979_40000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 1 : situation</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/03_scan_RC_MOS/Geo_WGS84/IRD_GUF_PEDO_1979_350000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 11 : pédologie : plaines côtières</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00762RC_IRD_GUF_VEGE_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 12 : végétation</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/03_scan_RC_MOS/Geo_WGS84/IRD_GUF_VEGE_1979_350000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 13 : végétation : plaines côtières</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00763RC_IRD_GUF_MARI_1979_1500000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 14 : milieu marin : topographie du plateau et du talus continental</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/03_scan_RC_MOS/Geo_WGS84/IRD_GUF_BGFA_1979_350000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 15 : faunes originales : plaines côtières</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00778RC_IRD_GUF_SANT_1979_2000000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 16 : pathologie : leishmanioses : distribution des vecteurs potentiels</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00765RC_IRD_GUF_ARCH_1979_1500000-02.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 17 : archéologie, histoire des Amérindiens : histoire des Amérindiens</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00752RC_IRD_GUF_HIST_1979_-----01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 18 : cartes anciennes : carte réduite des costes de la Guyane : 1760</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00766RC_IRD_GUF_HIST_1979_2000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 19 : histoire coloniale : les étapes de la découverte</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/15255RC_IRD_GUF_TOPO_1979_5000000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 2 : la région des Guyanes</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00777RC_IRD_GUF_ETHN_1979_300000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 20 : groupes humains : peuplement boni sur les rives du Lawa en 1958 : villages et habitations de culture</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00767RC_IRD_GUF_POPU_1979_2000000-02.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 21 : population : répartition : pyramides des ages 1974-1976</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00768RC_IRD_GUF_POPE_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 22 : mouvements migratoires : redistribution interne de la population</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00780RC_IRD_GUF_USOL_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 23 : utilisation du sol</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00782RC_IRD_GUF_AGRO_1979_2000000-04.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 24.4 : productions agricoles : cultures sans sol - aviculture et maraichage</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00769RC_IRD_GUF_AGFO_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 25 : exploitation forestière</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00770RC_IRD_GUF_REMI_1979_25000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 26 : ressources minières : ancien gisement aurifère de St-Élie</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00771RC_IRD_GUF_INTR_1979_100000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 27 : circulation, transports : ile de Cayenne</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00772RC_IRD_GUF_INFR_1979_2000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 28 : commerce, industrie, pêche, tourisme : pêche maritime</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00773RC_IRD_GUF_INFR_1979_3000000-05.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 29 : administrations, banques : banques et etablissements financières</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00755RC_IRD_GUF_TORE_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 3 : relief</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00781RC_IRD_GUF_INFR_1979_1500000-02.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 30 : energie, eaux, PTT et radiotélévision : énergie, eau et assainissement</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00753RC_IRD_GUF_INFR_1979_1500000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 31 : santé et action sociale, scolarité : santé et action sociale</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00779RC_IRD_GUF_INFR_1979_1500000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 32 : sports et loisirs, cultes : sports, culture et loisirs</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00776RC_IRD_GUF_INHA_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 33 : logement : répartition communale des logements</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00774RC_IRD_GUF_ESUR_1979_10000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 34 : Cayenne</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00784RC_IRD_GUF_USOL_1978_60000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 35 : Ile de Cayenne</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00775RC_IRD_GUF_ESUR_1979_100000-01.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 36 : Kourou, Saint-Laurent, Sinnamary : le centre spatial guyanais</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00756RC_IRD_GUF_GEOL_1979_2500000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 4 : géologie : carte magnétique : anomalies du champ total</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00757RC_IRD_GUF_GMOR_1979_2000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 5 : géomorphologie: dislocation et schistosité</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/03_scan_RC_MOS/Geo_WGS84/IRD_GUF_SEDI_1979_350000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 6 : sédimentologie : plaines côtières</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00783RC_IRD_GUF_CLIM_1979_3500000-09.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 7 : climatologie I : vents - au sol à la station de Rochambeau : septmbre</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/15256RC_IRD_GUF_CLPR_1979_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 8 : climatologie II : pluviométrie annuelle moyenne</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://vmamapgn-test.mpl.ird.fr/IRD_SPHAERA/IRD_GUF_AAAA_1978-79_40000000-7100/02_scan_RC/Geo_WGS84/00759RC_IRD_GUF_HLOG_1978_1000000.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>La Guyane : planche 9 : hydrologie</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>Bio-geographical regions</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Elevation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Geology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Hydrography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Land use</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Meteorological geographical features</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Mineral resources</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Oceanographic geographical features</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Population distribution — demography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Soil</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Species distribution</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0 INSPIRE themes</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://vmamapgn-test.mpl.ird.fr/geonetwork/srv/en/thesaurus.download?ref=external.theme.inspire-theme">geonetwork.thesaurus.external.theme.inspire-theme</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>agronomy</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>archaeology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>biogeography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>climatology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ethnology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>fauna</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>forest</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>geology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>geomorphology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>history</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>housing</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>human health</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>human population</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>hydrology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>infrastructure</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>land use</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>map</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>marine environment</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>mineral resource</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>natural resource</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>region</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>relief (land)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sedimentology</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>soil map</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>traffic infrastructure</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>urban area</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>vegetation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - Concepts, version 2.4</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2010-01-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://vmamapgn-test.mpl.ird.fr/geonetwork/srv/en/thesaurus.download?ref=external.theme.gemet">geonetwork.thesaurus.external.theme.gemet</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>French Guiana</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Guyana</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>South America</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Suriname</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Region</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-09-22</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://vmamapgn-test.mpl.ird.fr/geonetwork/srv/en/thesaurus.download?ref=external.place.regions">geonetwork.thesaurus.external.place.regions</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>illustration</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>map collection</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>precipitation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>relief (land)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>settlements</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>topography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>thematic map</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>project NumeriSud</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>regional coverage</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>national coverage</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>local coverage</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>labex CEBA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Americas</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>If you reuse this data you must cite this dataset as follows:
+IRD (éditeur) (2014): Atlas des départements français d'Outre-Mer : 4. La Guyane. 4 mosaics of 4 map sheets and a set of 32 map sheets. Scale of 1:40 000 000 to 1:7 100. Date of publication: 1978-1979. Project NumeriSud SPHAERA-GEO. Bondy, France.
+Additionally, you must acknowledge the following resource: 
+Zaiss, R. (éditeur) (2014): Project NumeriSud SPHAERA-GEO, Géoréférencement et mosaïquage des cartes de l’IRD. Bondy, France.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints />
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="licence" />
+          </gmd:accessConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" />
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="grid" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>7100</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>fre</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>economy</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-54.9233</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-50.4196</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>1.9499</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>7.6755</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="ID" frame="#ISO-8601">
+                  <gml:beginPosition>1978-01-01</gml:beginPosition>
+                  <gml:endPosition>1979-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>Publication(s): 
+Abonnenc, E., Jolivet, M. J. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Bernard, D., Fleury, M. F., Caroff, D., Monsoro, A. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Blancaneaux, P. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Boyé, M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Boyé, M., Cabaussel, G., Perrot, Y. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Boyé, M., Papy, G. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Brasseur, G. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Calmont, A. (1978-1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Calmont, R. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Caroff, D., Monsoro, A., Bellot Couderc, B. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Chardon, J. P. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Choubert, B. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Condamin, M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Decoudras, P. M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Gazel, M., Clément, J. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Gérard, G. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Granville, J. J. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Grenand, P., Grenand, F., Hurault, J., Robineau, P., Domeny, A., Haxaire, C., Vivier, M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Hoepffner, M., Rodier, J. (1978): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Hoeppfner, L. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Jolivet, M. J., Grenand, F., Grenand, P., Fauquenoy, S. J. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Léger, N., Pajot, F. X., Digoutte, J. P., Pradinaud, R., Dégallier, N. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Monsoro, A., Caroff, D., Bernard, D. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Moreau, J. M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Papy, G. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Pétin, G., Choubert, B. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Robo, R., Brasseur, G., Othilly, A., Demolliens, H., Jolivet, M. J., Radamonthe, A., Grenand, P. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Rossignol, M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Seurin, M. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Turenne, J. F. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.
+Turenne, J. F., Grenand, P. (1979): Atlas des départements français d'Outre-Mer : 4. La Guyane. Bordeaux Talence (FRA) : CEGET, Centre d'études de géographie tropicale du CNRS ; Paris (FRA) : ORSTOM, Office de la recherche scientifique et technique outre mer.</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:date="http://exslt.org/dates-and-times">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ECW</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>GlobalMapper 10</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>1. Scanning to tif format, 256 colors, 250dpi.
+2. Georeferencing and if possible reprojection to WGS84 (Longitude / Latitude).
+3. Clipping and mosaicing of map sheets(s).
+4. Export ECW format.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

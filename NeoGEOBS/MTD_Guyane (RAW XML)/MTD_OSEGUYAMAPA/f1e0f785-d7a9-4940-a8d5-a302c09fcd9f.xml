@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:cat="http://www.opengis.net/cat/csw" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dc2="http://www.purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:dct2="http://www.purl.org/dc/terms/" xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:icism="urn:us:gov:ic:ism:v2" xmlns:ins="http://www.inspire.org" xmlns:ns21="http://www.opengis.net/ows/1.1" xmlns:ns25="http://www.opengis.net/gml/" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ows="http://www.opengis.net/ows" xmlns:sml1="http://www.opengis.net/sensorML/1.0" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:swe1="http://www.opengis.net/swe/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <gmd:fileIdentifier>
+            <gco:CharacterString>f1e0f785-d7a9-4940-a8d5-a302c09fcd9f</gco:CharacterString>
+        </gmd:fileIdentifier>
+        <gmd:language>
+            <gmd:LanguageCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="por">Portuguese</gmd:LanguageCode>
+        </gmd:language>
+        <gmd:hierarchyLevel>
+            <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="por">Jeu de données</gmd:MD_ScopeCode>
+        </gmd:hierarchyLevel>
+        <gmd:contact>
+            <gmd:CI_ResponsibleParty id="c3c9b7d3-8ff7-4911-9f66-f1ef38850adf">
+                <gmd:organisationName>
+                    <gco:CharacterString>IRD</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                        <gmd:address>
+                            <gmd:CI_Address>
+<gmd:deliveryPoint>
+    <gco:CharacterString>0.275km route de Montabo</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+    <gco:CharacterString>Cayenne</gco:CharacterString>
+</gmd:city>
+<gmd:postalCode>
+    <gco:CharacterString>97300</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+    <gco:CharacterString>gf</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+    <gco:CharacterString>Test@ird.fr</gco:CharacterString>
+</gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                        </gmd:address>
+                    </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+                </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+        <gmd:dateStamp>
+            <gco:DateTime>2015-11-04T15:11:46+01:00</gco:DateTime>
+        </gmd:dateStamp>
+        <gmd:metadataStandardName>
+            <gco:CharacterString>x-urn:mdweb:schema:ISO19115:INSPIRE:guyamapa:dataset:geo-vector</gco:CharacterString>
+        </gmd:metadataStandardName>
+        <gmd:metadataStandardVersion>
+            <gco:CharacterString>2011.03</gco:CharacterString>
+        </gmd:metadataStandardVersion>
+        <gmd:referenceSystemInfo>
+            <gmd:MD_ReferenceSystem>
+                <gmd:referenceSystemIdentifier>
+                    <gmd:RS_Identifier>
+                        <gmd:code>
+                            <gco:CharacterString>WGS84 - EPSG:4326</gco:CharacterString>
+                        </gmd:code>
+                    </gmd:RS_Identifier>
+                </gmd:referenceSystemIdentifier>
+            </gmd:MD_ReferenceSystem>
+        </gmd:referenceSystemInfo>
+        <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+                <gmd:citation>
+                    <gmd:CI_Citation>
+                        <gmd:title>
+                            <gco:CharacterString>Human Bite Rates - Amapa</gco:CharacterString>
+                        </gmd:title>
+                        <gmd:date>
+                            <gmd:CI_Date>
+<gmd:date>
+    <gco:Date>2013-09-30</gco:Date>
+</gmd:date>
+                            </gmd:CI_Date>
+                        </gmd:date>
+                        <gmd:date>
+                            <gmd:CI_Date>
+<gmd:date>
+    <gco:Date>2014-06-30</gco:Date>
+</gmd:date>
+                            </gmd:CI_Date>
+                        </gmd:date>
+                        <gmd:date>
+                            <gmd:CI_Date>
+<gmd:date>
+    <gco:Date>2016-02-22</gco:Date>
+</gmd:date>
+                            </gmd:CI_Date>
+                        </gmd:date>
+                        <gmd:identifier>
+                            <gmd:RS_Identifier>
+<gmd:code>
+    <gco:CharacterString>th_entomologie_captures_Amapa1</gco:CharacterString>
+</gmd:code>
+                            </gmd:RS_Identifier>
+                        </gmd:identifier>
+                    </gmd:CI_Citation>
+                </gmd:citation>
+                <gmd:abstract>
+                    <gco:CharacterString>Human Bite Rates (HBR) : Número médio de picadas por homem por hora</gco:CharacterString>
+                </gmd:abstract>
+                <gmd:pointOfContact>
+                    <gmd:CI_ResponsibleParty>
+                        <gmd:individualName>
+                            <gco:CharacterString>Ana Cristina Silva Ferreira Lima</gco:CharacterString>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                            <gco:CharacterString>IEPA - Laboratório de Entomologia</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                            <gmd:CI_Contact>
+<gmd:address>
+    <gmd:CI_Address>
+        <gmd:country>
+            <gco:CharacterString>France</gco:CharacterString>
+        </gmd:country>
+        <gmd:electronicMailAddress>
+            <gco:CharacterString>crisbio.lima@gmail.com</gco:CharacterString>
+        </gmd:electronicMailAddress>
+    </gmd:CI_Address>
+</gmd:address>
+                            </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">Owner</gmd:CI_RoleCode>
+                        </gmd:role>
+                    </gmd:CI_ResponsibleParty>
+                </gmd:pointOfContact>
+                <gmd:pointOfContact>
+                    <gmd:CI_ResponsibleParty>
+                        <gmd:individualName>
+                            <gco:CharacterString>Volmir Zanini</gco:CharacterString>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                            <gco:CharacterString>LACEN-AP</gco:CharacterString>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                            <gmd:CI_Contact>
+<gmd:address>
+    <gmd:CI_Address>
+        <gmd:electronicMailAddress>
+            <gco:CharacterString>vmzanini@hotmail.com</gco:CharacterString>
+        </gmd:electronicMailAddress>
+    </gmd:CI_Address>
+</gmd:address>
+                            </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+                        </gmd:role>
+                    </gmd:CI_ResponsibleParty>
+                </gmd:pointOfContact>
+                <gmd:resourceMaintenance>
+                    <gmd:MD_MaintenanceInformation>
+                        <gmd:maintenanceAndUpdateFrequency>
+                            <gmd:MD_MaintenanceFrequencyCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">Unknown</gmd:MD_MaintenanceFrequencyCode>
+                        </gmd:maintenanceAndUpdateFrequency>
+                    </gmd:MD_MaintenanceInformation>
+                </gmd:resourceMaintenance>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Species distribution</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:thesaurusName>
+                            <gmd:CI_Citation>
+<gmd:title>
+    <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+    <gmd:CI_Date>
+        <gmd:date>
+            <gco:Date>2008-06-01</gco:Date>
+        </gmd:date>
+        <gmd:dateType>
+            <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="por">Publication</gmd:CI_DateTypeCode>
+        </gmd:dateType>
+    </gmd:CI_Date>
+</gmd:date>
+                            </gmd:CI_Citation>
+                        </gmd:thesaurusName>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Entomologia</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Entomologie</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Anofelino</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Anophèle</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Densité</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Densidade</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Piqûre</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:keyword>
+                            <gco:CharacterString>Picada</gco:CharacterString>
+                        </gmd:keyword>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Données brutes</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:type>
+                            <gmd:MD_KeywordTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="category">Category</gmd:MD_KeywordTypeCode>
+                        </gmd:type>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Echantillonage in-situ (point GPS)</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:type>
+                            <gmd:MD_KeywordTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="acquisition">Acquisition</gmd:MD_KeywordTypeCode>
+                        </gmd:type>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Risque de transmission de la malaria</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:type>
+                            <gmd:MD_KeywordTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="themes">Themes</gmd:MD_KeywordTypeCode>
+                        </gmd:type>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:descriptiveKeywords>
+                    <gmd:MD_Keywords>
+                        <gmd:keyword>
+                            <gco:CharacterString>Vecteurs</gco:CharacterString>
+                        </gmd:keyword>
+                        <gmd:type>
+                            <gmd:MD_KeywordTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="subtheme">Subtheme</gmd:MD_KeywordTypeCode>
+                        </gmd:type>
+                    </gmd:MD_Keywords>
+                </gmd:descriptiveKeywords>
+                <gmd:resourceConstraints>
+                    <gmd:MD_Constraints>
+                        <gmd:useLimitation>
+                            <gco:CharacterString>Le propriétaire définit les droits d'usage</gco:CharacterString>
+                        </gmd:useLimitation>
+                    </gmd:MD_Constraints>
+                </gmd:resourceConstraints>
+                <gmd:resourceConstraints>
+                    <gmd:MD_LegalConstraints>
+                        <gmd:accessConstraints>
+                            <gmd:MD_RestrictionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">Other restrictions</gmd:MD_RestrictionCode>
+                        </gmd:accessConstraints>
+                    </gmd:MD_LegalConstraints>
+                </gmd:resourceConstraints>
+                <gmd:resourceConstraints>
+                    <gmd:MD_SecurityConstraints>
+                        <gmd:classification>
+                            <gmd:MD_ClassificationCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">Unclassified</gmd:MD_ClassificationCode>
+                        </gmd:classification>
+                    </gmd:MD_SecurityConstraints>
+                </gmd:resourceConstraints>
+                <gmd:spatialRepresentationType>
+                    <gmd:MD_SpatialRepresentationTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">Vector</gmd:MD_SpatialRepresentationTypeCode>
+                </gmd:spatialRepresentationType>
+                <gmd:spatialResolution>
+                    <gmd:MD_Resolution>
+                        <gmd:equivalentScale>
+                            <gmd:MD_RepresentativeFraction>
+<gmd:denominator>
+    <gco:Integer>0</gco:Integer>
+</gmd:denominator>
+                            </gmd:MD_RepresentativeFraction>
+                        </gmd:equivalentScale>
+                    </gmd:MD_Resolution>
+                </gmd:spatialResolution>
+                <gmd:language>
+                    <gmd:LanguageCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="por">Portuguese</gmd:LanguageCode>
+                </gmd:language>
+                <gmd:topicCategory>
+                    <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+                </gmd:topicCategory>
+                <gmd:extent>
+                    <gmd:EX_Extent>
+                        <gmd:geographicElement>
+                            <gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+    <gco:Decimal>-52.3865</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+    <gco:Decimal>-51.7363</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+    <gco:Decimal>3.1524</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+    <gco:Decimal>3.9056</gco:Decimal>
+</gmd:northBoundLatitude>
+                            </gmd:EX_GeographicBoundingBox>
+                        </gmd:geographicElement>
+                        <gmd:temporalElement>
+                            <gmd:EX_TemporalExtent>
+<gmd:extent>
+    <gml:TimePeriod gml:id="WCLW18">
+        <gml:beginPosition>2013-09-30</gml:beginPosition>
+        <gml:endPosition>2014-04-26</gml:endPosition>
+    </gml:TimePeriod>
+</gmd:extent>
+                            </gmd:EX_TemporalExtent>
+                        </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                </gmd:extent>
+            </gmd:MD_DataIdentification>
+        </gmd:identificationInfo>
+        <gmd:contentInfo>
+            <gmd:MD_FeatureCatalogueDescription>
+                <gmd:includedWithDataset>
+                    <gco:Boolean>false</gco:Boolean>
+                </gmd:includedWithDataset>
+                <gmd:featureCatalogueCitation>
+                    <gmd:CI_Citation>
+                        <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+<gmd:contactInfo>
+    <gmd:CI_Contact>
+        <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                    <gmd:URL>a91f0eae-1b2a-4422-8ae1-352d3ae0df9e</gmd:URL>
+                </gmd:linkage>
+            </gmd:CI_OnlineResource>
+        </gmd:onlineResource>
+    </gmd:CI_Contact>
+</gmd:contactInfo>
+                            </gmd:CI_ResponsibleParty>
+                        </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                </gmd:featureCatalogueCitation>
+            </gmd:MD_FeatureCatalogueDescription>
+        </gmd:contentInfo>
+        <gmd:distributionInfo>
+            <gmd:MD_Distribution>
+                <gmd:distributionFormat>
+                    <gmd:MD_Format>
+                        <gmd:name>
+                            <gco:CharacterString>SHP</gco:CharacterString>
+                        </gmd:name>
+                    </gmd:MD_Format>
+                </gmd:distributionFormat>
+                <gmd:transferOptions>
+                    <gmd:MD_DigitalTransferOptions>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+<gmd:linkage>
+    <gmd:URL>http://www.ose-guyamapa.org/guyamapa-cstl/hidden/f1e0f785-d7a9-4940-a8d5-a302c09fcd9f/HumanBiteRates_Amapa_5P.dbf.zip</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+    <gco:CharacterString>geomatys:data</gco:CharacterString>
+</gmd:protocol>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+<gmd:linkage>
+    <gmd:URL>http://www.ose-guyamapa.org/guyamapa-cstl/WS/wms/guyamapa</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+    <gco:CharacterString>geomatys:wms</gco:CharacterString>
+</gmd:protocol>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                        <gmd:onLine>
+                            <gmd:CI_OnlineResource>
+<gmd:protocol>
+    <gco:CharacterString>geomatys:linkedrecord</gco:CharacterString>
+</gmd:protocol>
+                            </gmd:CI_OnlineResource>
+                        </gmd:onLine>
+                    </gmd:MD_DigitalTransferOptions>
+                </gmd:transferOptions>
+            </gmd:MD_Distribution>
+        </gmd:distributionInfo>
+        <gmd:dataQualityInfo>
+            <gmd:DQ_DataQuality>
+                <gmd:scope>
+                    <gmd:DQ_Scope>
+                        <gmd:level>
+                            <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="por">Jeu de données</gmd:MD_ScopeCode>
+                        </gmd:level>
+                    </gmd:DQ_Scope>
+                </gmd:scope>
+                <gmd:report>
+                    <gmd:DQ_DomainConsistency>
+                        <gmd:result>
+                            <gmd:DQ_ConformanceResult>
+<gmd:specification>
+    <gmd:CI_Citation>
+        <gmd:title>
+            <gco:CharacterString>No INSPIRE Data Specification</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+            <gmd:CI_Date>
+                <gmd:date>
+                    <gco:Date>2010-05-03</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="por">Publication</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+            </gmd:CI_Date>
+        </gmd:date>
+    </gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+    <gco:CharacterString>See the referenced specification</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass gco:nilReason="template"/>
+                            </gmd:DQ_ConformanceResult>
+                        </gmd:result>
+                    </gmd:DQ_DomainConsistency>
+                </gmd:report>
+                <gmd:lineage>
+                    <gmd:LI_Lineage>
+                        <gmd:statement>
+                            <gco:CharacterString>Cinco pontos de coleta, localizadas no município de Oiapoque, foram selecionados em conjunto pelas equipes brasileiras e francesas: Ilha Bela, Vila Brasil, Vila Vitória, Bairro Paraíso e Santo Antonio. 
+Estes locais foram escolhidos devido a sua representatividade das diferentes contextos epidemiológicos e sócio-ambientais na zona transfronteiriça.
+Foram realizadas capturas crepusculares e noturnas de anofelinos adultos através dos métodos de atração humana protegida e armadilha de Shannon (1939). Para a atração humana protegida foram utilizados capturadores à base de sucção, providos de um tubo
+de vidro ou outro material transparente, com uma tela fina em uma extremidade, a qual se liga a uma mangueira para a sucção; técnicos treinados do IEPA sugaram os insetos individualmente, antes que o mosquito realizasse o repasto sanguíneo e os acondicionaram em copos entomológicos, alimentando-os com solução açucarada e em
+seguida levados ao laboratório para análise.
+A captura ocorreu em três dias consecutivos em cada localidade, sendo um dia captura de 12 horas (18:00 as 06:00) e dois dias com quatro horas (18:00 as 22:00), tanto no peridormicílio, que compreende a área de entorno da residência, quanto no intradomicílio, área interna da moradia.
+A armadilha de Shannon consiste em uma estrutura de tecido branco, com uma armação central e forma retangular, com duas superfícies externas igualmente de pano. Os insetos coletados nesta armadilha foram atraídos por fonte luminosa em seu interior (duas luminárias), em seguida foram capturados em intervalos de uma hora pelos
+técnicos com auxílio de capturadores de castro e levados ao laboratório para serem identificados.</gco:CharacterString>
+                        </gmd:statement>
+                    </gmd:LI_Lineage>
+                </gmd:lineage>
+            </gmd:DQ_DataQuality>
+        </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
